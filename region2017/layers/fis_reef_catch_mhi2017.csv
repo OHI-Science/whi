@@ -1,0 +1,537 @@
+rgn_id,year,key_sp,catch,Fam,code
+1,2012,Acan_Api,367.5,Acan,reef
+1,2013,Acan_Api,220.5,Acan,reef
+1,2014,Acan_Api,619.5,Acan,reef
+1,2015,Acan_Api,430.5,Acan,reef
+1,2012,Acan_Black kole,2037,Acan,reef
+1,2013,Acan_Black kole,1018.5,Acan,reef
+1,2016,Acan_Black kole,252,Acan,reef
+1,2012,Acan_Kala,3654,Acan,reef
+1,2013,Acan_Kala,4536,Acan,reef
+1,2014,Acan_Kala,714,Acan,reef
+1,2015,Acan_Kala,2005.5,Acan,reef
+1,2016,Acan_Kala,4137,Acan,reef
+1,2012,Acan_Kole,16999.5,Acan,reef
+1,2013,Acan_Kole,14626.5,Acan,reef
+1,2014,Acan_Kole,19761,Acan,reef
+1,2015,Acan_Kole,3643.5,Acan,reef
+1,2016,Acan_Kole,6909,Acan,reef
+1,2012,Acan_Maiko,2457,Acan,reef
+1,2013,Acan_Maiko,661.5,Acan,reef
+1,2014,Acan_Maiko,2037,Acan,reef
+1,2015,Acan_Maiko,1039.5,Acan,reef
+1,2016,Acan_Maiko,451.5,Acan,reef
+1,2012,Acan_Manini,19761,Acan,reef
+1,2013,Acan_Manini,27877.5,Acan,reef
+1,2014,Acan_Manini,17776.5,Acan,reef
+1,2015,Acan_Manini,6604.5,Acan,reef
+1,2016,Acan_Manini,5764.5,Acan,reef
+1,2012,Acan_Naenae,808.5,Acan,reef
+1,2013,Acan_Naenae,1155,Acan,reef
+1,2012,Acan_Opelu kala,22554,Acan,reef
+1,2013,Acan_Opelu kala,30166.5,Acan,reef
+1,2014,Acan_Opelu kala,9649.5,Acan,reef
+1,2015,Acan_Opelu kala,6867,Acan,reef
+1,2016,Acan_Opelu kala,3580.5,Acan,reef
+1,2012,Acan_Pakuikui (tang),3234,Acan,reef
+1,2013,Acan_Pakuikui (tang),4231.5,Acan,reef
+1,2014,Acan_Pakuikui (tang),1995,Acan,reef
+1,2015,Acan_Pakuikui (tang),1176,Acan,reef
+1,2016,Acan_Pakuikui (tang),703.5,Acan,reef
+1,2012,Acan_Palani,14164.5,Acan,reef
+1,2013,Acan_Palani,16222.5,Acan,reef
+1,2014,Acan_Palani,7182,Acan,reef
+1,2015,Acan_Palani,6825,Acan,reef
+1,2016,Acan_Palani,1596,Acan,reef
+1,2012,Acan_Pualu,7276.5,Acan,reef
+1,2013,Acan_Pualu,5911.5,Acan,reef
+1,2014,Acan_Pualu,16516.5,Acan,reef
+1,2015,Acan_Pualu,6310.5,Acan,reef
+1,2016,Acan_Pualu,4746,Acan,reef
+1,2012,Acan_Umaumalei,4567.5,Acan,reef
+1,2013,Acan_Umaumalei,1260,Acan,reef
+1,2013,Albu_Oio,231,Albu,reef
+1,2015,Albu_Oio,1302,Albu,reef
+1,2016,Albu_Oio,945,Albu,reef
+1,2012,Aulo_Nunu,724.5,Aulo,reef
+1,2013,Aulo_Nunu,756,Aulo,reef
+1,2016,Aulo_Nunu,703.5,Aulo,reef
+1,2012,Bali_Humuhumu,1596,Bali,reef
+1,2013,Bali_Humuhumu,262.5,Bali,reef
+1,2014,Bali_Humuhumu,126,Bali,reef
+1,2016,Bali_Humuhumu,315,Bali,reef
+1,2012,Belo_Ahaaha,1291.5,Belo,reef
+1,2013,Belo_Ahaaha,871.5,Belo,reef
+1,2015,Belo_Ahaaha,892.5,Belo,reef
+1,2016,Belo_Ahaaha,472.5,Belo,reef
+1,2012,Cara_Akule,198471,Cara,reef
+1,2013,Cara_Akule,157311,Cara,reef
+1,2014,Cara_Akule,136552.5,Cara,reef
+1,2015,Cara_Akule,185934,Cara,reef
+1,2016,Cara_Akule,210724.5,Cara,reef
+1,2013,Cara_Dobe ulua,1648.5,Cara,reef
+1,2014,Cara_Dobe ulua,4945.5,Cara,reef
+1,2012,Cara_Hahalalu,2919,Cara,reef
+1,2014,Cara_Hahalalu,577.5,Cara,reef
+1,2015,Cara_Hahalalu,2562,Cara,reef
+1,2016,Cara_Hahalalu,5607,Cara,reef
+1,2012,Cara_Kamanu,25368,Cara,reef
+1,2013,Cara_Kamanu,15466.5,Cara,reef
+1,2014,Cara_Kamanu,30786,Cara,reef
+1,2015,Cara_Kamanu,15582,Cara,reef
+1,2016,Cara_Kamanu,22984.5,Cara,reef
+1,2012,Cara_Lae,42,Cara,reef
+1,2013,Cara_Lae,63,Cara,reef
+1,2014,Cara_Lae,52.5,Cara,reef
+1,2015,Cara_Lae,105,Cara,reef
+1,2012,Cara_Omilu,13314,Cara,reef
+1,2013,Cara_Omilu,5848.5,Cara,reef
+1,2014,Cara_Omilu,4410,Cara,reef
+1,2015,Cara_Omilu,6394.5,Cara,reef
+1,2016,Cara_Omilu,5145,Cara,reef
+1,2012,Cara_Opelu,1608621,Cara,reef
+1,2013,Cara_Opelu,1380508.5,Cara,reef
+1,2014,Cara_Opelu,1599853.5,Cara,reef
+1,2015,Cara_Opelu,1641780,Cara,reef
+1,2016,Cara_Opelu,1087443,Cara,reef
+1,2013,Cara_Opelu mama,441,Cara,reef
+1,2014,Cara_Opelu mama,388.5,Cara,reef
+1,2012,Cara_Papa ulua,336,Cara,reef
+1,2013,Cara_Papa ulua,1596,Cara,reef
+1,2014,Cara_Papa ulua,1438.5,Cara,reef
+1,2015,Cara_Papa ulua,630,Cara,reef
+1,2016,Cara_Papa ulua,2331,Cara,reef
+1,2012,Cara_Sasa ulua,609,Cara,reef
+1,2013,Cara_Sasa ulua,1659,Cara,reef
+1,2015,Cara_Sasa ulua,2814,Cara,reef
+1,2014,Cara_Ulua-misc.,1102.5,Cara,reef
+1,2015,Cara_Ulua-misc.,2488.5,Cara,reef
+1,2012,Carc_Shark-misc.,3192,Carc,reef
+1,2013,Carc_Shark-misc.,2205,Carc,reef
+1,2014,Carc_Shark-misc.,1081.5,Carc,reef
+1,2015,Carc_Shark-misc.,0,Carc,reef
+1,2016,Carc_Shark-misc.,2614.5,Carc,reef
+1,2012,Cirr_Poopaa,315,Cirr,reef
+1,2013,Cirr_Poopaa,220.5,Cirr,reef
+1,2014,Cirr_Poopaa,294,Cirr,reef
+1,2015,Cirr_Poopaa,168,Cirr,reef
+1,2016,Cirr_Poopaa,210,Cirr,reef
+1,2012,Emme_Golden kali,966,Emme,reef
+1,2013,Emme_Golden kali,1669.5,Emme,reef
+1,2014,Emme_Golden kali,1060.5,Emme,reef
+1,2015,Emme_Golden kali,420,Emme,reef
+1,2016,Emme_Golden kali,241.5,Emme,reef
+1,2013,Gemp_Hauliuli,115.5,Gemp,reef
+1,2012,Holo_Alaihe,2289,Holo,reef
+1,2013,Holo_Alaihe,3937.5,Holo,reef
+1,2014,Holo_Alaihe,2425.5,Holo,reef
+1,2015,Holo_Alaihe,1396.5,Holo,reef
+1,2016,Holo_Alaihe,924,Holo,reef
+1,2012,Holo_Alaihe mama,703.5,Holo,reef
+1,2013,Holo_Alaihe mama,472.5,Holo,reef
+1,2014,Holo_Alaihe mama,94.5,Holo,reef
+1,2015,Holo_Alaihe mama,493.5,Holo,reef
+1,2016,Holo_Alaihe mama,105,Holo,reef
+1,2012,Holo_Menpachi,249018,Holo,reef
+1,2013,Holo_Menpachi,249805.5,Holo,reef
+1,2014,Holo_Menpachi,171444,Holo,reef
+1,2015,Holo_Menpachi,152869.5,Holo,reef
+1,2016,Holo_Menpachi,163632,Holo,reef
+1,2012,Kuhl_Aholehole,6205.5,Kuhl,reef
+1,2013,Kuhl_Aholehole,7570.5,Kuhl,reef
+1,2014,Kuhl_Aholehole,8473.5,Kuhl,reef
+1,2015,Kuhl_Aholehole,6436.5,Kuhl,reef
+1,2016,Kuhl_Aholehole,7245,Kuhl,reef
+1,2012,Kyph_Nenue,8872.5,Kyph,reef
+1,2013,Kyph_Nenue,10164,Kyph,reef
+1,2014,Kyph_Nenue,11518.5,Kyph,reef
+1,2015,Kyph_Nenue,6237,Kyph,reef
+1,2016,Kyph_Nenue,6877.5,Kyph,reef
+1,2012,Labr_Aawa,25704,Labr,reef
+1,2013,Labr_Aawa,20160,Labr,reef
+1,2014,Labr_Aawa,14269.5,Labr,reef
+1,2015,Labr_Aawa,10752,Labr,reef
+1,2016,Labr_Aawa,19971,Labr,reef
+1,2012,Labr_Ea (wrasse),430.5,Labr,reef
+1,2013,Labr_Ea (wrasse),315,Labr,reef
+1,2015,Labr_Ea (wrasse),798,Labr,reef
+1,2012,Labr_Laenihi,9166.5,Labr,reef
+1,2013,Labr_Laenihi,8305.5,Labr,reef
+1,2014,Labr_Laenihi,10930.5,Labr,reef
+1,2015,Labr_Laenihi,6751.5,Labr,reef
+1,2016,Labr_Laenihi,8736,Labr,reef
+1,2012,Labr_Poou,210,Labr,reef
+1,2012,Leth_Mu,20433,Leth,reef
+1,2013,Leth_Mu,18406.5,Leth,reef
+1,2014,Leth_Mu,1795.5,Leth,reef
+1,2015,Leth_Mu,2887.5,Leth,reef
+1,2016,Leth_Mu,2887.5,Leth,reef
+1,2013,Lutj_Randall's snapper,535.5,Lutj,reef
+1,2015,Lutj_Randall's snapper,756,Lutj,reef
+1,2012,Lutj_Toau,9187.5,Lutj,reef
+1,2013,Lutj_Toau,4347,Lutj,reef
+1,2014,Lutj_Toau,2446.5,Lutj,reef
+1,2015,Lutj_Toau,3045,Lutj,reef
+1,2016,Lutj_Toau,3948,Lutj,reef
+1,2012,Lutj_Wahanui,220.5,Lutj,reef
+1,2013,Lutj_Wahanui,189,Lutj,reef
+1,2014,Lutj_Wahanui,325.5,Lutj,reef
+1,2015,Lutj_Wahanui,451.5,Lutj,reef
+1,2012,Mona_Olililepa,955.5,Mona,reef
+1,2015,Mona_Olililepa,336,Mona,reef
+1,2014,Mugi_Amaama,304.5,Mugi,reef
+1,2012,Mugi_Uouoa,2100,Mugi,reef
+1,2013,Mugi_Uouoa,3003,Mugi,reef
+1,2014,Mugi_Uouoa,5113.5,Mugi,reef
+1,2015,Mugi_Uouoa,1932,Mugi,reef
+1,2012,Mull_Kumu,19519.5,Mull,reef
+1,2013,Mull_Kumu,16306.5,Mull,reef
+1,2014,Mull_Kumu,3874.5,Mull,reef
+1,2015,Mull_Kumu,5040,Mull,reef
+1,2016,Mull_Kumu,7434,Mull,reef
+1,2012,Mull_Malu,294,Mull,reef
+1,2013,Mull_Malu,84,Mull,reef
+1,2012,Mull_Moana,26407.5,Mull,reef
+1,2013,Mull_Moana,19425,Mull,reef
+1,2014,Mull_Moana,13818,Mull,reef
+1,2015,Mull_Moana,13062,Mull,reef
+1,2016,Mull_Moana,22470,Mull,reef
+1,2012,Mull_Moana kale,12610.5,Mull,reef
+1,2013,Mull_Moana kale,8253,Mull,reef
+1,2014,Mull_Moana kale,9985.5,Mull,reef
+1,2015,Mull_Moana kale,5481,Mull,reef
+1,2016,Mull_Moana kale,9954,Mull,reef
+1,2012,Mull_Munu,3160.5,Mull,reef
+1,2013,Mull_Munu,1512,Mull,reef
+1,2014,Mull_Munu,1543.5,Mull,reef
+1,2015,Mull_Munu,441,Mull,reef
+1,2016,Mull_Munu,955.5,Mull,reef
+1,2012,Mull_Weke a'a,1648.5,Mull,reef
+1,2013,Mull_Weke a'a,2961,Mull,reef
+1,2014,Mull_Weke a'a,955.5,Mull,reef
+1,2015,Mull_Weke a'a,1239,Mull,reef
+1,2016,Mull_Weke a'a,1375.5,Mull,reef
+1,2012,Mull_Weke nono,8631,Mull,reef
+1,2013,Mull_Weke nono,6762,Mull,reef
+1,2014,Mull_Weke nono,10930.5,Mull,reef
+1,2015,Mull_Weke nono,6415.5,Mull,reef
+1,2016,Mull_Weke nono,8904,Mull,reef
+1,2013,Mull_Weke pueo,325.5,Mull,reef
+1,2012,Mull_Weke ula,4609.5,Mull,reef
+1,2013,Mull_Weke ula,4410,Mull,reef
+1,2014,Mull_Weke ula,8232,Mull,reef
+1,2015,Mull_Weke ula,5008.5,Mull,reef
+1,2016,Mull_Weke ula,10678.5,Mull,reef
+1,2013,Mura_Puhi eel-misc.,3549,Mura,reef
+1,2014,Poly_Moi,357,Poly,reef
+1,2015,Poly_Moi,1816.5,Poly,reef
+1,2012,Poma_Kupipi,252,Poma,reef
+1,2014,Poma_Kupipi,808.5,Poma,reef
+1,2012,Poma_Maomao,115.5,Poma,reef
+1,2012,Pria_Aweoweo,17335.5,Pria,reef
+1,2013,Pria_Aweoweo,27867,Pria,reef
+1,2014,Pria_Aweoweo,32403,Pria,reef
+1,2015,Pria_Aweoweo,41359.5,Pria,reef
+1,2016,Pria_Aweoweo,26964,Pria,reef
+1,2012,Pria_Aweoweo (deepsea),525,Pria,reef
+1,2013,Pria_Aweoweo (deepsea),283.5,Pria,reef
+1,2014,Pria_Aweoweo (deepsea),1365,Pria,reef
+1,2015,Pria_Aweoweo (deepsea),525,Pria,reef
+1,2012,Scar_Panuhunuhu,126,Scar,reef
+1,2013,Scar_Panuhunuhu,115.5,Scar,reef
+1,2014,Scar_Panuhunuhu,724.5,Scar,reef
+1,2015,Scar_Panunu,115.5,Scar,reef
+1,2012,Scar_Uhu parrot-misc.,147031.5,Scar,reef
+1,2013,Scar_Uhu parrot-misc.,79915.5,Scar,reef
+1,2014,Scar_Uhu parrot-misc.,29526,Scar,reef
+1,2015,Scar_Uhu parrot-misc.,43249.5,Scar,reef
+1,2016,Scar_Uhu parrot-misc.,34587,Scar,reef
+1,2012,Scor_Hogo,2961,Scor,reef
+1,2013,Scor_Hogo,5365.5,Scor,reef
+1,2014,Scor_Hogo,3549,Scor,reef
+1,2015,Scor_Hogo,2488.5,Scor,reef
+1,2016,Scor_Hogo,1113,Scor,reef
+1,2012,Scor_Nohu,4420.5,Scor,reef
+1,2013,Scor_Nohu,2572.5,Scor,reef
+1,2014,Scor_Nohu,1837.5,Scor,reef
+1,2015,Scor_Nohu,5491.5,Scor,reef
+1,2016,Scor_Nohu,3633,Scor,reef
+1,2012,Serr_Roi,1375.5,Serr,reef
+1,2012,Sphy_Kaku,3181.5,Sphy,reef
+1,2013,Sphy_Kaku,4189.5,Sphy,reef
+1,2014,Sphy_Kaku,4935,Sphy,reef
+1,2015,Sphy_Kaku,3412.5,Sphy,reef
+1,2016,Sphy_Kaku,2499,Sphy,reef
+1,2012,Sphy_Kawelea,9103.5,Sphy,reef
+1,2013,Sphy_Kawelea,9534,Sphy,reef
+1,2014,Sphy_Kawelea,9649.5,Sphy,reef
+1,2015,Sphy_Kawelea,18217.5,Sphy,reef
+1,2016,Sphy_Kawelea,8715,Sphy,reef
+2,2012,Acan_Api,367.5,Acan,reef
+2,2013,Acan_Api,220.5,Acan,reef
+2,2014,Acan_Api,619.5,Acan,reef
+2,2015,Acan_Api,430.5,Acan,reef
+2,2012,Acan_Black kole,2037,Acan,reef
+2,2013,Acan_Black kole,1018.5,Acan,reef
+2,2016,Acan_Black kole,252,Acan,reef
+2,2012,Acan_Kala,3654,Acan,reef
+2,2013,Acan_Kala,4536,Acan,reef
+2,2014,Acan_Kala,714,Acan,reef
+2,2015,Acan_Kala,2005.5,Acan,reef
+2,2016,Acan_Kala,4137,Acan,reef
+2,2012,Acan_Kole,16999.5,Acan,reef
+2,2013,Acan_Kole,14626.5,Acan,reef
+2,2014,Acan_Kole,19761,Acan,reef
+2,2015,Acan_Kole,3643.5,Acan,reef
+2,2016,Acan_Kole,6909,Acan,reef
+2,2012,Acan_Maiko,2457,Acan,reef
+2,2013,Acan_Maiko,661.5,Acan,reef
+2,2014,Acan_Maiko,2037,Acan,reef
+2,2015,Acan_Maiko,1039.5,Acan,reef
+2,2016,Acan_Maiko,451.5,Acan,reef
+2,2012,Acan_Manini,19761,Acan,reef
+2,2013,Acan_Manini,27877.5,Acan,reef
+2,2014,Acan_Manini,17776.5,Acan,reef
+2,2015,Acan_Manini,6604.5,Acan,reef
+2,2016,Acan_Manini,5764.5,Acan,reef
+2,2012,Acan_Naenae,808.5,Acan,reef
+2,2013,Acan_Naenae,1155,Acan,reef
+2,2012,Acan_Opelu kala,22554,Acan,reef
+2,2013,Acan_Opelu kala,30166.5,Acan,reef
+2,2014,Acan_Opelu kala,9649.5,Acan,reef
+2,2015,Acan_Opelu kala,6867,Acan,reef
+2,2016,Acan_Opelu kala,3580.5,Acan,reef
+2,2012,Acan_Pakuikui (tang),3234,Acan,reef
+2,2013,Acan_Pakuikui (tang),4231.5,Acan,reef
+2,2014,Acan_Pakuikui (tang),1995,Acan,reef
+2,2015,Acan_Pakuikui (tang),1176,Acan,reef
+2,2016,Acan_Pakuikui (tang),703.5,Acan,reef
+2,2012,Acan_Palani,14164.5,Acan,reef
+2,2013,Acan_Palani,16222.5,Acan,reef
+2,2014,Acan_Palani,7182,Acan,reef
+2,2015,Acan_Palani,6825,Acan,reef
+2,2016,Acan_Palani,1596,Acan,reef
+2,2012,Acan_Pualu,7276.5,Acan,reef
+2,2013,Acan_Pualu,5911.5,Acan,reef
+2,2014,Acan_Pualu,16516.5,Acan,reef
+2,2015,Acan_Pualu,6310.5,Acan,reef
+2,2016,Acan_Pualu,4746,Acan,reef
+2,2012,Acan_Umaumalei,4567.5,Acan,reef
+2,2013,Acan_Umaumalei,1260,Acan,reef
+2,2013,Albu_Oio,231,Albu,reef
+2,2015,Albu_Oio,1302,Albu,reef
+2,2016,Albu_Oio,945,Albu,reef
+2,2012,Aulo_Nunu,724.5,Aulo,reef
+2,2013,Aulo_Nunu,756,Aulo,reef
+2,2016,Aulo_Nunu,703.5,Aulo,reef
+2,2012,Bali_Humuhumu,1596,Bali,reef
+2,2013,Bali_Humuhumu,262.5,Bali,reef
+2,2014,Bali_Humuhumu,126,Bali,reef
+2,2016,Bali_Humuhumu,315,Bali,reef
+2,2012,Belo_Ahaaha,1291.5,Belo,reef
+2,2013,Belo_Ahaaha,871.5,Belo,reef
+2,2015,Belo_Ahaaha,892.5,Belo,reef
+2,2016,Belo_Ahaaha,472.5,Belo,reef
+2,2012,Cara_Akule,198471,Cara,reef
+2,2013,Cara_Akule,157311,Cara,reef
+2,2014,Cara_Akule,136552.5,Cara,reef
+2,2015,Cara_Akule,185934,Cara,reef
+2,2016,Cara_Akule,210724.5,Cara,reef
+2,2013,Cara_Dobe ulua,1648.5,Cara,reef
+2,2014,Cara_Dobe ulua,4945.5,Cara,reef
+2,2012,Cara_Hahalalu,2919,Cara,reef
+2,2014,Cara_Hahalalu,577.5,Cara,reef
+2,2015,Cara_Hahalalu,2562,Cara,reef
+2,2016,Cara_Hahalalu,5607,Cara,reef
+2,2012,Cara_Kamanu,25368,Cara,reef
+2,2013,Cara_Kamanu,15466.5,Cara,reef
+2,2014,Cara_Kamanu,30786,Cara,reef
+2,2015,Cara_Kamanu,15582,Cara,reef
+2,2016,Cara_Kamanu,22984.5,Cara,reef
+2,2012,Cara_Lae,42,Cara,reef
+2,2013,Cara_Lae,63,Cara,reef
+2,2014,Cara_Lae,52.5,Cara,reef
+2,2015,Cara_Lae,105,Cara,reef
+2,2012,Cara_Omilu,13314,Cara,reef
+2,2013,Cara_Omilu,5848.5,Cara,reef
+2,2014,Cara_Omilu,4410,Cara,reef
+2,2015,Cara_Omilu,6394.5,Cara,reef
+2,2016,Cara_Omilu,5145,Cara,reef
+2,2012,Cara_Opelu,1608621,Cara,reef
+2,2013,Cara_Opelu,1380508.5,Cara,reef
+2,2014,Cara_Opelu,1599853.5,Cara,reef
+2,2015,Cara_Opelu,1641780,Cara,reef
+2,2016,Cara_Opelu,1087443,Cara,reef
+2,2013,Cara_Opelu mama,441,Cara,reef
+2,2014,Cara_Opelu mama,388.5,Cara,reef
+2,2012,Cara_Papa ulua,336,Cara,reef
+2,2013,Cara_Papa ulua,1596,Cara,reef
+2,2014,Cara_Papa ulua,1438.5,Cara,reef
+2,2015,Cara_Papa ulua,630,Cara,reef
+2,2016,Cara_Papa ulua,2331,Cara,reef
+2,2012,Cara_Sasa ulua,609,Cara,reef
+2,2013,Cara_Sasa ulua,1659,Cara,reef
+2,2015,Cara_Sasa ulua,2814,Cara,reef
+2,2014,Cara_Ulua-misc.,1102.5,Cara,reef
+2,2015,Cara_Ulua-misc.,2488.5,Cara,reef
+2,2012,Carc_Shark-misc.,3192,Carc,reef
+2,2013,Carc_Shark-misc.,2205,Carc,reef
+2,2014,Carc_Shark-misc.,1081.5,Carc,reef
+2,2015,Carc_Shark-misc.,0,Carc,reef
+2,2016,Carc_Shark-misc.,2614.5,Carc,reef
+2,2012,Cirr_Poopaa,315,Cirr,reef
+2,2013,Cirr_Poopaa,220.5,Cirr,reef
+2,2014,Cirr_Poopaa,294,Cirr,reef
+2,2015,Cirr_Poopaa,168,Cirr,reef
+2,2016,Cirr_Poopaa,210,Cirr,reef
+2,2012,Emme_Golden kali,966,Emme,reef
+2,2013,Emme_Golden kali,1669.5,Emme,reef
+2,2014,Emme_Golden kali,1060.5,Emme,reef
+2,2015,Emme_Golden kali,420,Emme,reef
+2,2016,Emme_Golden kali,241.5,Emme,reef
+2,2013,Gemp_Hauliuli,115.5,Gemp,reef
+2,2012,Holo_Alaihe,2289,Holo,reef
+2,2013,Holo_Alaihe,3937.5,Holo,reef
+2,2014,Holo_Alaihe,2425.5,Holo,reef
+2,2015,Holo_Alaihe,1396.5,Holo,reef
+2,2016,Holo_Alaihe,924,Holo,reef
+2,2012,Holo_Alaihe mama,703.5,Holo,reef
+2,2013,Holo_Alaihe mama,472.5,Holo,reef
+2,2014,Holo_Alaihe mama,94.5,Holo,reef
+2,2015,Holo_Alaihe mama,493.5,Holo,reef
+2,2016,Holo_Alaihe mama,105,Holo,reef
+2,2012,Holo_Menpachi,249018,Holo,reef
+2,2013,Holo_Menpachi,249805.5,Holo,reef
+2,2014,Holo_Menpachi,171444,Holo,reef
+2,2015,Holo_Menpachi,152869.5,Holo,reef
+2,2016,Holo_Menpachi,163632,Holo,reef
+2,2012,Kuhl_Aholehole,6205.5,Kuhl,reef
+2,2013,Kuhl_Aholehole,7570.5,Kuhl,reef
+2,2014,Kuhl_Aholehole,8473.5,Kuhl,reef
+2,2015,Kuhl_Aholehole,6436.5,Kuhl,reef
+2,2016,Kuhl_Aholehole,7245,Kuhl,reef
+2,2012,Kyph_Nenue,8872.5,Kyph,reef
+2,2013,Kyph_Nenue,10164,Kyph,reef
+2,2014,Kyph_Nenue,11518.5,Kyph,reef
+2,2015,Kyph_Nenue,6237,Kyph,reef
+2,2016,Kyph_Nenue,6877.5,Kyph,reef
+2,2012,Labr_Aawa,25704,Labr,reef
+2,2013,Labr_Aawa,20160,Labr,reef
+2,2014,Labr_Aawa,14269.5,Labr,reef
+2,2015,Labr_Aawa,10752,Labr,reef
+2,2016,Labr_Aawa,19971,Labr,reef
+2,2012,Labr_Ea (wrasse),430.5,Labr,reef
+2,2013,Labr_Ea (wrasse),315,Labr,reef
+2,2015,Labr_Ea (wrasse),798,Labr,reef
+2,2012,Labr_Laenihi,9166.5,Labr,reef
+2,2013,Labr_Laenihi,8305.5,Labr,reef
+2,2014,Labr_Laenihi,10930.5,Labr,reef
+2,2015,Labr_Laenihi,6751.5,Labr,reef
+2,2016,Labr_Laenihi,8736,Labr,reef
+2,2012,Labr_Poou,210,Labr,reef
+2,2012,Leth_Mu,20433,Leth,reef
+2,2013,Leth_Mu,18406.5,Leth,reef
+2,2014,Leth_Mu,1795.5,Leth,reef
+2,2015,Leth_Mu,2887.5,Leth,reef
+2,2016,Leth_Mu,2887.5,Leth,reef
+2,2013,Lutj_Randall's snapper,535.5,Lutj,reef
+2,2015,Lutj_Randall's snapper,756,Lutj,reef
+2,2012,Lutj_Toau,9187.5,Lutj,reef
+2,2013,Lutj_Toau,4347,Lutj,reef
+2,2014,Lutj_Toau,2446.5,Lutj,reef
+2,2015,Lutj_Toau,3045,Lutj,reef
+2,2016,Lutj_Toau,3948,Lutj,reef
+2,2012,Lutj_Wahanui,220.5,Lutj,reef
+2,2013,Lutj_Wahanui,189,Lutj,reef
+2,2014,Lutj_Wahanui,325.5,Lutj,reef
+2,2015,Lutj_Wahanui,451.5,Lutj,reef
+2,2012,Mona_Olililepa,955.5,Mona,reef
+2,2015,Mona_Olililepa,336,Mona,reef
+2,2014,Mugi_Amaama,304.5,Mugi,reef
+2,2012,Mugi_Uouoa,2100,Mugi,reef
+2,2013,Mugi_Uouoa,3003,Mugi,reef
+2,2014,Mugi_Uouoa,5113.5,Mugi,reef
+2,2015,Mugi_Uouoa,1932,Mugi,reef
+2,2012,Mull_Kumu,19519.5,Mull,reef
+2,2013,Mull_Kumu,16306.5,Mull,reef
+2,2014,Mull_Kumu,3874.5,Mull,reef
+2,2015,Mull_Kumu,5040,Mull,reef
+2,2016,Mull_Kumu,7434,Mull,reef
+2,2012,Mull_Malu,294,Mull,reef
+2,2013,Mull_Malu,84,Mull,reef
+2,2012,Mull_Moana,26407.5,Mull,reef
+2,2013,Mull_Moana,19425,Mull,reef
+2,2014,Mull_Moana,13818,Mull,reef
+2,2015,Mull_Moana,13062,Mull,reef
+2,2016,Mull_Moana,22470,Mull,reef
+2,2012,Mull_Moana kale,12610.5,Mull,reef
+2,2013,Mull_Moana kale,8253,Mull,reef
+2,2014,Mull_Moana kale,9985.5,Mull,reef
+2,2015,Mull_Moana kale,5481,Mull,reef
+2,2016,Mull_Moana kale,9954,Mull,reef
+2,2012,Mull_Munu,3160.5,Mull,reef
+2,2013,Mull_Munu,1512,Mull,reef
+2,2014,Mull_Munu,1543.5,Mull,reef
+2,2015,Mull_Munu,441,Mull,reef
+2,2016,Mull_Munu,955.5,Mull,reef
+2,2012,Mull_Weke a'a,1648.5,Mull,reef
+2,2013,Mull_Weke a'a,2961,Mull,reef
+2,2014,Mull_Weke a'a,955.5,Mull,reef
+2,2015,Mull_Weke a'a,1239,Mull,reef
+2,2016,Mull_Weke a'a,1375.5,Mull,reef
+2,2012,Mull_Weke nono,8631,Mull,reef
+2,2013,Mull_Weke nono,6762,Mull,reef
+2,2014,Mull_Weke nono,10930.5,Mull,reef
+2,2015,Mull_Weke nono,6415.5,Mull,reef
+2,2016,Mull_Weke nono,8904,Mull,reef
+2,2013,Mull_Weke pueo,325.5,Mull,reef
+2,2012,Mull_Weke ula,4609.5,Mull,reef
+2,2013,Mull_Weke ula,4410,Mull,reef
+2,2014,Mull_Weke ula,8232,Mull,reef
+2,2015,Mull_Weke ula,5008.5,Mull,reef
+2,2016,Mull_Weke ula,10678.5,Mull,reef
+2,2013,Mura_Puhi eel-misc.,3549,Mura,reef
+2,2014,Poly_Moi,357,Poly,reef
+2,2015,Poly_Moi,1816.5,Poly,reef
+2,2012,Poma_Kupipi,252,Poma,reef
+2,2014,Poma_Kupipi,808.5,Poma,reef
+2,2012,Poma_Maomao,115.5,Poma,reef
+2,2012,Pria_Aweoweo,17335.5,Pria,reef
+2,2013,Pria_Aweoweo,27867,Pria,reef
+2,2014,Pria_Aweoweo,32403,Pria,reef
+2,2015,Pria_Aweoweo,41359.5,Pria,reef
+2,2016,Pria_Aweoweo,26964,Pria,reef
+2,2012,Pria_Aweoweo (deepsea),525,Pria,reef
+2,2013,Pria_Aweoweo (deepsea),283.5,Pria,reef
+2,2014,Pria_Aweoweo (deepsea),1365,Pria,reef
+2,2015,Pria_Aweoweo (deepsea),525,Pria,reef
+2,2012,Scar_Panuhunuhu,126,Scar,reef
+2,2013,Scar_Panuhunuhu,115.5,Scar,reef
+2,2014,Scar_Panuhunuhu,724.5,Scar,reef
+2,2015,Scar_Panunu,115.5,Scar,reef
+2,2012,Scar_Uhu parrot-misc.,147031.5,Scar,reef
+2,2013,Scar_Uhu parrot-misc.,79915.5,Scar,reef
+2,2014,Scar_Uhu parrot-misc.,29526,Scar,reef
+2,2015,Scar_Uhu parrot-misc.,43249.5,Scar,reef
+2,2016,Scar_Uhu parrot-misc.,34587,Scar,reef
+2,2012,Scor_Hogo,2961,Scor,reef
+2,2013,Scor_Hogo,5365.5,Scor,reef
+2,2014,Scor_Hogo,3549,Scor,reef
+2,2015,Scor_Hogo,2488.5,Scor,reef
+2,2016,Scor_Hogo,1113,Scor,reef
+2,2012,Scor_Nohu,4420.5,Scor,reef
+2,2013,Scor_Nohu,2572.5,Scor,reef
+2,2014,Scor_Nohu,1837.5,Scor,reef
+2,2015,Scor_Nohu,5491.5,Scor,reef
+2,2016,Scor_Nohu,3633,Scor,reef
+2,2012,Serr_Roi,1375.5,Serr,reef
+2,2012,Sphy_Kaku,3181.5,Sphy,reef
+2,2013,Sphy_Kaku,4189.5,Sphy,reef
+2,2014,Sphy_Kaku,4935,Sphy,reef
+2,2015,Sphy_Kaku,3412.5,Sphy,reef
+2,2016,Sphy_Kaku,2499,Sphy,reef
+2,2012,Sphy_Kawelea,9103.5,Sphy,reef
+2,2013,Sphy_Kawelea,9534,Sphy,reef
+2,2014,Sphy_Kawelea,9649.5,Sphy,reef
+2,2015,Sphy_Kawelea,18217.5,Sphy,reef
+2,2016,Sphy_Kawelea,8715,Sphy,reef

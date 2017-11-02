@@ -1,0 +1,95 @@
+rgn_id,year,key_sp,catch,Fam,code
+1,2012,Cara_Akule,18902,Cara,coast_pelagic
+1,2013,Cara_Akule,14982,Cara,coast_pelagic
+1,2014,Cara_Akule,13005,Cara,coast_pelagic
+1,2015,Cara_Akule,17708,Cara,coast_pelagic
+1,2016,Cara_Akule,20069,Cara,coast_pelagic
+1,2013,Cara_Dobe ulua,157,Cara,coast_pelagic
+1,2014,Cara_Dobe ulua,471,Cara,coast_pelagic
+1,2012,Cara_Hahalalu,278,Cara,coast_pelagic
+1,2014,Cara_Hahalalu,55,Cara,coast_pelagic
+1,2015,Cara_Hahalalu,244,Cara,coast_pelagic
+1,2016,Cara_Hahalalu,534,Cara,coast_pelagic
+1,2012,Cara_Kamanu,2416,Cara,coast_pelagic
+1,2013,Cara_Kamanu,1473,Cara,coast_pelagic
+1,2014,Cara_Kamanu,2932,Cara,coast_pelagic
+1,2015,Cara_Kamanu,1484,Cara,coast_pelagic
+1,2016,Cara_Kamanu,2189,Cara,coast_pelagic
+1,2012,Cara_Lae,4,Cara,coast_pelagic
+1,2013,Cara_Lae,6,Cara,coast_pelagic
+1,2014,Cara_Lae,5,Cara,coast_pelagic
+1,2015,Cara_Lae,10,Cara,coast_pelagic
+1,2012,Cara_Omilu,1268,Cara,coast_pelagic
+1,2013,Cara_Omilu,557,Cara,coast_pelagic
+1,2014,Cara_Omilu,420,Cara,coast_pelagic
+1,2015,Cara_Omilu,609,Cara,coast_pelagic
+1,2016,Cara_Omilu,490,Cara,coast_pelagic
+1,2012,Cara_Opelu,153202,Cara,coast_pelagic
+1,2013,Cara_Opelu,131477,Cara,coast_pelagic
+1,2014,Cara_Opelu,152367,Cara,coast_pelagic
+1,2015,Cara_Opelu,156360,Cara,coast_pelagic
+1,2016,Cara_Opelu,103566,Cara,coast_pelagic
+1,2013,Cara_Opelu mama,42,Cara,coast_pelagic
+1,2014,Cara_Opelu mama,37,Cara,coast_pelagic
+1,2012,Cara_Papa ulua,32,Cara,coast_pelagic
+1,2013,Cara_Papa ulua,152,Cara,coast_pelagic
+1,2014,Cara_Papa ulua,137,Cara,coast_pelagic
+1,2015,Cara_Papa ulua,60,Cara,coast_pelagic
+1,2016,Cara_Papa ulua,222,Cara,coast_pelagic
+1,2012,Cara_Sasa ulua,58,Cara,coast_pelagic
+1,2013,Cara_Sasa ulua,158,Cara,coast_pelagic
+1,2015,Cara_Sasa ulua,268,Cara,coast_pelagic
+1,2014,Cara_Ulua-misc.,105,Cara,coast_pelagic
+1,2015,Cara_Ulua-misc.,237,Cara,coast_pelagic
+1,2012,Carc_Shark-misc.,304,Carc,coast_pelagic
+1,2013,Carc_Shark-misc.,210,Carc,coast_pelagic
+1,2014,Carc_Shark-misc.,103,Carc,coast_pelagic
+1,2015,Carc_Shark-misc.,0,Carc,coast_pelagic
+1,2016,Carc_Shark-misc.,249,Carc,coast_pelagic
+2,2012,Cara_Akule,18902,Cara,coast_pelagic
+2,2013,Cara_Akule,14982,Cara,coast_pelagic
+2,2014,Cara_Akule,13005,Cara,coast_pelagic
+2,2015,Cara_Akule,17708,Cara,coast_pelagic
+2,2016,Cara_Akule,20069,Cara,coast_pelagic
+2,2013,Cara_Dobe ulua,157,Cara,coast_pelagic
+2,2014,Cara_Dobe ulua,471,Cara,coast_pelagic
+2,2012,Cara_Hahalalu,278,Cara,coast_pelagic
+2,2014,Cara_Hahalalu,55,Cara,coast_pelagic
+2,2015,Cara_Hahalalu,244,Cara,coast_pelagic
+2,2016,Cara_Hahalalu,534,Cara,coast_pelagic
+2,2012,Cara_Kamanu,2416,Cara,coast_pelagic
+2,2013,Cara_Kamanu,1473,Cara,coast_pelagic
+2,2014,Cara_Kamanu,2932,Cara,coast_pelagic
+2,2015,Cara_Kamanu,1484,Cara,coast_pelagic
+2,2016,Cara_Kamanu,2189,Cara,coast_pelagic
+2,2012,Cara_Lae,4,Cara,coast_pelagic
+2,2013,Cara_Lae,6,Cara,coast_pelagic
+2,2014,Cara_Lae,5,Cara,coast_pelagic
+2,2015,Cara_Lae,10,Cara,coast_pelagic
+2,2012,Cara_Omilu,1268,Cara,coast_pelagic
+2,2013,Cara_Omilu,557,Cara,coast_pelagic
+2,2014,Cara_Omilu,420,Cara,coast_pelagic
+2,2015,Cara_Omilu,609,Cara,coast_pelagic
+2,2016,Cara_Omilu,490,Cara,coast_pelagic
+2,2012,Cara_Opelu,153202,Cara,coast_pelagic
+2,2013,Cara_Opelu,131477,Cara,coast_pelagic
+2,2014,Cara_Opelu,152367,Cara,coast_pelagic
+2,2015,Cara_Opelu,156360,Cara,coast_pelagic
+2,2016,Cara_Opelu,103566,Cara,coast_pelagic
+2,2013,Cara_Opelu mama,42,Cara,coast_pelagic
+2,2014,Cara_Opelu mama,37,Cara,coast_pelagic
+2,2012,Cara_Papa ulua,32,Cara,coast_pelagic
+2,2013,Cara_Papa ulua,152,Cara,coast_pelagic
+2,2014,Cara_Papa ulua,137,Cara,coast_pelagic
+2,2015,Cara_Papa ulua,60,Cara,coast_pelagic
+2,2016,Cara_Papa ulua,222,Cara,coast_pelagic
+2,2012,Cara_Sasa ulua,58,Cara,coast_pelagic
+2,2013,Cara_Sasa ulua,158,Cara,coast_pelagic
+2,2015,Cara_Sasa ulua,268,Cara,coast_pelagic
+2,2014,Cara_Ulua-misc.,105,Cara,coast_pelagic
+2,2015,Cara_Ulua-misc.,237,Cara,coast_pelagic
+2,2012,Carc_Shark-misc.,304,Carc,coast_pelagic
+2,2013,Carc_Shark-misc.,210,Carc,coast_pelagic
+2,2014,Carc_Shark-misc.,103,Carc,coast_pelagic
+2,2015,Carc_Shark-misc.,0,Carc,coast_pelagic
+2,2016,Carc_Shark-misc.,249,Carc,coast_pelagic

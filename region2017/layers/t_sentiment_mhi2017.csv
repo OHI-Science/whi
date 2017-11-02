@@ -1,0 +1,15 @@
+rgn_id,year,value,reference
+1,2009,57,HTA
+1,2010,57,HTA
+1,2011,53.9694,regression
+1,2012,49,HTA
+1,2013,51.2002,regression
+1,2014,51,THA
+1,2015,49,THA
+2,2009,57,HTA
+2,2010,57,HTA
+2,2011,53.9694,regression
+2,2012,49,HTA
+2,2013,51.2002,regression
+2,2014,51,THA
+2,2015,49,THA
