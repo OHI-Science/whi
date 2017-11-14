@@ -1,5 +1,5 @@
-# Ocean Health Index for West Hawaiian Islands [whi]
+# Ocean Health Index for West Hawaiʻi Island [whi]
 
-This is the Ocean Health Index repository for West Hawaiian Islands. 
+This is the Ocean Health Index repository for West Hawaiʻi. 
 
 For more information, please see http://ohi-science.org.
