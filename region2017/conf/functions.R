@@ -1499,7 +1499,11 @@ LSP = function(layers, ref_pct_cmpa=30, ref_pct_cp=30, status_year=2015){
 
  #managed marine areas
   r = SelectLayersData(layers, layers=c('lsp_area_3nm_whi2018', 'lsp_area_1km_coast'))  #total offshore/inland areas
+  #r<-r %>%
+  #  select(rgn_id = id_num, km2=val_num)
+
   #ry = SelectLayersData(layers, layers=c('lsp_mpa_3nm', 'lsp_coastal_conservation')) #total protected areas
+
 
   layers_data = SelectLayersData(layers, layers=c('lsp_mpa_3nm_wh2018'))#marine managed areas
 
@@ -1568,7 +1572,7 @@ LSP = function(layers, ref_pct_cmpa=30, ref_pct_cp=30, status_year=2015){
     dplyr::select(region_id = id_num, val_num, layer) %>%
     spread(layer, val_num) %>%
     select(rgn_id=region_id, area_inland1km = lsp_area_1km_coast,
-           area_offshore3nm = lsp_area_3nm_mhi2017)
+           area_offshore3nm = lsp_area_3nm_whi2018)
 
 
    ry <- ry %>%
