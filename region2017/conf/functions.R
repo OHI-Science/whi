@@ -1498,10 +1498,10 @@ LSP = function(layers, ref_pct_cmpa=30, ref_pct_cp=30, status_year=2015){
      select(region_id = id_num,  year, sites=val_num) ##need to get support on choosing a reference point
 
  #managed marine areas
-  r = SelectLayersData(layers, layers=c('lsp_area_3nm_mhi2017', 'lsp_area_1km_coast'))  #total offshore/inland areas
+  r = SelectLayersData(layers, layers=c('lsp_area_3nm_whi2018', 'lsp_area_1km_coast'))  #total offshore/inland areas
   #ry = SelectLayersData(layers, layers=c('lsp_mpa_3nm', 'lsp_coastal_conservation')) #total protected areas
 
-  layers_data = SelectLayersData(layers, layers=c('lsp_mma_mhi2017'))#marine managed areas
+  layers_data = SelectLayersData(layers, layers=c('lsp_mpa_3nm_wh2018'))#marine managed areas
 
   mpa<- layers_data %>%
     select(rgn_id = id_num, mpa=val_num)
