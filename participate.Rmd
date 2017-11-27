@@ -4,10 +4,6 @@ output: html_document
 ---
 We welcome feedback. 
 
-=======
-##Contact 
-We welcome feedback. 
->>>>>>> c2689006d1eb1ff714d166c85a7ba9f606ee8bd7
 Please contact:
 
 Eva Schemmel
