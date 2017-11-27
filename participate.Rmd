@@ -1,17 +1,7 @@
 ---
-title: "Participate"
-<<<<<<< HEAD
-#author: "eva 12-19-2016"
-#date: "Nov 27, 2017"
-=======
-author: "eva 12-19-2016"
-date: "February 17, 2017"
->>>>>>> c2689006d1eb1ff714d166c85a7ba9f606ee8bd7
+title: <center>Participate
 output: html_document
 ---
-
-
-<<<<<<< HEAD
 We welcome feedback. 
 
 =======

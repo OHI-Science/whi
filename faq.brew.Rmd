@@ -7,11 +7,11 @@ output: html_document
 
 ----
 
-## Why is this study being done in <%=study_area%>?
+## Why is this study being done in West Hawaiʻi Island?
 
-There is a need to assess and track the oceans comprehensively in <%=study_area%> by combining the best available social, economic, and environmental information. This can help chart a path forward to increase economic opportunities and human well being while sustainably managing these critical resources.
+There is a need to assess and track the oceans comprehensively in West Hawaiʻi Island by combining the best available social, economic, and environmental information. This can help chart a path forward to increase economic opportunities and human well being while sustainably managing these critical resources.
 
-We will develop a repeatable, transparent method for measuring progress toward healthy oceans in <%=study_area%>. The ultimate goal is to enable our community to prioritize policy decisions that affect the sustainability of our ocean resources.
+We will develop a repeatable, transparent method for measuring progress toward healthy oceans in West Hawaiʻi Island. The ultimate goal is to enable our community to prioritize policy decisions that affect the sustainability of our ocean resources.
 
 <br>
 
@@ -59,7 +59,7 @@ Goal scores will respond to management targets through interactions with resilie
 
 ## How does the OHI relate to ongoing ocean management efforts?
 
-Management strategies can be tested with the OHI to understand cross sector impacts and benefits. The OHI is designed to provide context for management decisions and explore actions (in part through setting SMART reference points) that support sustainable ocean use. This assessment can be used to communicate how achieving these targets will support ocean health in <%=study_area%>. 
+Management strategies can be tested with the OHI to understand cross sector impacts and benefits. The OHI is designed to provide context for management decisions and explore actions (in part through setting SMART reference points) that support sustainable ocean use. This assessment can be used to communicate how achieving these targets will support ocean health in West Hawaiʻi Island. 
 
 <br>
 
