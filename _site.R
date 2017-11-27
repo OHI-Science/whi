@@ -26,10 +26,10 @@ if (RCurl::url.exists(conf_csv))   weight <- readr::read_csv(conf_csv) %>%
   select(goal, weight)
 
 ## save local copy of conf/goals.Rmd
-conf_goals_rmd <- file.path(dir_scenario_gh, 'conf/web/goals.Rmd')
+#conf_goals_rmd <- file.path(dir_scenario_gh, 'conf/web/goals.Rmd')
 
-if (RCurl::url.exists(scores_csv)) {
-  conf_goals <- readr::read_lines(conf_goals_rmd)
-  readr::write_lines(conf_goals, path = 'conf_goals.Rmd', append = FALSE)
-}
+#if (RCurl::url.exists(scores_csv)) {
+#  conf_goals <- readr::read_lines(conf_goals_rmd)
+#  readr::write_lines(conf_goals, path = 'conf_goals.Rmd', append = FALSE)
+#}
 
