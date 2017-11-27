@@ -13,11 +13,11 @@ Determining ocean health requires an approach that integrates social, economic, 
 
 <br>
 
-## Assessing ocean health in West Hawaiian Islands
+## Assessing ocean health in West Hawaiʻi
  
-We are building a scientifically robust assessment of ocean health for West Hawaiian Islands. The OHI framework facilitates transparent and repeatable assessments of ocean health over time, and can be integrated into ongoing policy initiatives to support sustainable ocean management. We will build from previous OHI assessments and tailor the OHI framework to represent the cultural, social, and ecological characteristics and priorities of West Hawaiian Islands using the best available information and knowledge.
+We are building a scientifically robust assessment of ocean health for West Hawaiʻi Island. The OHI framework facilitates transparent and repeatable assessments of ocean health over time, and can be integrated into ongoing policy initiatives to support sustainable ocean management. We will build from previous OHI assessments and tailor the OHI framework to represent the cultural, social, and ecological characteristics and priorities of West Hawaiʻi Island using the best available information and knowledge.
 
-We will use this website to share our work in progress, as well as the final results. Our code is available [here](https://github.com/OHI-Science/whi).
+We will use this website to share our work in progress, as well as the final results. Our code is available [here](https://github.com/OHI-Science/<%=key%>).
 
 <br>
 

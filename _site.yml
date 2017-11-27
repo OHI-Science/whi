@@ -3,9 +3,9 @@ navbar:
   title: "Home"
   left:
     - text: "About"
-      href: about.brew.html
+      href: about.html
     - text: "Frequently Asked Questions"
-      href: faq.brew.html
+      href: faq.html
     - text: "Goals"  ## NOTE: to display this page you'll need to delete eval=FALSE on the .Rmd
       href: goals.html
 #    - text: "Scores" ## NOTE: to display this page you'll need to delete eval=FALSE on the .Rmd
