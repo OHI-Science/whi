@@ -1007,7 +1007,7 @@ growth<-subset(growth, year!=2010)
 
 r=0.025
 #growth$n_score<-ifelse(growth$growth_rate>=r, 1,ifelse(growth$growth_rate<=0, 0, growth$growth_rate/r))
-growth$n_score<-ifelse(growth$growth_rate>=r, 1,ifelse(growth$growth_rate<=0.0125 & growth$growth_rate>=-0.03, .5, growth$growth_rate/r))#if growth rate is >2.5% than perfect score = 1
+growth$n_score<-ifelse(growth$growth_rate>=r, 1,ifelse(growth$growth_rate<=0.0125 & growth$growth_rate>=-0.04, .5, growth$growth_rate/r))#if growth rate is >2.5% than perfect score = 1
 #if growth is 1.5% or less gets score of 0.5 or 50%. If growth rate falls considerable <1.5 score is 0
 
 growth$n_score<-growth$n_score*100
@@ -1544,18 +1544,24 @@ LSP = function(layers, ref_pct_cmpa=30, ref_pct_cp=30, status_year=2015){
 
 
   ## set ranks for each conservation district protective ability
-  rank <- c('P'            = 1,
-            'L'            = .9,
-            'R'            = .8,
-            'G'            =.7,
-            'SS'           =.6)
+  #  rank <- c('L'            = .9,
+  #            'P'            = 1,
+  #            'G'            =.7,
+  #            'R'            = .8,
+  #            'SS'           =.6)
+  condis<-c("L","P","G","R","SS")
+  rank<-c(0.9, 1,.7,.8,.6)
+  rank<-data.frame(condis,rank)
+  rank$condist=rank$condis
+    ## limit to conservation districts R, L, R, G, and SS, and add rank
+ ####ERROR in code- rank weights not alligned
 
-  ## limit to conservation districts R, L, R, G, and SS, and add rank
-  ry <- ry %>%
-    filter(condist %in% names(rank)) %>%
-    mutate(
-      rank = rank[condist],
-      extent = ifelse(km2==0, NA, km2))%>%
+   ry <- ry %>%
+    left_join(rank, by="condist") %>%
+     #filter(condist %in% names(rank)) %>%
+     mutate(
+    #  rank = rank[condist],
+    extent = ifelse(km2==0, NA, km2)) %>%
     mutate(weighted_cont = rank*extent)%>%
     filter(!is.na(weighted_cont))
 
@@ -1564,9 +1570,7 @@ LSP = function(layers, ref_pct_cmpa=30, ref_pct_cp=30, status_year=2015){
     mutate(cp=sum(weighted_cont)) %>%
     select(rgn_id=region_id, cp)
 
-   ## EVA: @jules32 commented this out and instead filtered by distinct rows (otherwise we lose region 2 and have duplicates for region 1)
-  # ry<-ry[1:4,]
-   ry <- distinct(ry)
+    ry <- distinct(ry)
 
   r <- r %>%
     dplyr::select(region_id = id_num, val_num, layer) %>%
