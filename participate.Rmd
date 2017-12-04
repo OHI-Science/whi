@@ -5,7 +5,7 @@ output: html_document
 We welcome feedback. 
 To get added to our listserve sign up here: https://goo.gl/forms/82mLbBHDmwyPDf593
 
-Please contact:
+Contact information:
 
 Eva Schemmel
 
