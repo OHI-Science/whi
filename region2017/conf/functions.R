@@ -817,7 +817,7 @@ CS <- function(layers){
 CP <- function(layers){
 
   ## read in layers
-  extent <- layers$data[['cp_hab_extent_mhi2017']] %>%
+  extent <- layers$data[['cp_hab_extent_whi2018']] %>%
     select(rgn_id, habitat, km2) %>%
     mutate(habitat = as.character(habitat))
 
@@ -1670,7 +1670,7 @@ HAB = function(layers){
     select(rgn_id, habitat, trend) %>%
     mutate(habitat = as.character(habitat))
 
-  extent <- layers$data[['hab_extent_mhi']] %>%
+  extent <- layers$data[['hab_extent_whi']] %>%
     select(rgn_id, habitat, extent=km2) %>%
     mutate(habitat = as.character(habitat))
 

@@ -1,0 +1,4 @@
+region_id,region_name,flower_png
+0,West Hawaiʻi Island,reports/figures/flower_WestHawaiʻiIsland.png
+1,South,reports/figures/flower_South.png
+2,North,reports/figures/flower_North.png
