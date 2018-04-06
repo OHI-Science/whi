@@ -7,14 +7,14 @@ FIS = function(layers, status_year=2016){
       year,
       catch          = val_num)
 
- deep = SelectLayersData(layers, layers='fis_deep_catch', narrow = TRUE) %>%
+ deep = SelectLayersData(layers, layers='fis_bottom_catch', narrow = TRUE) %>%
     select(
       rgn_id    = id_num,
       key_sp = category,
       year,
       catch          = val_num)
 
-  coast_pelagic = SelectLayersData(layers, layers='fis_coast_pelagic_catch', narrow = TRUE) %>%
+  coast_pelagic = SelectLayersData(layers, layers='fis_cp_catch', narrow = TRUE) %>%
    select(
      rgn_id    = id_num,
      key_sp = category,

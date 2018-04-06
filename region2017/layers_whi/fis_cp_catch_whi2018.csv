@@ -1,0 +1,105 @@
+rgn_id,year,species,llic,number,lbs,family,mus,fishery
+2,2012,Akule,6,1153,632,Carangidae,CHCR,coastal_pelagic
+2,2013,Akule,5,1089,598,Carangidae,CHCR,coastal_pelagic
+2,2014,Akule,8,618,393,Carangidae,CHCR,coastal_pelagic
+2,2015,Akule,10,596,351,Carangidae,CHCR,coastal_pelagic
+2,2016,Akule,8,405,310,Carangidae,CHCR,coastal_pelagic
+2,2017,Akule,4,293,144,Carangidae,CHCR,coastal_pelagic
+1,2012,Akule,33,20488,12267,Carangidae,CHCR,coastal_pelagic
+1,2013,Akule,30,10507,7269,Carangidae,CHCR,coastal_pelagic
+1,2014,Akule,29,14828,9164,Carangidae,CHCR,coastal_pelagic
+1,2015,Akule,29,23749,13200,Carangidae,CHCR,coastal_pelagic
+1,2016,Akule,27,22861,13692,Carangidae,CHCR,coastal_pelagic
+1,2017,Akule,25,18002,9474,Carangidae,CHCR,coastal_pelagic
+1,2013,Butaguchi ulua,3,8,27,Carangidae,CHCR,coastal_pelagic
+1,2014,Dobe ulua,3,175,468,Carangidae,CHCR,coastal_pelagic
+1,2012,Gunkan ulua,3,2,60,Carangidae,CHCR,coastal_pelagic
+1,2013,Gunkan ulua,4,7,92,Carangidae,CHCR,coastal_pelagic
+1,2015,Hahalalu,3,54,19,Carangidae,CHCR,coastal_pelagic
+1,2016,Hahalalu,3,326,87,Carangidae,CHCR,coastal_pelagic
+1,2017,Hahalalu,4,2557,563,Carangidae,CHCR,coastal_pelagic
+2,2017,Kagami ulua,3,5,36,Carangidae,CHCR,coastal_pelagic
+2,2012,Kahala,16,71,890,Carangidae,CHCR,coastal_pelagic
+2,2013,Kahala,11,63,1013,Carangidae,CHCR,coastal_pelagic
+2,2014,Kahala,13,42,593,Carangidae,CHCR,coastal_pelagic
+2,2015,Kahala,8,119,1462,Carangidae,CHCR,coastal_pelagic
+2,2016,Kahala,13,402,5697,Carangidae,CHCR,coastal_pelagic
+2,2017,Kahala,10,139,1807,Carangidae,CHCR,coastal_pelagic
+1,2012,Kahala,18,21,262,Carangidae,CHCR,coastal_pelagic
+1,2013,Kahala,17,54,592,Carangidae,CHCR,coastal_pelagic
+1,2014,Kahala,14,71,476,Carangidae,CHCR,coastal_pelagic
+1,2015,Kahala,6,80,566,Carangidae,CHCR,coastal_pelagic
+1,2016,Kahala,10,80,940,Carangidae,CHCR,coastal_pelagic
+1,2017,Kahala,9,37,576,Carangidae,CHCR,coastal_pelagic
+2,2012,Kamanu,9,15,125,Carangidae,CHCR,coastal_pelagic
+2,2013,Kamanu,11,17,138,Carangidae,CHCR,coastal_pelagic
+2,2014,Kamanu,7,25,203,Carangidae,CHCR,coastal_pelagic
+2,2015,Kamanu,13,57,417,Carangidae,CHCR,coastal_pelagic
+2,2016,Kamanu,18,84,497,Carangidae,CHCR,coastal_pelagic
+2,2017,Kamanu,14,137,675,Carangidae,CHCR,coastal_pelagic
+1,2012,Kamanu,27,266,1295,Carangidae,CHCR,coastal_pelagic
+1,2013,Kamanu,20,80,464,Carangidae,CHCR,coastal_pelagic
+1,2014,Kamanu,25,103,636,Carangidae,CHCR,coastal_pelagic
+1,2015,Kamanu,15,54,285,Carangidae,CHCR,coastal_pelagic
+1,2016,Kamanu,25,135,668,Carangidae,CHCR,coastal_pelagic
+1,2017,Kamanu,29,120,482,Carangidae,CHCR,coastal_pelagic
+2,2012,Omilu,5,4,37,Carangidae,CHCR,coastal_pelagic
+2,2013,Omilu,3,21,99,Carangidae,CHCR,coastal_pelagic
+2,2014,Omilu,5,10,53,Carangidae,CHCR,coastal_pelagic
+2,2016,Omilu,4,7,107,Carangidae,CHCR,coastal_pelagic
+2,2017,Omilu,4,64,274,Carangidae,CHCR,coastal_pelagic
+1,2012,Omilu,5,216,520,Carangidae,CHCR,coastal_pelagic
+1,2013,Omilu,7,19,198,Carangidae,CHCR,coastal_pelagic
+1,2014,Omilu,8,143,255,Carangidae,CHCR,coastal_pelagic
+1,2015,Omilu,8,424,354,Carangidae,CHCR,coastal_pelagic
+1,2016,Omilu,6,34,221,Carangidae,CHCR,coastal_pelagic
+1,2017,Omilu,7,34,161,Carangidae,CHCR,coastal_pelagic
+2,2012,Opelu,12,4294,9605,Carangidae,CHCR,coastal_pelagic
+2,2013,Opelu,12,6288,9698,Carangidae,CHCR,coastal_pelagic
+2,2014,Opelu,17,6772,6734,Carangidae,CHCR,coastal_pelagic
+2,2015,Opelu,13,7156,7063,Carangidae,CHCR,coastal_pelagic
+2,2016,Opelu,13,7795,3553,Carangidae,CHCR,coastal_pelagic
+2,2017,Opelu,7,3584,1111,Carangidae,CHCR,coastal_pelagic
+1,2012,Opelu,71,303410,139711,Carangidae,CHCR,coastal_pelagic
+1,2013,Opelu,59,264803,118473,Carangidae,CHCR,coastal_pelagic
+1,2014,Opelu,57,345841,144004,Carangidae,CHCR,coastal_pelagic
+1,2015,Opelu,48,338187,148421,Carangidae,CHCR,coastal_pelagic
+1,2016,Opelu,49,237330,103346,Carangidae,CHCR,coastal_pelagic
+1,2017,Opelu,32,210707,69489,Carangidae,CHCR,coastal_pelagic
+1,2013,Opelu mama,3,26,42,Carangidae,CHCR,coastal_pelagic
+1,2014,Opelu mama,4,10,32,Carangidae,CHCR,coastal_pelagic
+2,2013,Papa ulua,3,80,59,Carangidae,CHCR,coastal_pelagic
+2,2014,Papa ulua,3,35,81,Carangidae,CHCR,coastal_pelagic
+2,2015,Papa ulua,3,6,19,Carangidae,CHCR,coastal_pelagic
+2,2016,Papa ulua,4,138,334,Carangidae,CHCR,coastal_pelagic
+2,2017,Papa ulua,5,39,118,Carangidae,CHCR,coastal_pelagic
+1,2013,Papa ulua,4,13,65,Carangidae,CHCR,coastal_pelagic
+1,2014,Papa ulua,3,11,48,Carangidae,CHCR,coastal_pelagic
+1,2015,Papa ulua,3,12,29,Carangidae,CHCR,coastal_pelagic
+1,2016,Papa ulua,3,57,115,Carangidae,CHCR,coastal_pelagic
+1,2017,Papa ulua,6,46,221,Carangidae,CHCR,coastal_pelagic
+1,2013,Sasa ulua,4,15,67,Carangidae,CHCR,coastal_pelagic
+1,2015,Sasa ulua,3,26,268,Carangidae,CHCR,coastal_pelagic
+2,2015,Ulua-misc.,3,13,57,Carangidae,CHCR,coastal_pelagic
+1,2014,Ulua-misc.,4,8,32,Carangidae,CHCR,coastal_pelagic
+1,2015,Ulua-misc.,7,29,180,Carangidae,CHCR,coastal_pelagic
+2,2012,White ulua,5,6,274,Carangidae,CHCR,coastal_pelagic
+2,2013,White ulua,6,3,90,Carangidae,CHCR,coastal_pelagic
+2,2014,White ulua,3,2,105,Carangidae,CHCR,coastal_pelagic
+2,2015,White ulua,9,7,236,Carangidae,CHCR,coastal_pelagic
+2,2016,White ulua,3,57,804,Carangidae,CHCR,coastal_pelagic
+2,2017,White ulua,4,129,653,Carangidae,CHCR,coastal_pelagic
+1,2012,White ulua,14,49,1614,Carangidae,CHCR,coastal_pelagic
+1,2013,White ulua,9,28,883,Carangidae,CHCR,coastal_pelagic
+1,2014,White ulua,8,40,631,Carangidae,CHCR,coastal_pelagic
+1,2015,White ulua,7,42,363,Carangidae,CHCR,coastal_pelagic
+1,2016,White ulua,14,38,609,Carangidae,CHCR,coastal_pelagic
+1,2017,White ulua,4,25,327,Carangidae,CHCR,coastal_pelagic
+2,2012,Golden kali,5,12,14,Emmelichthyidae,CHCR,coastal_pelagic
+2,2013,Golden kali,5,22,30,Emmelichthyidae,CHCR,coastal_pelagic
+1,2012,Golden kali,5,48,72,Emmelichthyidae,CHCR,coastal_pelagic
+1,2013,Golden kali,9,94,118,Emmelichthyidae,CHCR,coastal_pelagic
+1,2014,Golden kali,7,49,61,Emmelichthyidae,CHCR,coastal_pelagic
+1,2015,Golden kali,4,14,19,Emmelichthyidae,CHCR,coastal_pelagic
+1,2016,Golden kali,4,9,19,Emmelichthyidae,CHCR,coastal_pelagic
+1,2017,Golden kali,5,72,104,Emmelichthyidae,CHCR,coastal_pelagic

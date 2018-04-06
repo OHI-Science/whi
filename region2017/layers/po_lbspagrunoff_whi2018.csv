@@ -1,0 +1,3 @@
+rgn_id,mean,pressure,description
+1,0.02210449,0.221044896,Mean percent cover of agriculture  across watersheds within each region. Pressure value is mean/0.1 or 10% reference value.
+2,0.003642949,0.03642949,Mean percent cover of agriculture  across watersheds within each region. Pressure value is mean/0.1 or 10% reference value.
