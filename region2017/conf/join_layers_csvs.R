@@ -4,7 +4,7 @@
 library(tidyverse)
 
 ## url setup
-dir_scenario_gh <- "https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017"
+dir_scenario_gh <- "https://raw.githubusercontent.com/OHI-Science/whi/master/region2017"
 layers_web <- 'http://ohi-science.org/mhi/layers.html'
 short_goal_web <- file.path(dir_scenario_gh, "conf/web/goals")
 prep_web <- "https://raw.githubusercontent.com/OHI-Science/mhi/master/prep"

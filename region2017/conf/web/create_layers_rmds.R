@@ -9,7 +9,7 @@ dir_layers_gh <- "https://github.com/OHI-Science/mhi/blob/master/region2017/laye
 
 
 ## read in excel sheet
-data_layers <- readr::read_csv("../prep/data_layers.csv")
+data_layers <- readr::read_csv("data_layers_table_wh.csv")
 names(data_layers)
 
 ## rename a few columns

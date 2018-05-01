@@ -43,7 +43,7 @@ tmp <- capture.output( cat(paste0("\n```{r, message=FALSE, echo=FALSE, warning=F
                            "\n",
                            "layer_meta <- readr::read_csv('https://raw.githubusercontent.com/OHI-Science/mhi/master/prep/data_layers.csv')",
                            "\n",
-                           "layer_path <- 'https://github.com/OHI-Science/mhi/tree/master/region2017/layers'",
+                           "layer_path <- 'https://github.com/OHI-Science/mhi/tree/master/region2017/layers_whi'",
                            "\n",
                            "\n",
                            "\n```"))
@@ -55,7 +55,7 @@ write(tmp, "conf/web/layers_all.Rmd", append=TRUE)
 ### Cycle through each layer and add to file
 #######################################################
 
-layer_path <- 'https://github.com/OHI-Science/mhi/tree/master/region2017/layers'
+layer_path <- 'https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi'
 
 ## make sure all the Rmd files are in there and no typos!
 layers_Rmd <- list.files("conf/web/layers_all")
@@ -64,7 +64,7 @@ layers_Rmd <- gsub(".Rmd", "", layers_Rmd)
 
 ## join region2017/layers.csv with prep/data_layers.csv
 source(
-  "https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/join_layers_csvs.R")
+  "https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/join_layers_csvs.R") #
 
 
 ## extra Rmd file (or is mislabeled)
