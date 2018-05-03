@@ -1,0 +1,5 @@
+Visitor generated GDP standardized to real dollars
+
+#### Reference
+
+[DBEDT](http://dbedt.hawaii.gov/economic/databook/db2016/)

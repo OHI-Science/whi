@@ -1,0 +1,5 @@
+The total visitor arrivals to Kona, Hawaii.
+
+#### Reference
+
+[DBEDT](http://dbedt.hawaii.gov/economic/databook/db2016/)

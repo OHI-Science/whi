@@ -1,12 +1,17 @@
 ## Create Individual Rmd layers from an EXCEL file for MHI
 
+## setwd if not already there
+# setwd('region2017')
+
 library(tidyverse)
 library(stringr)
 
 ## layers directories locally relative to region2017/conf/web and on github
 dir_layers_all <- "conf/web/layers_all/"
-dir_layers_gh <- "https://github.com/OHI-Science/mhi/blob/master/region2017/layers/"
+dir_layers_gh <- "https://github.com/OHI-Science/whi/blob/master/region2017/layers/"
 
+## create dir_layers_all: one time only thing!
+# dir.create(dir_layers_all)
 
 ## read in excel sheet
 data_layers <- readr::read_csv("data_layers_table_wh.csv")

@@ -1,0 +1,5 @@
+The area and type of conservation districts within 1km of the coastline.
+
+#### Reference
+
+[DLNR -OCCL](http://geoportal.hawaii.gov/datasets/marine-managed-areas-dar?geometry=-165.4%2C19.079%2C-149.745%2C22.671)

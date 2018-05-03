@@ -1,0 +1,5 @@
+The area of marine managed areas (including BFRA, MPA, FMA)
+
+#### Reference
+
+[NOAA MPA spatial data layer (management areas include no take, multiple use, national parks, and santucary waters](http://geoportal.hawaii.gov/datasets/marine-managed-areas-dar?geometry=-165.4%2C19.079%2C-149.745%2C22.671)

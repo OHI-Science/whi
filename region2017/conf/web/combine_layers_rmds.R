@@ -41,9 +41,9 @@ tmp <- capture.output( cat(paste0("\n```{r, message=FALSE, echo=FALSE, warning=F
                            "library(knitr)",
                            "\n",
                            "\n",
-                           "layer_meta <- readr::read_csv('https://raw.githubusercontent.com/OHI-Science/mhi/master/prep/data_layers.csv')",
+                           "layer_meta <- readr::read_csv('https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/data_layers_table_wh.csv')",
                            "\n",
-                           "layer_path <- 'https://github.com/OHI-Science/mhi/tree/master/region2017/layers'",
+                           "layer_path <- 'https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi'",
                            "\n",
                            "\n",
                            "\n```"))
@@ -55,56 +55,39 @@ write(tmp, "conf/web/layers_all.Rmd", append=TRUE)
 ### Cycle through each layer and add to file
 #######################################################
 
-layer_path <- 'https://github.com/OHI-Science/mhi/tree/master/region2017/layers'
+layer_path <- 'https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi'
+dir_scenario_gh <- "https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/"
 
 ## make sure all the Rmd files are in there and no typos!
 layers_Rmd <- list.files("conf/web/layers_all")
 layers_Rmd <- layers_Rmd[grep(".Rmd", layers_Rmd)]
 layers_Rmd <- gsub(".Rmd", "", layers_Rmd)
 
-## join region2017/layers.csv with prep/data_layers.csv
-source(
-  "https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/join_layers_csvs.R")
+# ## join region2017/layers.csv with prep/data_layers.csv
+# source(
+#   "https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/join_layers_csvs.R")
 
 
-## extra Rmd file (or is mislabeled)
-## can ignore the "layers_all" file, but there should be no others:
-setdiff(layers_Rmd, layers_join$layer)
-## Feb 20 2018:
-# [1] "ao_need"                 "ao_residents"            "cc_slr"
-# [4] "cc_sst"                  "cp_hab_condition"        "fis_sus_score"
-# [7] "fp_habitat"              "fp_mpa_eez"              "gdp_usd"
-# [10] "hd_mpa_eez"              "li_gci"                  "lsp_coastal_condist"
-# [13] "NA"                      "r_participation_mhi2017" "spp_status"
-# [16] "wetlands_coastal_1km"               "wetlands_coastal_1km"
-
-
-## a layer that is missing an Rmd file
-## Should be none:
-setdiff(layers_join$layer, layers_Rmd)
-## Feb 19 2018:
-# [1] "element_wts_cp_km2_x_protection" "element_wts_cs_km2_x_storage"
-# [3] "species_diversity_eez"           "rgn_area"
-# [5] "ao_access_mhi2017"               "con_participation"
-# [7] "cp_hab_condition_mhi2017"        "cw_po_lbsp_nosds_bil"
-# [9] "cw_po_lbsp_sed"                  "cw_po_lbspaggolfrunoff"
-# [11] "cw_po_lbspurbanrunoff"           "cw_po_marinedebris"
-# [13] "cw_po_shipbased_shipp"           "fis_sus"
-# [15] "fp_wildcaught_weight_mhi"        "le_sector_weight"
-# [17] "le_wage"                         "liv_a_wage"
-# [19] "lsp_coastal_conservation"        "lsp_historic_sites"
-# [21] "lsp_mpa_3nm"                     "lsp_mpa_nearshore"
-# [23] "t_boarding"                      "t_kayaking"
-# [25] "t_snorkel_scuba"                 "t_swimming"
-# [27] "t_thrill_craft"                  "t_whale_watching"
-# [29] "fp_MPA_eez"                      "hd_MPA_eez"
-# [31] "rgn_georegions"                  "rgn_global"
-# [33] "rgn_labels"                      "spp_status_mhi"
-# [35] "t_visitor_gdp"
 
 ### Grab each layer description and add to master Rmd file!
 
-data <- layers_join %>%
+## read in information from layers.csv
+layers_whi  <- readr::read_csv(file.path(dir_scenario_gh, 'data_layers_table_wh.csv')) %>%
+  dplyr::select(name = `Data Layer`, # previously renamed to `header_layer`
+                layer   = Name,      # previously renamed to `layer_name`
+                description  = `Brief Description`,
+                reference    = Reference,
+                #targets    = Goal, # previously renamed to `Dimension`
+                filename_prep  = File, # previously renamed to `filename`
+                bib,
+                bib2,
+                url)
+
+# %>%
+#   select(targets, layer, filename_conf = filename)
+
+
+data <- layers_whi %>%
   filter(!is.na(name)) %>% ## when above setdiffs are fixed, won't need this anymore
   select(name, layer, filename_prep, description) %>%
   arrange(name)
@@ -113,7 +96,7 @@ for (h in data$name){ # h="aquarium fishing"
 
   layer      <-  data$layer[data$name == h]
   filename   <-  data$filename_prep[data$name == h]
-  layer_path <- 'https://github.com/OHI-Science/mhi/tree/master/region2017/layers'
+  layer_path <- 'https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi'
 
   tmp <- capture.output( cat("\n",
                              paste0("\n# ", h),
@@ -124,7 +107,7 @@ for (h in data$name){ # h="aquarium fishing"
                                     x <- tempfile(fileext = 'Rmd')\n
                                     on.exit(unlink(x))\n
                                     download.file(", "\"",
-                                    sprintf('https://raw.githubusercontent.com/OHI-Science/mhi/master/region2017/conf/web/layers_all/%s.Rmd',
+                                    sprintf('https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/%s.Rmd',
 
                                             layer), "\", x)\n```\n"),
 
