@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Layers</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="_sass/main.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 45px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+.section h2 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h3 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h4 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h5 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h6 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="about.html">About</a>
+</li>
+<li>
+  <a href="layers.html">Layers</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Layers</h1>
+
+</div>
+
+
+<p>The following data layers are used in Ocean Health Index West Hawaii Island calculations for goal status, trend, pressures, and resilience.</p>
+<!---
+Learn how these layers were incorporated into goal calculations on the [goals page](http://ohi-science.org/whi/goals.html).
+
+--->
+<hr />
+<div id="access-to-boat-launch" class="section level1">
+<h1>access to boat launch</h1>
+<div id="res_access_boat" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/res_boat_access_whi2018.csv">res_access_boat</a></h4>
+<p>The distance to the nearest boat launch within state waters (3nm)</p>
+</div>
+<div id="reference" class="section level4">
+<h4>Reference</h4>
+<p><a href="NA">Modified from Ocean Tipping Points</a></p>
+</div>
+</div>
+<div id="access-to-shoreline" class="section level1">
+<h1>access to shoreline</h1>
+<div id="res_shoreline_access" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/res_shoreline_access_whi2018.csv">res_shoreline_access</a></h4>
+<p>Estimated fishery access land based fishing based on shoreline access (marine managed areas and military areas, type of road (paved, unpaved, private), and steepness of shoreline.</p>
+</div>
+<div id="reference-1" class="section level4">
+<h4>Reference</h4>
+<p><a href="NA">Modified from Ocean Tipping Points</a></p>
+</div>
+</div>
+<div id="annual-participation-in-recreational-activities" class="section level1">
+<h1>annual participation in recreational activities</h1>
+<div id="r_participation" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/rc_participation_whi2018.csv">r_participation</a></h4>
+<p>The annual participation rate in ocean and coastal activities from the NOAA Coral Reef Conservation Program 2014 socioeconomic surveys of human use, knowledge, attitudes, and perceptions in Hawaii.</p>
+</div>
+<div id="reference-2" class="section level4">
+<h4>Reference</h4>
+<p><a href="NA">NOAA Coral Reef Conservation Program</a></p>
+</div>
+</div>
+<div id="aquarium-fishing" class="section level1">
+<h1>aquarium fishing</h1>
+<div id="fis_aquarium_catch" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fis_aquarium_catch_whi2018.csv">fis_aquarium_catch</a></h4>
+<p>The pressure on the nearshore from aquarium fishing estimated as the reported take to DAR, standardized to km2 of hardbottom habitat.</p>
+</div>
+<div id="reference-3" class="section level4">
+<h4>Reference</h4>
+<p><a href="http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data">Ocean Tipping Points/DLNR-DAR</a></p>
+</div>
+</div>
+<div id="area-of-active-fishponds" class="section level1">
+<h1>area of active fishponds</h1>
+<div id="mar_fishpond_current" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/mar_fishpond_current_whi2018.csv">mar_fishpond_current</a></h4>
+<p>The area of current fishponds per WH region, in the process of updating this metric with KUA and TNC</p>
+</div>
+<div id="reference-4" class="section level4">
+<h4>Reference</h4>
+<p><a href="NA">TNC updated fishpond layer</a></p>
+</div>
+</div>
+<div id="average-daily-visitor-spending" class="section level1">
+<h1>average daily visitor spending</h1>
+<div id="st_visitor_spending" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/st_visitor_spending_whi2018.csv">st_visitor_spending</a></h4>
+<p>Annual average and percent change in daily visitor spending</p>
+</div>
+<div id="reference-5" class="section level4">
+<h4>Reference</h4>
+<p><a href="http://dbedt.hawaii.gov/economic/databook/db2016/">DBEDT</a></p>
+</div>
+</div>
+<div id="beach-condition" class="section level1">
+<h1>beach condition</h1>
+<div id="hab_health_whi" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_health_whi2018.csv">hab_health_whi</a></h4>
+<p>Wetland condition was calculated based on percent of historical extent.</p>
+</div>
+<div id="reference-6" class="section level4">
+<h4>Reference</h4>
+<p><a href="https://www.researchgate.net/profile/J_Reed/publication/259637070_Wetland_Loss_in_Hawai&#39;i_Since_Human_Settlement/links/54202e380cf241a65a1b0d1c.pdf">Van Rees, CB and Reed M (2014) Wetland loss in Hawaii since human settlement. Wetlands 34:335-350</a></p>
+</div>
+</div>
+<div id="beach-extent" class="section level1">
+<h1>beach extent</h1>
+<div id="hab_extent_whi" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_extent_whi2018.csv">hab_extent_whi</a></h4>
+<p>Soft bottom habitat extent was derived from the cumulative impact habitat maps.</p>
+</div>
+<div id="reference-7" class="section level4">
+<h4>Reference</h4>
+<p><a href="NA">Lecky 2016 Ecosystem vulnerability and mapping cumulative impacts on Hawaiian reefs</a></p>
+</div>
+</div>
+<div id="beach-trend" class="section level1">
+<h1>beach trend</h1>
+<div id="hab_trend_whi" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_trend_whi2018.csv">hab_trend_whi</a></h4>
+<p>The annual percent change in wetland extent based on NOAA C-CAP data comparisions from 2005 to 2010/2011 clipped to 1 km from the shoreline.</p>
+</div>
+<div id="reference-8" class="section level4">
+<h4>Reference</h4>
+<p><a href="https://coast.noaa.gov/ccapatlas/">NOAA C-CAP</a></p>
+</div>
+</div>
+<div id="bottom-fisheries-commercial-catch" class="section level1">
+<h1>bottom fisheries commercial catch</h1>
+<div id="fis_deep_catch" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fis_bottom_catch_whi2018.csv">fis_deep_catch</a></h4>
+<p>Bottomfish catch (lbs) reported in the commercial fishery.</p>
+</div>
+<div id="reference-9" class="section level4">
+<h4>Reference</h4>
+<p><a href="http://dlnr.hawaii.gov/dar/fishing/commercial-fishing/">DLNR-DAR</a></p>
+</div>
+</div>
+<div id="coastal-area" class="section level1">
+<h1>coastal area</h1>
+<div id="lsp_area_1km_coast" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/lsp_area_1km_coast_whi2018.csv">lsp_area_1km_coast</a></h4>
+<p>The terestrial area within 1 km of the shoreline</p>
+</div>
+<div id="reference-10" class="section level4">
+<h4>Reference</h4>
+<p><a href="http://geoportal.hawaii.gov/datasets/marine-managed-areas-dar?geometry=-165.4%2C19.079%2C-149.745%2C22.671">NA</a></p>
+</div>
+</div>
+<div id="coastal-wetland-extent" class="section level1">
+<h1>coastal wetland extent</h1>
+<div id="hab_extent_whi-1" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_extent_whi2018.csv">hab_extent_whi</a></h4>
+<p>Soft bottom habitat extent was derived from the cumulative impact habitat maps.</p>
+</div>
+<div id="reference-11" class="section level4">
+<h4>Reference</h4>
+<p><a href="NA">Lecky 2016 Ecosystem vulnerability and mapping cumulative impacts on Hawaiian reefs</a></p>
+</div>
+</div>
+<div id="commerical-coastal-pelagic-fisheries-catch" class="section level1">
+<h1>commerical coastal pelagic fisheries catch</h1>
+<div id="fis_coast_pelagic_catch" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fis_cp_catch_whi2018.csv">fis_coast_pelagic_catch</a></h4>
+<p>Coastal pelagic fish catch (lbs) reported in the commercial fishery.</p>
+</div>
+<div id="reference-12" class="section level4">
+<h4>Reference</h4>
+<p><a href="http://dlnr.hawaii.gov/dar/fishing/commercial-fishing/">DLNR-DAR</a></p>
+</div>
+</div>
+<div id="conservation-districts" class="section level1">
+<h1>conservation districts</h1>
+<div id="lsp_coastal_conservation" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/lsp_coastal_conservation_whi2018.csv">lsp_coastal_conservation</a></h4>
+<p>The area and type of conservation districts within 1km of the coastline.</p>
+</div>
+<div id="reference-13" class="section level4">
+<h4>Reference</h4>
+<p><a href="http://geoportal.hawaii.gov/datasets/marine-managed-areas-dar?geometry=-165.4%2C19.079%2C-149.745%2C22.671">DLNR -OCCL</a></p>
+</div>
+</div>
+<div id="coral-bleaching-threat" class="section level1">
+<h1>coral bleaching threat</h1>
+<div id="cc_sst_nearshore" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/cc_sst_nearshore_whi2018.csv">cc_sst_nearshore</a></h4>
+<p>Mean degree heating weeks (DHW) for nearshore areas (wihting 10 km of the coastlint), with coral bleaching expected after 4 DHW. Scores of 1 indicate that coral bleaching is expected or occured.</p>
+</div>
+<div id="reference-14" class="section level4">
+<h4>Reference</h4>
+<p><a href="https://coralreefwatch.noaa.gov/satellite/bleaching5km/index_5km_dhw.php">NOAA Coral Reef Watch</a></p>
+</div>
+</div>
+<div id="environmental-protection" class="section level1">
+<h1>environmental protection</h1>
+<div id="t_env_sus" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/t_env_sus_whi2018.csv">t_env_sus</a></h4>
+<p>The percent of nearhsore areas and priority watersheds protected in reference to Hawaii Sustainability Initatives (30 by 30 targets). This data may change as the State DLNR Division of Aquatic Resources develops the 30 by 30 initative.</p>
+</div>
+<div id="reference-15" class="section level4">
+<h4>Reference</h4>
+<p><a href="http://geoportal.hawaii.gov/datasets/marine-managed-areas-dar?geometry=-165.4%2C19.079%2C-149.745%2C22.671">DLNR</a></p>
+</div>
+</div>
+<div id="esa-coastal-plant-status" class="section level1">
+<h1>ESA coastal plant status</h1>
+<div id="spp_status" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/spp_status_mhi_mhi2017.csv">spp_status</a></h4>
+<p>The list of seabirds and coastal birds scored based on ESA status and State of the Birds watch lists.</p>
+</div>
+<div id="reference-16" class="section level4">
+<h4>Reference</h4>
+<p><a href="http://www.stateofthebirds.org/2014/extinctions/watchlist.pdf;%20https://www.fws.gov/endangered/">Costa, Bryan; Kendall, Matthew (2016). Marine Biogeographic Assessment of the Main Hawaiian Islands: Synthesized physical and biological data offshore of the Main Hawaiian Islands from 1891-01-01 to 2015-03-01 (NCEI Accession 0155189). Version 1.1. NOAA National Centers for Environmental Information. Dataset. doi:10.7289/V56H4FG9 May 15, 2017</a></p>
+</div>
+</div>
+<div id="esa-marine-mammal-status" class="section level1">
+<h1>ESA marine mammal status</h1>
+<div id="spp_status-1" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/spp_status_mhi_mhi2017.csv">spp_status</a></h4>
+<p>The list of seabirds and coastal birds scored based on ESA status and State of the Birds watch lists.</p>
+</div>
+<div id="reference-17" class="section level4">
+<h4>Reference</h4>
+<p><a href="http://www.stateofthebirds.org/2014/extinctions/watchlist.pdf;%20https://www.fws.gov/endangered/">Costa, Bryan; Kendall, Matthew (2016). Marine Biogeographic Assessment of the Main Hawaiian Islands: Synthesized physical and biological data offshore of the Main Hawaiian Islands from 1891-01-01 to 2015-03-01 (NCEI Accession 0155189). Version 1.1. NOAA National Centers for Environmental Information. Dataset. doi:10.7289/V56H4FG9 May 15, 2017</a></p>
+</div>
+</div>
+<div id="esa-seabird-and-coastal-bird-status" class="section level1">
+<h1>ESA seabird and coastal bird status</h1>
+<div id="spp_status-2" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/spp_status_mhi_mhi2017.csv">spp_status</a></h4>
+<p>The list of seabirds and coastal birds scored based on ESA status and State of the Birds watch lists.</p>
+</div>
+<div id="reference-18" class="section level4">
+<h4>Reference</h4>
+<p><a href="http://www.stateofthebirds.org/2014/extinctions/watchlist.pdf;%20https://www.fws.gov/endangered/">Costa, Bryan; Kendall, Matthew (2016). Marine Biogeographic Assessment of the Main Hawaiian Islands: Synthesized physical and biological data offshore of the Main Hawaiian Islands from 1891-01-01 to 2015-03-01 (NCEI Accession 0155189). Version 1.1. NOAA National Centers for Environmental Information. Dataset. doi:10.7289/V56H4FG9 May 15, 2017</a></p>
+</div>
+</div>
+<div id="fishpond-status" class="section level1">
+<h1>fishpond status</h1>
+<div id="mar_fishpond_health" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/mar_fishpond_health_whi2018.csv">mar_fishpond_health</a></h4>
+<p>Ratio of active fishponds to historical number, process of updating this metric with KUA and TNC</p>
+</div>
+<div id="reference-19" class="section level4">
+<h4>Reference</h4>
+<p><a href="NA">TNC updated fishpond layer</a></p>
+</div>
+</div>
+<div id="forest-health" class="section level1">
+<h1>forest health</h1>
+<div id="hd_allien_veg" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hd_allien_veg_whi2018.csv">hd_allien_veg</a></h4>
+<p>The percent of native forests dominated by non-native species.</p>
+</div>
+<div id="reference-20" class="section level4">
+<h4>Reference</h4>
+<p><a href="https://www.landfire.gov/about.php">Landfire</a></p>
+</div>
+</div>
+<div id="habitat-destruction-from-dredging" class="section level1">
+<h1>habitat destruction from dredging</h1>
+<div id="hd_dredging" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hd_dredging_whi2018.csv">hd_dredging</a></h4>
+<p>Dredging was defined as activity involving physically removing substrate with machinery typically to allow for safe passage of vessels. Units are in km2.</p>
+</div>
+<div id="reference-21" class="section level4">
+<h4>Reference</h4>
+<p><a href="http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data">Ocean Tipping Points</a></p>
+</div>
+</div>
+<div id="land-based-sediment-export-to-nearshore-water" class="section level1">
+<h1>land-based sediment export to nearshore water</h1>
+<div id="po_lbsp_sed" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/po_lbsp_sed_whi2018.csv">po_lbsp_sed</a></h4>
+<p>Mean sediment load to nearshore waters (1.5km).</p>
+</div>
+<div id="reference-22" class="section level4">
+<h4>Reference</h4>
+<p><a href="http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data">Ocean Tipping Points</a></p>
+</div>
+</div>
+<div id="land-based-source-of-pollution-from-agriculture-and-golf-courses" class="section level1">
+<h1>land-based source of pollution from agriculture and golf courses</h1>
+<div id="po_lbspaggolfrunoff" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/po_lbspaggolfrunoff_whi2018.csv">po_lbspaggolfrunoff</a></h4>
+<p>The proxy for agricultural and landscaping runoff (nutrients from fertilizers; chemicals like pesticides and herbicides), calculated as the area of agricultural land and golf courses by watershed with a maximum stresser level set at 10% of watershed area.</p>
+</div>
+<div id="reference-23" class="section level4">
+<h4>Reference</h4>
+<p><a href="http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data">Ocean Tipping Points</a></p>
+</div>
+</div>
+<div id="land-based-source-of-pollution-from-urban-runoff" class="section level1">
+<h1>land-based source of pollution from urban runoff</h1>
+<div id="po_lbspurbanrunoff" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/po_lbspurbanrunoff_mhi2017.csv">po_lbspurbanrunoff</a></h4>
+<p>A proxy for nutrient and chemical pollution measured as the percent of impervious surfaces per watershed with a maximum stresser level set at 10% of watershed area.</p>
+</div>
+<div id="reference-24" class="section level4">
+<h4>Reference</h4>
+<p><a href="http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data">Ocean Tipping Points</a></p>
+</div>
+</div>
+<div id="landbased-source-of-pollution-nitrogen" class="section level1">
+<h1>landbased source of pollution nitrogen</h1>
+<div id="po_lbsp_nosds" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/po_lbsp_nosds_whi2018.csv">po_lbsp_nosds</a></h4>
+<p>Mean nitrogen flux from on site disposal sytems (OSDS) into nearshore waters (1.5 km from shore).</p>
+</div>
+<div id="reference-25" class="section level4">
+<h4>Reference</h4>
+<p><a href="http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data">modified from Ocean Tipping Points</a></p>
+</div>
+</div>
+<div id="mariculture-yield" class="section level1">
+<h1>mariculture yield</h1>
+<div id="mar_harvest" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/mar_harvest_whi2018.csv">mar_harvest</a></h4>
+<p>Production of shellfish and foodfish from mariculture facilities, assumes that all Hawaii Island operators are in West Hawaii</p>
+</div>
+<div id="reference-26" class="section level4">
+<h4>Reference</h4>
+<p><a href="http://hdoa.hawaii.gov/">State of Hawaii DOA</a></p>
+</div>
+</div>
+<div id="monthly-participation-in-recreational-activities" class="section level1">
+<h1>monthly participation in recreational activities</h1>
+<div id="rc_participation" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/r_participation_whi2018.csv">rc_participation</a></h4>
+<p>The monthly participation rates in any ocean or coastal activity for Hawaii Island residents. The NOAA Coral Reef Conservation Program 2014 socioeconomic surveys of human use, knowledge, attitudes, and perceptions in Hawaii.</p>
+</div>
+<div id="reference-27" class="section level4">
+<h4>Reference</h4>
+<p><a href="NA">NOAA Coral Reef Conservation Program</a></p>
+</div>
+</div>
+<div id="nearshore-management-areas" class="section level1">
+<h1>nearshore management areas</h1>
+<div id="lsp_mpa_3nm" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/lsp_mpa_3nm_whi2018.csv">lsp_mpa_3nm</a></h4>
+<p>The area of marine managed areas (including BFRA, MPA, FMA)</p>
+</div>
+<div id="reference-28" class="section level4">
+<h4>Reference</h4>
+<p><a href="http://geoportal.hawaii.gov/datasets/marine-managed-areas-dar?geometry=-165.4%2C19.079%2C-149.745%2C22.671">NOAA MPA spatial data layer (management areas include no take, multiple use, national parks, and santucary waters</a></p>
+</div>
+</div>
+<div id="nearshore-state-waters" class="section level1">
+<h1>nearshore state waters</h1>
+<div id="lsp_area_3nm" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/lsp_area_3nm_whi2018.csv">lsp_area_3nm</a></h4>
+<p>The area of state waters (within 3nm of the coastline)</p>
+</div>
+<div id="reference-29" class="section level4">
+<h4>Reference</h4>
+<p><a href="http://geoportal.hawaii.gov/datasets/marine-managed-areas-dar?geometry=-165.4%2C19.079%2C-149.745%2C22.671">NA</a></p>
+</div>
+</div>
+<div id="number-of-fishponds" class="section level1">
+<h1>number of fishponds</h1>
+<div id="mar_fishpond_numbers" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/mar_fishpond_numbers_whi2018.csv">mar_fishpond_numbers</a></h4>
+<p>The current number of fishponds, in the process of updating this metric with KUA and TNC</p>
+</div>
+<div id="reference-30" class="section level4">
+<h4>Reference</h4>
+<p><a href="NA">TNC updated fishpond layer</a></p>
+</div>
+</div>
+<div id="ocean-and-coastal-jobs" class="section level1">
+<h1>ocean and coastal jobs</h1>
+<div id="le_jobs" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/le_jobs_whi2018.csv">le_jobs</a></h4>
+<p>The total number of jobs per ocean sector for Hawaii County.</p>
+</div>
+<div id="reference-31" class="section level4">
+<h4>Reference</h4>
+<p><a href="https://coast.noaa.gov/digitalcoast/tools/enow.html">NOAA ENOW</a></p>
+</div>
+</div>
+<div id="ocean-and-coastal-revenue" class="section level1">
+<h1>ocean and coastal revenue</h1>
+<div id="le_gdp" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/le_gdp_whi2018.csv">le_gdp</a></h4>
+<p>The revenue generated per ocean sector for Hawaii County.</p>
+</div>
+<div id="reference-32" class="section level4">
+<h4>Reference</h4>
+<p><a href="https://coast.noaa.gov/digitalcoast/tools/enow.html">NOAA ENOW</a></p>
+</div>
+</div>
+<div id="ocean-and-coastal-sector-mean-wages" class="section level1">
+<h1>ocean and coastal sector mean wages</h1>
+<div id="le_wage" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/le_wages_whi2018.csv">le_wage</a></h4>
+<p>The mean wage per ocean sector for Hawaii County</p>
+</div>
+<div id="reference-33" class="section level4">
+<h4>Reference</h4>
+<p><a href="https://coast.noaa.gov/digitalcoast/tools/enow.html">NOAA ENOW</a></p>
+</div>
+</div>
+<div id="operations" class="section level1">
+<h1>operations</h1>
+<div id="mar_operations" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/mar_operations_whi2018.csv">mar_operations</a></h4>
+<p>The number of mariculture operators.</p>
+</div>
+<div id="reference-34" class="section level4">
+<h4>Reference</h4>
+<p><a href="https://quickstats.nass.usda.gov/">USDA</a></p>
+</div>
+</div>
+<div id="pelagic-fisheries-commerical-catch" class="section level1">
+<h1>pelagic fisheries commerical catch</h1>
+<div id="fis_pelagic_catch" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fis_pelagic_catch_whi2018.csv">fis_pelagic_catch</a></h4>
+<p>Pelagic fish catch (lbs) reported in the commercial fishery.</p>
+</div>
+<div id="reference-35" class="section level4">
+<h4>Reference</h4>
+<p><a href="http://dlnr.hawaii.gov/dar/fishing/commercial-fishing/">DLNR-DAR</a></p>
+</div>
+</div>
+<div id="reef-condition" class="section level1">
+<h1>reef condition</h1>
+<div id="hab_health_whi-1" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_health_whi2018.csv">hab_health_whi</a></h4>
+<p>Wetland condition was calculated based on percent of historical extent.</p>
+</div>
+<div id="reference-36" class="section level4">
+<h4>Reference</h4>
+<p><a href="https://www.researchgate.net/profile/J_Reed/publication/259637070_Wetland_Loss_in_Hawai&#39;i_Since_Human_Settlement/links/54202e380cf241a65a1b0d1c.pdf">Van Rees, CB and Reed M (2014) Wetland loss in Hawaii since human settlement. Wetlands 34:335-350</a></p>
+</div>
+</div>
+<div id="reef-extent" class="section level1">
+<h1>reef extent</h1>
+<div id="hab_extent_whi-2" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_extent_whi2018.csv">hab_extent_whi</a></h4>
+<p>Soft bottom habitat extent was derived from the cumulative impact habitat maps.</p>
+</div>
+<div id="reference-37" class="section level4">
+<h4>Reference</h4>
+<p><a href="NA">Lecky 2016 Ecosystem vulnerability and mapping cumulative impacts on Hawaiian reefs</a></p>
+</div>
+</div>
+<div id="reef-fishing-catch" class="section level1">
+<h1>reef fishing catch</h1>
+<div id="fp_reeffish_t" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fp_reeffish_t_whi2018.csv">fp_reeffish_t</a></h4>
+<p>The modeled reef fish catch from commercial and recreational fishery taking into account shoreline accessibility (kg per km2).</p>
+</div>
+<div id="reference-38" class="section level4">
+<h4>Reference</h4>
+<p><a href="http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data">Ocean Tipping Points</a></p>
+</div>
+</div>
+<div id="reef-trend" class="section level1">
+<h1>reef trend</h1>
+<div id="hab_trend_whi-1" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_trend_whi2018.csv">hab_trend_whi</a></h4>
+<p>The annual percent change in wetland extent based on NOAA C-CAP data comparisions from 2005 to 2010/2011 clipped to 1 km from the shoreline.</p>
+</div>
+<div id="reference-39" class="section level4">
+<h4>Reference</h4>
+<p><a href="https://coast.noaa.gov/ccapatlas/">NOAA C-CAP</a></p>
+</div>
+</div>
+<div id="resident-sentiment" class="section level1">
+<h1>resident sentiment</h1>
+<div id="t_sentiment" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/t_sentiment_whi2018.csv">t_sentiment</a></h4>
+<p>The Hawaii Tourism Authority’s survey on resident sentiment to tourism.</p>
+</div>
+<div id="reference-40" class="section level4">
+<h4>Reference</h4>
+<p><a href="http://www.hawaiitourismauthority.org/research/reports/visitor-satisfaction/">HTA</a></p>
+</div>
+</div>
+<div id="soft-bottom-condition" class="section level1">
+<h1>soft bottom condition</h1>
+<div id="hab_health_whi-2" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_health_whi2018.csv">hab_health_whi</a></h4>
+<p>Wetland condition was calculated based on percent of historical extent.</p>
+</div>
+<div id="reference-41" class="section level4">
+<h4>Reference</h4>
+<p><a href="https://www.researchgate.net/profile/J_Reed/publication/259637070_Wetland_Loss_in_Hawai&#39;i_Since_Human_Settlement/links/54202e380cf241a65a1b0d1c.pdf">Van Rees, CB and Reed M (2014) Wetland loss in Hawaii since human settlement. Wetlands 34:335-350</a></p>
+</div>
+</div>
+<div id="soft-bottom-extent" class="section level1">
+<h1>soft bottom extent</h1>
+<div id="hab_extent_whi-3" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_extent_whi2018.csv">hab_extent_whi</a></h4>
+<p>Soft bottom habitat extent was derived from the cumulative impact habitat maps.</p>
+</div>
+<div id="reference-42" class="section level4">
+<h4>Reference</h4>
+<p><a href="NA">Lecky 2016 Ecosystem vulnerability and mapping cumulative impacts on Hawaiian reefs</a></p>
+</div>
+</div>
+<div id="sustainability-of-bottomfishery" class="section level1">
+<h1>sustainability of bottomfishery</h1>
+<div id="fis_sus" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fis_sus_updated_whi2018.csv">fis_sus</a></h4>
+<p>Reef fish stock assessment</p>
+</div>
+<div id="reference-43" class="section level4">
+<h4>Reference</h4>
+<p><a href="https://repository.library.noaa.gov/view/noaa/13291">NOAA</a></p>
+</div>
+</div>
+<div id="sustainability-of-pelagic-fishery" class="section level1">
+<h1>sustainability of pelagic fishery</h1>
+<div id="fis_sus-1" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fis_sus_updated_whi2018.csv">fis_sus</a></h4>
+<p>Reef fish stock assessment</p>
+</div>
+<div id="reference-44" class="section level4">
+<h4>Reference</h4>
+<p><a href="https://repository.library.noaa.gov/view/noaa/13291">NOAA</a></p>
+</div>
+</div>
+<div id="sustainability-of-reef-fishery" class="section level1">
+<h1>sustainability of reef fishery</h1>
+<div id="fis_sus-2" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fis_sus_updated_whi2018.csv">fis_sus</a></h4>
+<p>Reef fish stock assessment</p>
+</div>
+<div id="reference-45" class="section level4">
+<h4>Reference</h4>
+<p><a href="https://repository.library.noaa.gov/view/noaa/13291">NOAA</a></p>
+</div>
+</div>
+<div id="visitor-arrivals" class="section level1">
+<h1>visitor arrivals</h1>
+<div id="t_visitor_arrivals" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/t_visitor_arrivals_whi2018.csv">t_visitor_arrivals</a></h4>
+<p>The total visitor arrivals to Kona, Hawaii.</p>
+</div>
+<div id="reference-46" class="section level4">
+<h4>Reference</h4>
+<p><a href="http://dbedt.hawaii.gov/economic/databook/db2016/">DBEDT</a></p>
+</div>
+</div>
+<div id="visitor-contributed-gdp" class="section level1">
+<h1>visitor contributed GDP</h1>
+<div id="t_growth" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/t_growth_whi2018.csv">t_growth</a></h4>
+<p>Visitor generated GDP standardized to real dollars</p>
+</div>
+<div id="reference-47" class="section level4">
+<h4>Reference</h4>
+<p><a href="http://dbedt.hawaii.gov/economic/databook/db2016/">DBEDT</a></p>
+</div>
+</div>
+<div id="watershed-partnerships" class="section level1">
+<h1>watershed partnerships</h1>
+<div id="watershed_partnerships" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/watershed_partnerships.csv">watershed_partnerships</a></h4>
+<p>The ratio of watershed partnerships to historic native forest extent for the island of Hawaii.</p>
+</div>
+<div id="reference-48" class="section level4">
+<h4>Reference</h4>
+<p><a href="http://hawp.org/about-us/accomplishments/%20and%20http://geoportal.hawaii.gov/datasets/watershed-partnerships">Habitat Partnerships</a></p>
+</div>
+</div>
+<div id="watersheds-protected" class="section level1">
+<h1>watersheds protected</h1>
+<div id="hd_watersheds" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hd_watersheds_whi2018.csv">hd_watersheds</a></h4>
+<p>The percent of priority watersheds that are fenced to protect againts invasive animals on Hawaii Island.</p>
+</div>
+<div id="reference-49" class="section level4">
+<h4>Reference</h4>
+<p><a href="NA">DLNR</a></p>
+</div>
+</div>
+<div id="wetland-condition" class="section level1">
+<h1>wetland condition</h1>
+<div id="hab_health_whi-3" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_health_whi2018.csv">hab_health_whi</a></h4>
+<p>Wetland condition was calculated based on percent of historical extent.</p>
+</div>
+<div id="reference-50" class="section level4">
+<h4>Reference</h4>
+<p><a href="https://www.researchgate.net/profile/J_Reed/publication/259637070_Wetland_Loss_in_Hawai&#39;i_Since_Human_Settlement/links/54202e380cf241a65a1b0d1c.pdf">Van Rees, CB and Reed M (2014) Wetland loss in Hawaii since human settlement. Wetlands 34:335-350</a></p>
+</div>
+</div>
+<div id="wetland-trend" class="section level1">
+<h1>wetland trend</h1>
+<div id="hab_trend_whi-2" class="section level4 unnumbered">
+<h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_trend_whi2018.csv">hab_trend_whi</a></h4>
+<p>The annual percent change in wetland extent based on NOAA C-CAP data comparisions from 2005 to 2010/2011 clipped to 1 km from the shoreline.</p>
+</div>
+<div id="reference-51" class="section level4">
+<h4>Reference</h4>
+<p><a href="https://coast.noaa.gov/ccapatlas/">NOAA C-CAP</a></p>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

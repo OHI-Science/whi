@@ -23,8 +23,8 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -33,10 +33,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -278,13 +280,7 @@ div.tocify {
   <a href="about.html">About</a>
 </li>
 <li>
-  <a href="faq.html">Frequently Asked Questions</a>
-</li>
-<li>
-  <a href="goals.html">Goals</a>
-</li>
-<li>
-  <a href="participate.html">Participate</a>
+  <a href="layers.html">Layers</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -312,26 +308,6 @@ NOTE: Here the flower plots are displayed for each region and the overall assess
 1. from the master branch, save new flower plots, and push
 2. from the gh-pages branch, reknit this page or rebuild the website, and push!
 --->
-<pre class="r"><code>## regions info: order regions to start with whole study_area
-regions &lt;- bind_rows(
-  data_frame(                
-    region_id   = 0,
-    region_name = &#39;West Hawaiian Islands&#39;),
-  read_csv(sprintf(&#39;%s/spatial/regions_list.csv&#39;, dir_scenario_gh)) %&gt;%
-    select(region_id   = rgn_id,
-           region_name = rgn_name))
-
-## path for figures to display
-regions &lt;- regions %&gt;%
-  mutate(flower_png = sprintf(&#39;%s/reports/figures/flower_%s.png&#39;,
-                              dir_scenario_gh,
-                              stringr::str_replace_all(region_name, &#39; &#39;, &#39;_&#39;)))
-
-
-## display header, flower ----
-
-cat(sprintf(&#39;## %s\n\n![](%s)\n\n\n\n&#39;, regions$region_name, regions$flower_png), 
-    sep = &quot;&quot;)</code></pre>
 <p><a href="http://ohi-science.org"><img src="https://docs.google.com/drawings/d/1633uvIYgsBhiKBddQAaTlvYDJgOK1uiDB6wkooNyhFc/pub?w=576&h=288" width="100px"></a><br />
 <a href="http://ohi-science.org">ohi-science.org home</a></p>
 
