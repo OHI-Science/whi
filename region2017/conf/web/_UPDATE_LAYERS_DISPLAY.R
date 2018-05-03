@@ -1,4 +1,5 @@
 ## To update the layers information displayed on the website:
+# Note: this is slightly simplified from the MHI version.
 
 ## 1. Update prep/data_layers.csv
 
@@ -7,7 +8,7 @@ source("conf/web/create_layers_rmds.R")
 
 ## 3. Combine layer .Rmd files into layers_all.Rmd
 source("conf/web/combine_layers_rmds.R")
-# This will check if there are any mismatches between layers listed in the `layers_join` object and the layer .Rmd files
+# This does not rely on join_layers_csvs.R anymore!
 
 ##3.5 need to push to get layers to github!!! Otherwise the files are just local and we are loading them from github
 
