@@ -23,8 +23,8 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -33,12 +33,10 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
 }
 </script>
 
@@ -303,7 +301,7 @@ div.tocify {
 <h1>access to boat launch</h1>
 <div id="res_access_boat" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/res_boat_access_whi2018.csv">res_access_boat</a></h4>
-<p>The distance to the nearest boat launch within state waters (3nm)</p>
+<p>The distance to the nearest boat launch within state waters (3nm).</p>
 </div>
 <div id="reference" class="section level4">
 <h4>Reference</h4>
@@ -336,7 +334,7 @@ div.tocify {
 <h1>aquarium fishing</h1>
 <div id="fis_aquarium_catch" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fis_aquarium_catch_whi2018.csv">fis_aquarium_catch</a></h4>
-<p>The pressure on the nearshore from aquarium fishing estimated as the reported take to DAR, standardized to km2 of hardbottom habitat.</p>
+<p>The pressure on the nearshore from aquarium fishing estimated as the reported take to DAR, standardized to km2 of hard bottom habitat.</p>
 </div>
 <div id="reference-3" class="section level4">
 <h4>Reference</h4>
@@ -347,7 +345,7 @@ div.tocify {
 <h1>area of active fishponds</h1>
 <div id="mar_fishpond_current" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/mar_fishpond_current_whi2018.csv">mar_fishpond_current</a></h4>
-<p>The area of current fishponds per WH region, in the process of updating this metric with KUA and TNC</p>
+<p>The area of current fishponds per West Hawaii Region region, in the process of updating this metric with KUA and TNC.</p>
 </div>
 <div id="reference-4" class="section level4">
 <h4>Reference</h4>
@@ -358,7 +356,7 @@ div.tocify {
 <h1>average daily visitor spending</h1>
 <div id="st_visitor_spending" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/st_visitor_spending_whi2018.csv">st_visitor_spending</a></h4>
-<p>Annual average and percent change in daily visitor spending</p>
+<p>Annual average and percent change in daily visitor spending.</p>
 </div>
 <div id="reference-5" class="section level4">
 <h4>Reference</h4>
@@ -391,7 +389,7 @@ div.tocify {
 <h1>beach trend</h1>
 <div id="hab_trend_whi" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_trend_whi2018.csv">hab_trend_whi</a></h4>
-<p>The annual percent change in wetland extent based on NOAA C-CAP data comparisions from 2005 to 2010/2011 clipped to 1 km from the shoreline.</p>
+<p>The annual percent change in wetland extent based on NOAA C-CAP data comparisons from 2005 to 2010/2011 clipped to 1 km from the shoreline.</p>
 </div>
 <div id="reference-8" class="section level4">
 <h4>Reference</h4>
@@ -402,7 +400,7 @@ div.tocify {
 <h1>bottom fisheries commercial catch</h1>
 <div id="fis_deep_catch" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fis_bottom_catch_whi2018.csv">fis_deep_catch</a></h4>
-<p>Bottomfish catch (lbs) reported in the commercial fishery.</p>
+<p>Bottom fish catch (lbs.) reported in the commercial fishery.</p>
 </div>
 <div id="reference-9" class="section level4">
 <h4>Reference</h4>
@@ -413,7 +411,7 @@ div.tocify {
 <h1>coastal area</h1>
 <div id="lsp_area_1km_coast" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/lsp_area_1km_coast_whi2018.csv">lsp_area_1km_coast</a></h4>
-<p>The terestrial area within 1 km of the shoreline</p>
+<p>The terrestrial area within 1 km of the shoreline.</p>
 </div>
 <div id="reference-10" class="section level4">
 <h4>Reference</h4>
@@ -435,7 +433,7 @@ div.tocify {
 <h1>commerical coastal pelagic fisheries catch</h1>
 <div id="fis_coast_pelagic_catch" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fis_cp_catch_whi2018.csv">fis_coast_pelagic_catch</a></h4>
-<p>Coastal pelagic fish catch (lbs) reported in the commercial fishery.</p>
+<p>Coastal pelagic fish catch (lbs.) reported in the commercial fishery.</p>
 </div>
 <div id="reference-12" class="section level4">
 <h4>Reference</h4>
@@ -457,7 +455,7 @@ div.tocify {
 <h1>coral bleaching threat</h1>
 <div id="cc_sst_nearshore" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/cc_sst_nearshore_whi2018.csv">cc_sst_nearshore</a></h4>
-<p>Mean degree heating weeks (DHW) for nearshore areas (wihting 10 km of the coastlint), with coral bleaching expected after 4 DHW. Scores of 1 indicate that coral bleaching is expected or occured.</p>
+<p>Mean degree heating weeks (DHW) for nearshore areas (within 10 km of the coastline), with coral bleaching expected after 4 DHW. Scores of 1 indicate that coral bleaching is expected or occurred.</p>
 </div>
 <div id="reference-14" class="section level4">
 <h4>Reference</h4>
@@ -468,7 +466,7 @@ div.tocify {
 <h1>environmental protection</h1>
 <div id="t_env_sus" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/t_env_sus_whi2018.csv">t_env_sus</a></h4>
-<p>The percent of nearhsore areas and priority watersheds protected in reference to Hawaii Sustainability Initatives (30 by 30 targets). This data may change as the State DLNR Division of Aquatic Resources develops the 30 by 30 initative.</p>
+<p>The percent of nearshore areas and priority watersheds protected in reference to Hawaii Sustainability Initiatives (30 by 30 targets). This data may change as the State DLNR Division of Aquatic Resources develops the 30 by 30 Initiative.</p>
 </div>
 <div id="reference-15" class="section level4">
 <h4>Reference</h4>
@@ -512,7 +510,7 @@ div.tocify {
 <h1>fishpond status</h1>
 <div id="mar_fishpond_health" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/mar_fishpond_health_whi2018.csv">mar_fishpond_health</a></h4>
-<p>Ratio of active fishponds to historical number, process of updating this metric with KUA and TNC</p>
+<p>Ratio of active fishponds to historical number, process of updating this metric with KUA and TNC.</p>
 </div>
 <div id="reference-19" class="section level4">
 <h4>Reference</h4>
@@ -556,7 +554,7 @@ div.tocify {
 <h1>land-based source of pollution from agriculture and golf courses</h1>
 <div id="po_lbspaggolfrunoff" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/po_lbspaggolfrunoff_whi2018.csv">po_lbspaggolfrunoff</a></h4>
-<p>The proxy for agricultural and landscaping runoff (nutrients from fertilizers; chemicals like pesticides and herbicides), calculated as the area of agricultural land and golf courses by watershed with a maximum stresser level set at 10% of watershed area.</p>
+<p>The proxy for agricultural and landscaping runoff (nutrients from fertilizers; chemicals like pesticides and herbicides), calculated as the area of agricultural land and golf courses by watershed with a maximum. stresser level set at 10% of watershed area.</p>
 </div>
 <div id="reference-23" class="section level4">
 <h4>Reference</h4>
@@ -567,7 +565,7 @@ div.tocify {
 <h1>land-based source of pollution from urban runoff</h1>
 <div id="po_lbspurbanrunoff" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/po_lbspurbanrunoff_mhi2017.csv">po_lbspurbanrunoff</a></h4>
-<p>A proxy for nutrient and chemical pollution measured as the percent of impervious surfaces per watershed with a maximum stresser level set at 10% of watershed area.</p>
+<p>A proxy for nutrient and chemical pollution measured as the percent of impervious surfaces per watershed with a maximum stress level set at 10% of watershed area.</p>
 </div>
 <div id="reference-24" class="section level4">
 <h4>Reference</h4>
@@ -578,7 +576,7 @@ div.tocify {
 <h1>landbased source of pollution nitrogen</h1>
 <div id="po_lbsp_nosds" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/po_lbsp_nosds_whi2018.csv">po_lbsp_nosds</a></h4>
-<p>Mean nitrogen flux from on site disposal sytems (OSDS) into nearshore waters (1.5 km from shore).</p>
+<p>Mean nitrogen flux from on site disposal systems (OSDS) into nearshore waters (1.5 km from shore).</p>
 </div>
 <div id="reference-25" class="section level4">
 <h4>Reference</h4>
@@ -589,7 +587,7 @@ div.tocify {
 <h1>mariculture yield</h1>
 <div id="mar_harvest" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/mar_harvest_whi2018.csv">mar_harvest</a></h4>
-<p>Production of shellfish and foodfish from mariculture facilities, assumes that all Hawaii Island operators are in West Hawaii</p>
+<p>Production of shellfish and foodfish from mariculture facilities, assumes that all Hawaii Island operators are in West Hawaii.</p>
 </div>
 <div id="reference-26" class="section level4">
 <h4>Reference</h4>
@@ -611,7 +609,7 @@ div.tocify {
 <h1>nearshore management areas</h1>
 <div id="lsp_mpa_3nm" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/lsp_mpa_3nm_whi2018.csv">lsp_mpa_3nm</a></h4>
-<p>The area of marine managed areas (including BFRA, MPA, FMA)</p>
+<p>The area of marine managed areas (including BFRA, MPA, FMA).</p>
 </div>
 <div id="reference-28" class="section level4">
 <h4>Reference</h4>
@@ -622,7 +620,7 @@ div.tocify {
 <h1>nearshore state waters</h1>
 <div id="lsp_area_3nm" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/lsp_area_3nm_whi2018.csv">lsp_area_3nm</a></h4>
-<p>The area of state waters (within 3nm of the coastline)</p>
+<p>The area of state waters (within 3nm of the coastline).</p>
 </div>
 <div id="reference-29" class="section level4">
 <h4>Reference</h4>
@@ -633,7 +631,7 @@ div.tocify {
 <h1>number of fishponds</h1>
 <div id="mar_fishpond_numbers" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/mar_fishpond_numbers_whi2018.csv">mar_fishpond_numbers</a></h4>
-<p>The current number of fishponds, in the process of updating this metric with KUA and TNC</p>
+<p>The current number of fishponds, in the process of updating this metric with KUA and TNC.</p>
 </div>
 <div id="reference-30" class="section level4">
 <h4>Reference</h4>
@@ -666,7 +664,7 @@ div.tocify {
 <h1>ocean and coastal sector mean wages</h1>
 <div id="le_wage" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/le_wages_whi2018.csv">le_wage</a></h4>
-<p>The mean wage per ocean sector for Hawaii County</p>
+<p>The mean wage per ocean sector for Hawaii County.</p>
 </div>
 <div id="reference-33" class="section level4">
 <h4>Reference</h4>
@@ -688,7 +686,7 @@ div.tocify {
 <h1>pelagic fisheries commerical catch</h1>
 <div id="fis_pelagic_catch" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fis_pelagic_catch_whi2018.csv">fis_pelagic_catch</a></h4>
-<p>Pelagic fish catch (lbs) reported in the commercial fishery.</p>
+<p>Pelagic fish catch (lbs.) reported in the commercial fishery.</p>
 </div>
 <div id="reference-35" class="section level4">
 <h4>Reference</h4>
@@ -732,7 +730,7 @@ div.tocify {
 <h1>reef trend</h1>
 <div id="hab_trend_whi-1" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_trend_whi2018.csv">hab_trend_whi</a></h4>
-<p>The annual percent change in wetland extent based on NOAA C-CAP data comparisions from 2005 to 2010/2011 clipped to 1 km from the shoreline.</p>
+<p>The annual percent change in wetland extent based on NOAA C-CAP data comparisons from 2005 to 2010/2011 clipped to 1 km from the shoreline.</p>
 </div>
 <div id="reference-39" class="section level4">
 <h4>Reference</h4>
@@ -776,7 +774,7 @@ div.tocify {
 <h1>sustainability of bottomfishery</h1>
 <div id="fis_sus" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fis_sus_updated_whi2018.csv">fis_sus</a></h4>
-<p>Reef fish stock assessment</p>
+<p>Reef fish stock assessment.</p>
 </div>
 <div id="reference-43" class="section level4">
 <h4>Reference</h4>
@@ -787,7 +785,7 @@ div.tocify {
 <h1>sustainability of pelagic fishery</h1>
 <div id="fis_sus-1" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fis_sus_updated_whi2018.csv">fis_sus</a></h4>
-<p>Reef fish stock assessment</p>
+<p>Reef fish stock assessment.</p>
 </div>
 <div id="reference-44" class="section level4">
 <h4>Reference</h4>
@@ -798,7 +796,7 @@ div.tocify {
 <h1>sustainability of reef fishery</h1>
 <div id="fis_sus-2" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fis_sus_updated_whi2018.csv">fis_sus</a></h4>
-<p>Reef fish stock assessment</p>
+<p>Reef fish stock assessment.</p>
 </div>
 <div id="reference-45" class="section level4">
 <h4>Reference</h4>
@@ -820,7 +818,7 @@ div.tocify {
 <h1>visitor contributed GDP</h1>
 <div id="t_growth" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/t_growth_whi2018.csv">t_growth</a></h4>
-<p>Visitor generated GDP standardized to real dollars</p>
+<p>Visitor generated GDP standardized to real dollars.</p>
 </div>
 <div id="reference-47" class="section level4">
 <h4>Reference</h4>
@@ -842,7 +840,7 @@ div.tocify {
 <h1>watersheds protected</h1>
 <div id="hd_watersheds" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hd_watersheds_whi2018.csv">hd_watersheds</a></h4>
-<p>The percent of priority watersheds that are fenced to protect againts invasive animals on Hawaii Island.</p>
+<p>The percent of priority watersheds that are fenced to protect against invasive animals on Hawaii Island.</p>
 </div>
 <div id="reference-49" class="section level4">
 <h4>Reference</h4>
@@ -864,7 +862,7 @@ div.tocify {
 <h1>wetland trend</h1>
 <div id="hab_trend_whi-2" class="section level4 unnumbered">
 <h4><a href="https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_trend_whi2018.csv">hab_trend_whi</a></h4>
-<p>The annual percent change in wetland extent based on NOAA C-CAP data comparisions from 2005 to 2010/2011 clipped to 1 km from the shoreline.</p>
+<p>The annual percent change in wetland extent based on NOAA C-CAP data comparisons from 2005 to 2010/2011 clipped to 1 km from the shoreline.</p>
 </div>
 <div id="reference-51" class="section level4">
 <h4>Reference</h4>
