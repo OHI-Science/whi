@@ -1,4 +1,4 @@
-Pelagic fish catch (lbs) reported in the commercial fishery.
+Pelagic fish catch (lbs.) reported in the commercial fishery.
 
 #### Reference
 

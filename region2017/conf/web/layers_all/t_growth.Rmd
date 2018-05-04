@@ -1,4 +1,4 @@
-Visitor generated GDP standardized to real dollars
+Visitor generated GDP standardized to real dollars.
 
 #### Reference
 

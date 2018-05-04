@@ -1,4 +1,4 @@
-The distance to the nearest boat launch within state waters (3nm)
+The distance to the nearest boat launch within state waters (3nm).
 
 #### Reference
 

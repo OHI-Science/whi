@@ -1,4 +1,4 @@
-The area of current fishponds per WH region, in the process of updating this metric with KUA and TNC
+The area of current fishponds per West Hawaii Region region, in the process of updating this metric with KUA and TNC.
 
 #### Reference
 

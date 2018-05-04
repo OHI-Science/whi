@@ -1,4 +1,4 @@
-Coastal pelagic fish catch (lbs) reported in the commercial fishery.
+Coastal pelagic fish catch (lbs.) reported in the commercial fishery.
 
 #### Reference
 

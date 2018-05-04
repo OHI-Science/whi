@@ -1,4 +1,4 @@
-The mean wage per ocean sector for Hawaii County
+The mean wage per ocean sector for Hawaii County.
 
 #### Reference
 
