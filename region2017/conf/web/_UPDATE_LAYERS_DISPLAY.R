@@ -6,7 +6,7 @@
 ## 2. Recreate any layer .Rmd files if necessary (to be saved in conf/web/layers_all/)
 source("conf/web/create_layers_rmds.R")
 
-## 3. Combine layer .Rmd files into layers_all.Rmd
+## 3. Combine layer .Rmd files into layers_all.Rmd. Creates an object called "layers_whi"
 source("conf/web/combine_layers_rmds.R")
 # This does not rely on join_layers_csvs.R anymore!
 

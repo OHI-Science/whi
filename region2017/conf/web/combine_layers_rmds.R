@@ -72,30 +72,28 @@ layers_Rmd <- gsub(".Rmd", "", layers_Rmd)
 ### Grab each layer description and add to master Rmd file!
 
 ## read in information from layers.csv
-layers_whi  <- readr::read_csv(file.path(dir_scenario_gh, 'data_layers_table_wh.csv')) %>%
+layers_whi_csv  <- readr::read_csv(file.path(dir_scenario_gh, 'data_layers_table_wh.csv')) %>%
   dplyr::select(name = `Data Layer`, # previously renamed to `header_layer`
                 layer   = Name,      # previously renamed to `layer_name`
                 description  = `Brief Description`,
                 reference    = Reference,
-                #targets    = Goal, # previously renamed to `Dimension`
+                targets    = Goal, # previously renamed to `Dimension`
+                targets_sub= Subgoal,
                 filename_prep  = File, # previously renamed to `filename`
                 bib,
                 bib2,
                 url)
 
-# %>%
-#   select(targets, layer, filename_conf = filename)
-
-
-data <- layers_whi %>%
+## now select/filter a bit
+layers_whi <- layers_whi_csv %>%
   filter(!is.na(name)) %>% ## when above setdiffs are fixed, won't need this anymore
   select(name, layer, filename_prep, description) %>%
   arrange(name)
 
-for (h in data$name){ # h="aquarium fishing"
+for (h in layers_whi$name){ # h="aquarium fishing"
 
-  layer      <-  data$layer[data$name == h]
-  filename   <-  data$filename_prep[data$name == h]
+  layer      <-  layers_whi$layer[layers_whi$name == h]
+  filename   <-  layers_whi$filename_prep[layers_whi$name == h]
   layer_path <- 'https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi'
 
   tmp <- capture.output( cat("\n",
