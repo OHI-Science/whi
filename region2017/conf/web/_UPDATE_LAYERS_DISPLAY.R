@@ -1,6 +1,9 @@
 ## To update the layers information displayed on the website:
 # Note: this is slightly simplified from the MHI version.
 
+## setwd if not already there
+#setwd('region2017')
+
 ## 1. Update prep/data_layers.csv
 
 ## 2. Recreate any layer .Rmd files if necessary (to be saved in conf/web/layers_all/)
