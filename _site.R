@@ -30,9 +30,9 @@ if (RCurl::url.exists(conf_csv))   weight <- readr::read_csv(conf_csv) %>%
 dir_raw_draft <- 'https://raw.githubusercontent.com/OHI-Science/whi/master'
 
 to_copy <- c(# 'region2017/conf/web/goals.Rmd',
-             'region2017/conf/web/layers_all.Rmd')
-             #'region2017/conf/web/layers_table.Rmd',
-             #'region2017/conf/web/OHI_Hawaii.bib')
+             'region2017/conf/web/layers_all.Rmd',
+             'region2017/conf/web/layers_table.Rmd',
+             'region2017/conf/web/OHI_Hawaii.bib')
 
 for (f in to_copy) { # f <-  'region2017/conf/web/layers_all.Rmd'
 
