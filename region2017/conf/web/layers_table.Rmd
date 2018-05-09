@@ -14,6 +14,22 @@ library(stringr)
 ## layers directories locally relative to region2017/conf/web and on github
 dir_layers_gh <- "https://github.com/OHI-Science/mhi/blob/master/region2017/layers"
 
+## read in information from layers.csv
+dir_scenario_gh <- "https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/"
+
+layers_whi_csv  <- readr::read_csv(file.path(dir_scenario_gh, 'data_layers_table_wh.csv')) %>%
+  dplyr::select(name = `Data Layer`, # previously renamed to `header_layer`
+                layer   = Name,      # previously renamed to `layer_name`
+                description  = `Brief Description`,
+                reference    = Reference,
+                targets    = Goal, # previously renamed to `Dimension`
+                targets_sub= Subgoal,
+                filename_prep  = File, # previously renamed to `filename`
+                bib,
+                bib2,
+                url)
+
+
 # ## layers_whi was created in combine_layers_rmds.R
 layers_info <- layers_whi_csv %>%
    mutate(targets = str_replace_all(targets, 'PRESSURE', 'pressure'),

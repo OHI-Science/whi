@@ -117,42 +117,6 @@ output:
  
 # beach condition 
 ####[hab_health_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_health_whi2018.csv) {-} 
-####[hab_health_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_health_whi2018.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_health_whi.Rmd", x)
-```
- 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_health_whi.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# beach condition 
-####[hab_health_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_health_whi2018.csv) {-} 
-####[hab_health_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_health_whi2018.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_health_whi.Rmd", x)
-```
- 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -169,42 +133,6 @@ output:
  
 # beach extent 
 ####[hab_extent_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_extent_whi2018.csv) {-} 
-####[hab_extent_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_extent_whi2018.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_extent_whi.Rmd", x)
-```
- 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_extent_whi.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# beach extent 
-####[hab_extent_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_extent_whi2018.csv) {-} 
-####[hab_extent_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_extent_whi2018.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_extent_whi.Rmd", x)
-```
- 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -221,42 +149,6 @@ output:
  
 # beach trend 
 ####[hab_trend_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_trend_whi2018.csv) {-} 
-####[hab_trend_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_trend_whi2018.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_trend_whi.Rmd", x)
-```
- 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_trend_whi.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# beach trend 
-####[hab_trend_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_trend_whi2018.csv) {-} 
-####[hab_trend_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_trend_whi2018.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_trend_whi.Rmd", x)
-```
- 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -305,42 +197,6 @@ output:
  
 # coastal wetland extent 
 ####[hab_extent_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_extent_whi2018.csv) {-} 
-####[hab_extent_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_extent_whi2018.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_extent_whi.Rmd", x)
-```
- 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_extent_whi.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# coastal wetland extent 
-####[hab_extent_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_extent_whi2018.csv) {-} 
-####[hab_extent_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_extent_whi2018.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_extent_whi.Rmd", x)
-```
- 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -563,7 +419,7 @@ output:
 ``` 
 
  
-# landbased source of pollution nitrogen 
+# land-based source of pollution nitrogen 
 ####[po_lbsp_nosds](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/po_lbsp_nosds_whi2018.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
@@ -741,42 +597,6 @@ output:
  
 # reef condition 
 ####[hab_health_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_health_whi2018.csv) {-} 
-####[hab_health_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_health_whi2018.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_health_whi.Rmd", x)
-```
- 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_health_whi.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# reef condition 
-####[hab_health_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_health_whi2018.csv) {-} 
-####[hab_health_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_health_whi2018.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_health_whi.Rmd", x)
-```
- 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -793,42 +613,6 @@ output:
  
 # reef extent 
 ####[hab_extent_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_extent_whi2018.csv) {-} 
-####[hab_extent_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_extent_whi2018.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_extent_whi.Rmd", x)
-```
- 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_extent_whi.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# reef extent 
-####[hab_extent_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_extent_whi2018.csv) {-} 
-####[hab_extent_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_extent_whi2018.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_extent_whi.Rmd", x)
-```
- 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -861,42 +645,6 @@ output:
  
 # reef trend 
 ####[hab_trend_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_trend_whi2018.csv) {-} 
-####[hab_trend_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_trend_whi2018.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_trend_whi.Rmd", x)
-```
- 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_trend_whi.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# reef trend 
-####[hab_trend_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_trend_whi2018.csv) {-} 
-####[hab_trend_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_trend_whi2018.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_trend_whi.Rmd", x)
-```
- 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1073,42 +821,6 @@ output:
  
 # wetland condition 
 ####[hab_health_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_health_whi2018.csv) {-} 
-####[hab_health_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_health_whi2018.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_health_whi.Rmd", x)
-```
- 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_health_whi.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# wetland condition 
-####[hab_health_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_health_whi2018.csv) {-} 
-####[hab_health_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_health_whi2018.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_health_whi.Rmd", x)
-```
- 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -1125,42 +837,6 @@ output:
  
 # wetland trend 
 ####[hab_trend_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_trend_whi2018.csv) {-} 
-####[hab_trend_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_trend_whi2018.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_trend_whi.Rmd", x)
-```
- 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_trend_whi.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# wetland trend 
-####[hab_trend_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_trend_whi2018.csv) {-} 
-####[hab_trend_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_trend_whi2018.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_trend_whi.Rmd", x)
-```
- 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
