@@ -1,0 +1,87 @@
+---
+bibliography: OHI_Hawaii.bib
+---
+
+## Layers Table
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+## Create layers_table.Rmd from EXCEL file for MHI
+## like http://ohi-science.org/ohi-global/layers_table.html
+
+library(tidyverse)
+library(stringr)
+
+## layers directories locally relative to region2017/conf/web and on github
+dir_layers_gh <- "https://github.com/OHI-Science/mhi/blob/master/region2017/layers"
+
+# ## layers_whi was created in combine_layers_rmds.R
+layers_info <- layers_whi_csv %>%
+   mutate(targets = str_replace_all(targets, 'PRESSURE', 'pressure'),
+          targets = str_replace_all(targets, 'RESILIENCE', 'resilience'))
+
+## join full name from conf file ----
+conf_info <- read_csv('https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/goals.csv')
+
+## join target names in 3 steps, first by subgoal
+layers_whi_target_subgoal <- layers_info %>%
+  filter(!is.na(targets_sub)) %>%
+  dplyr::rename(targets_supra = targets, # temporarily rename to join by subgoal
+                targets = targets_sub) %>%
+  left_join(conf_info %>%
+              select(targets = goal, 
+                     targets_name = name), 
+            by = c('targets')) %>%
+  dplyr::rename(targets_sub = targets, # reset names to join by goal
+                targets = targets_supra)
+  
+## second by goal
+layers_whi_target_goal <- layers_info %>%
+  filter(is.na(targets_sub)) %>%
+  left_join(conf_info %>%
+              select(targets = goal, 
+                     targets_name = name), 
+            by = c('targets'))
+
+## overwrite NAs for pressures and resilience
+layers_whi_target_goal$targets_name[layers_whi_target_goal$targets == "pressure" ] <- "pressure" 
+layers_whi_target_goal$targets_name[layers_whi_target_goal$targets == "resilience" ] <- "resilience" 
+
+## third: rbind!
+layers_whi_target_names <- rbind(layers_whi_target_goal, layers_whi_target_subgoal)
+  
+## clean up titles
+layers_whi_target_names <- layers_whi_target_names %>%
+  mutate(targets_name = stringr::str_to_title(targets_name)) 
+
+
+## format for kable ----
+layers_whi_kable <- layers_whi_target_names %>%
+  mutate(Layer = sprintf("[%s](%s/%s)", name, dir_layers_gh, filename_prep),
+         Reference = if_else(!is.na(bib2), 
+                             paste0("@", bib, "; @", bib2),
+                             paste0("@", bib))) %>%
+  mutate(Reference = str_replace_all(Reference, "@NA", "")) %>% # blanks if @NAs
+  select(Layer, 
+         Description = description, 
+         Targets = targets_name,
+         Targets_id = targets, # keep it temporarily for arranging below
+         Reference)
+
+## clean up Targets column 
+targets_order <-  c("FP", "FIS", "AO", "MAR", "HAB", "CP", "LE", "ECO", "LIV", "LSP", "SPP", "TR", "pressure", "resilience")
+ 
+## custom arrange: https://stackoverflow.com/questions/26548495/reorder-rows-using-custom-order
+layers_whi_kable <- layers_whi_kable %>%
+  filter(Targets_id != "LE",
+         Targets_id != "FP") %>%
+  mutate(Targets_id =  factor(Targets_id, levels = targets_order)) %>%
+  arrange(Targets_id) %>%
+  select(-Targets_id)
+
+
+knitr::kable(layers_whi_kable)
+readr::write_csv(layers_whi_kable, 'layers_table.csv') # use relative filepath to this RMarkdown doc
+
+```
+
+## References

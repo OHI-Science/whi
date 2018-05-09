@@ -6,8 +6,8 @@ navbar:
       href: about.html
     - text: "Layers"
       href: layers.html
-#    - text: "Layers Table"
-#      href: layers_table.html
+    - text: "Layers Table"
+      href: layers_table.html
 #    - text: "Frequently Asked Questions"
 #      href: faq.html
 #    - text: "Goals"  ## NOTE: to display this page you'll need to delete eval=FALSE on the .Rmd
