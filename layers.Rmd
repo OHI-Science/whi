@@ -12,7 +12,7 @@ output:
 ```
 
 
-The following data layers are used in Ocean Health Index West Hawaii Island calculations for goal status, trend, pressures, and resilience. 
+These data layers were created as part of the initial development of the West Hawai'i Ocean Health Index. 
 
 <!---
 Learn how these layers were incorporated into goal calculations on the [goals page](http://ohi-science.org/whi/goals.html).
