@@ -1,4 +1,4 @@
-Soft bottom habitat extent was derived from the cumulative impact habitat maps.
+The hard bottom extent out to 30 meters modified from NOAA habitat maps.
 
 #### Reference
 
