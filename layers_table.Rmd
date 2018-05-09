@@ -9,7 +9,7 @@ bibliography: OHI_Hawaii.bib
 ---
 
 
-The following data layers are used in Ocean Health Index West Hawaii calculations for goal status, trend, pressures, and resilience. Learn how these layers were incorporated into goal calculations on the [goals page](http://ohi-science.org/mhi/goals.html).
+These data layers were created as part of the initial development of the West Hawai'i Ocean Health Index. 
 
 ----
 
