@@ -2,4 +2,4 @@ Estimated fishery access land based fishing based on shoreline access (marine ma
 
 #### Reference
 
-[Modified from Ocean Tipping Points](NA)
+[Modified from Ocean Tipping Points](http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data)
