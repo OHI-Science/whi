@@ -1,5 +1,0 @@
-Estimated fishery access land based fishing based on shoreline access (marine managed areas and military areas, type of road (paved, unpaved, private), and steepness of shoreline.
-
-#### Reference
-
-[Modified from Ocean Tipping Points](http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data)
