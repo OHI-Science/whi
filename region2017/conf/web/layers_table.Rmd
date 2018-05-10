@@ -12,7 +12,7 @@ library(tidyverse)
 library(stringr)
 
 ## layers directories locally relative to region2017/conf/web and on github
-dir_layers_gh <- "https://github.com/OHI-Science/whi/blob/master/region2017/layers_whi/"
+dir_layers_gh <- "https://github.com/OHI-Science/whi/blob/master/region2017/layers_whi"
 
 ## read in information from layers.csv
 dir_scenario_gh <- "https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/"
