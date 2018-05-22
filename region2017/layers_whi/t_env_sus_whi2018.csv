@@ -1,21 +1,5 @@
-year,rgn_id,percent,habitat
-2011,1,12.6,marine
-2012,1,12.6,marine
-2013,1,12.6,marine
-2014,1,12.6,marine
-2015,1,12.6,marine
-2011,1,12,watershed
-2012,1,12,watershed
-2013,1,12,watershed
-2014,1,12,watershed
-2015,1,12,watershed
-2011,2,16.8,marine
-2012,2,16.8,marine
-2013,2,16.8,marine
-2014,2,16.8,marine
-2015,2,16.8,marine
-2011,2,12,watershed
-2012,2,12,watershed
-2013,2,12,watershed
-2014,2,12,watershed
-2015,2,12,watershed
+rgn_id,year,percent,habitat,region
+1,2017,12.6,marine,South West Hawaii
+1,2017,12,watershed,South West Hawaii
+2,2017,16.8,marine,North West Hawaii
+2,2017,12,watershed,North West Hawaii

@@ -1,0 +1,15 @@
+rgn_id,year,value,commodity,regression_est_value,reference
+Hawaii County,2002,6,finfish,5.333333333,USDA
+Hawaii County,2007,6,finfish,7.333333333,USDA
+Hawaii County,2012,10,finfish,9.333333333,USDA
+Hawaii County,2008,7.733333333,finfish,7.733333333,regression gap filled
+Hawaii County,2009,8.133333333,finfish,8.133333333,regression gap filled
+Hawaii County,2010,8.533333333,finfish,8.533333333,regression gap filled
+Hawaii County,2011,8.933333333,finfish,8.933333333,regression gap filled
+Hawaii County,2002,3,shellfish,3.333333333,USDA
+Hawaii County,2007,6,shellfish,5.333333333,USDA
+Hawaii County,2012,7,shellfish,7.333333333,USDA
+Hawaii County,2008,5.733333333,shellfish,5.733333333,regression gap filled
+Hawaii County,2009,6.133333333,shellfish,6.133333333,regression gap filled
+Hawaii County,2010,6.533333333,shellfish,6.533333333,regression gap filled
+Hawaii County,2011,6.933333333,shellfish,6.933333333,regression gap filled
