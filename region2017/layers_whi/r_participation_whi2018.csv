@@ -1,19 +1,10 @@
 ﻿rgn_id,rate,activity,year,Note
-1,0.92,any ocean activity,2016,this is percent of Hawaii Island residents that participate in this activity at least once per year
-1,0.81,beach recreation,2016,this is percent of Hawaii Island residents that participate in this activity at least once per year
-1,0.33,boating,2016,this is percent of Hawaii Island residents that participate in this activity at least once per year
-1,0.54,camping,2016,this is percent of Hawaii Island residents that participate in this activity at least once per year
-1,0.31,canoe or kayaking,2016,this is percent of Hawaii Island residents that participate in this activity at least once per year
-1,0.34,diving(scuba or free diving),2016,this is percent of Hawaii Island residents that participate in this activity at least once per year
-1,0.61,snorkeling,2016,this is percent of Hawaii Island residents that participate in this activity at least once per year
-1,0.83,swimming/wading,2016,this is percent of Hawaii Island residents that participate in this activity at least once per year
-1,0.37,wave riding,2016,this is percent of Hawaii Island residents that participate in this activity at least once per year
-2,0.92,any ocean activity,2016,this is percent of Hawaii Island residents that participate in this activity at least once per year
-2,0.81,beach recreation,2016,this is percent of Hawaii Island residents that participate in this activity at least once per year
-2,0.33,boating,2016,this is percent of Hawaii Island residents that participate in this activity at least once per year
-2,0.54,camping,2016,this is percent of Hawaii Island residents that participate in this activity at least once per year
-2,0.31,canoe or kayaking,2016,this is percent of Hawaii Island residents that participate in this activity at least once per year
-2,0.34,diving(scuba or free diving),2016,this is percent of Hawaii Island residents that participate in this activity at least once per year
-2,0.61,snorkeling,2016,this is percent of Hawaii Island residents that participate in this activity at least once per year
-2,0.83,swimming/wading,2016,this is percent of Hawaii Island residents that participate in this activity at least once per year
-2,0.37,wave riding,2016,this is percent of Hawaii Island residents that participate in this activity at least once per year
+Hawaii Island,0.92,any ocean activity,2016,this is percent of Hawaii Island residents that participate in this activity at least once per year
+Hawaii Island,0.81,beach recreation,2016,this is percent of Hawaii Island residents that participate in this activity at least once per year
+Hawaii Island,0.33,boating,2016,this is percent of Hawaii Island residents that participate in this activity at least once per year
+Hawaii Island,0.54,camping,2016,this is percent of Hawaii Island residents that participate in this activity at least once per year
+Hawaii Island,0.31,canoe or kayaking,2016,this is percent of Hawaii Island residents that participate in this activity at least once per year
+Hawaii Island,0.34,diving(scuba or free diving),2016,this is percent of Hawaii Island residents that participate in this activity at least once per year
+Hawaii Island,0.61,snorkeling,2016,this is percent of Hawaii Island residents that participate in this activity at least once per year
+Hawaii Island,0.83,swimming/wading,2016,this is percent of Hawaii Island residents that participate in this activity at least once per year
+Hawaii Island,0.37,wave riding,2016,this is percent of Hawaii Island residents that participate in this activity at least once per year
