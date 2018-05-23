@@ -1,5 +1,7 @@
 Mean nitrogen flux from on site disposal systems (OSDS) into nearshore waters (1.5 km from shore).
 
+Mean nitrogen flux from on-site disposal systems (OSDS) into nearshore waters (1.5 km from shore). Data comes from Ocean Tipping Points (http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data).
+
 #### Reference
 
 [modified from Ocean Tipping Points](http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data)

@@ -1,5 +1,7 @@
 The area of state waters (within 3nm of the coastline).
 
+The total area of state waters (coastline to 3nm) within each West Hawaii region.
+
 #### Reference
 
 [NA](http://geoportal.hawaii.gov/datasets/marine-managed-areas-dar?geometry=-165.4%2C19.079%2C-149.745%2C22.671)

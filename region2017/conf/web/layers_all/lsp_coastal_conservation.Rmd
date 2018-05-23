@@ -1,5 +1,7 @@
 The area and type of conservation districts within 1km of the coastline.
 
+The area (km2) and type of conservation districts (Protective (P), Limited (L), Resource (R), General (G), and Special (SS)) within 1 km of the coastline for each West Hawaii Region. Data comes from DLNR-OCCL and is available on the Hawai’i State Office of Planning Hawai’i Statewide GIS Program Geospatial Data Portal (www.geoportal.hawaii.gov).
+
 #### Reference
 
 [DLNR -OCCL](http://geoportal.hawaii.gov/datasets/marine-managed-areas-dar?geometry=-165.4%2C19.079%2C-149.745%2C22.671)

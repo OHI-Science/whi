@@ -1,5 +1,7 @@
 The percent of native forests dominated by non-native species.
 
+The percent of native forests dominated by non-native species. All calculations based on LandFire 2014 data (LF 1.4.0), 30m resolution. Albers equal area conic projection. Data were summarized by watershed and are presented as percent total alien vegetation per watershed (hd_allien_vg_by_watershed_whi2018.csv) and averaged across watersheds for each West Hawai’i region (hd_allien_vg_whi2018.csv). Watershed data from USGS National Hydrography Dataset Watershed Boundaries (HUC12).
+
 #### Reference
 
 [Landfire](https://www.landfire.gov/about.php)

@@ -1,5 +1,7 @@
 A proxy for nutrient and chemical pollution measured as the percent of impervious surfaces per watershed with a maximum stress level set at 10% of watershed area.
 
+The proxy for nutrient and chemical pollution. Data were summarized by watershed (full data in layers_whi/watershed_land_use_whi2018.csv) and are presented as the ratio of impervious surfaces by watershed set to the maximum stressor value of 10% of watershed area. Mean watershed scores are given for West Hawai’i regions. Watershed data from USGS National Hydrography Dataset Watershed Boundaries (HUC12). Impervious surface data comes from the NOAA C-CAP 2010/2011 hi-resolution GIS layer (https://coast.noaa.gov/digitalcoast/tools/lca).
+
 #### Reference
 
 [Ocean Tipping Points](http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data)

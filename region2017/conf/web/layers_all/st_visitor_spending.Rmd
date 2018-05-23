@@ -1,5 +1,7 @@
 Annual average and percent change in daily visitor spending.
 
+Two metrics are provided, the annual average and percent change in daily visitor spending from 2012 to 2016. Data are pooled from the Annual Visitor Research Report (http://dbedt.hawaii.gov/visitor/visitor-research/) Table 1. Summary of Visitor Statistics. Additional detailed data comes from DBEDT state databooks section 7 “recreation and travel.” Databooks available at: http://dbedt.hawaii.gov/economic/databook/db2016/.
+
 #### Reference
 
 [DBEDT](http://dbedt.hawaii.gov/economic/databook/db2016/)
