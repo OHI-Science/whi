@@ -211,7 +211,7 @@ output:
 ``` 
 
  
-# commerical coastal pelagic fisheries catch 
+# commercial coastal pelagic fisheries catch 
 ####[fis_coast_pelagic_catch](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fis_cp_catch_whi2018.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
