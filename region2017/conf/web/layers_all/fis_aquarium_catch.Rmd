@@ -1,7 +1,5 @@
 The pressure on the nearshore from aquarium fishing estimated as the reported take to DAR, standardized to km2 of hard bottom habitat.
 
-The pressure on the nearshore from aquarium fishing estimated as the reported take to DLNR-DAR, standardized to km2 of hard bottom habitat. Hard bottom habitat layer is from the cumulative impact mapping layers that combine hard bottom and coral reef habitats to a depth of 30 meters (Lecky, 2016).
-
 #### Reference
 
 [Ocean Tipping Points/DLNR-DAR](http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data)

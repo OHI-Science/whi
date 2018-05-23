@@ -1,7 +1,5 @@
 Reef fish stock assessment.
 
-Reef fish stock assessment status (Nadon, 2017). Stock status scores are listed by year but are the representative values from the Nadon 2017 reef fish stock assessment report. Scientific species names and full data available: https://github.com/OHI-Science/whi/blob/master/prep_whi/FIS/fis_reef_stock_sustainability.xlsx.
-
 #### Reference
 
 [NOAA](https://repository.library.noaa.gov/view/noaa/13291)

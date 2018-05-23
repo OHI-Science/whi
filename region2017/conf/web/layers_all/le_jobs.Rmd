@@ -1,7 +1,5 @@
 The total number of jobs per ocean sector for Hawaii County.
 
-The total number of jobs per ocean sector for Hawaii County. Data comes from the NOAA ENOW database (https://coast.noaa.gov/digitalcoast/tools/enow.html). Dataset covers from 2005-2014 and is at the County scale. Sectors include: Marine Construction, Living Resources, Ship and Boat Building, Tourism and Recreation, and Marine Transportation (Table #).  Self-employed and state employed data sets were aggregated and summarized by county. However, when aggregated to county some of the information was undisclosed therefore this data represents a conservative estimate of ocean livelihoods. Blank values indicate that no data is available for that sector and year (the number of employed in the sector is too low to report and maintain confidentiality or there were no employees in that sector).
-
 #### Reference
 
 [NOAA ENOW](https://coast.noaa.gov/digitalcoast/tools/enow.html)

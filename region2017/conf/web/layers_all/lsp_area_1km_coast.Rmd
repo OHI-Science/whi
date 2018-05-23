@@ -1,7 +1,5 @@
 The terrestrial area within 1 km of the shoreline.
 
-The terrestrial or land area within 1 km of the shoreline. The coastline buffer was generated using the State of Hawaiʻi coastline GIS layer available at Hawai’i State Office of Planning Hawai’i Statewide GIS Program Geospatial Data Portal (www.geoportal.hawaii.gov).
-
 #### Reference
 
 [NA](http://geoportal.hawaii.gov/datasets/marine-managed-areas-dar?geometry=-165.4%2C19.079%2C-149.745%2C22.671)

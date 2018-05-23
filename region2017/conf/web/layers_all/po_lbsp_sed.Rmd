@@ -1,7 +1,5 @@
 Mean sediment load to nearshore waters (1.5km).
 
-Mean sediment load to nearshore waters (1.5 km) averaged to West Hawaiʻi regions. Data comes from Ocean Tipping Points (http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data).
-
 #### Reference
 
 [Ocean Tipping Points](http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data)

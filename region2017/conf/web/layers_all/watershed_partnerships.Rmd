@@ -1,7 +1,5 @@
 The ratio of watershed partnerships to historic native forest extent for the island of Hawaii.
 
-The ratio of watershed partnerships to historic native forest extent (res_score) for the island of Hawaii. Watershed Partnerships spatial data layer (source: DLNR:DOFAW) available: http://geoportal.hawaii.gov/datasets/watershed-partnerships) was used to calculate the area (km2) of watershed partnerships for Hawaii Island (layers_whi/hab_watershed_partnerships.csv). The TNC “GRIM” dataset (prep_WHI/CS_CP_HAB/watershed_partnerships_percent_of_watershed.csv) was used to estimate historical native forest extent for Hawaii Island (10,458.9 km2).
-
 #### Reference
 
 [Habitat Partnerships](http://hawp.org/about-us/accomplishments/ and http://geoportal.hawaii.gov/datasets/watershed-partnerships)

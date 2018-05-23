@@ -1,7 +1,5 @@
 The total visitor arrivals to Kona, Hawaii.
 
-The total visitor arrivals to Kona, Hawaii from 2012-2016. Data comes from DBEDT state databooks section 7 “recreation and travel.” Databooks available at: http://dbedt.hawaii.gov/economic/databook/db2016/.
-
 #### Reference
 
 [DBEDT](http://dbedt.hawaii.gov/economic/databook/db2016/)
