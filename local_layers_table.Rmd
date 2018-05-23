@@ -84,12 +84,12 @@ layers_whi_kable <- layers_whi_target_names %>%
          Reference)
 
 ## clean up Targets column 
-targets_order <-  c("FP", "FIS", "AO", "MAR", "HAB", "CP", "LE", "ECO", "LIV", "LSP", "SPP", "TR", "pressure", "resilience")
+targets_order <-  c( "AO", "FP", "FIS","MAR","BD", "HAB", "SPP","CP", "CW","LE", "ECO", "LIV", "LSP","SP", "RC", "TR", "pressure", "resilience")
  
 ## custom arrange: https://stackoverflow.com/questions/26548495/reorder-rows-using-custom-order
 layers_whi_kable <- layers_whi_kable %>%
-  filter(Targets_id != "LE",
-         Targets_id != "FP") %>%
+  #filter(Targets_id != "LE",
+   #      Targets_id != "FP") %>%
   mutate(Targets_id =  factor(Targets_id, levels = targets_order)) %>%
   arrange(Targets_id) %>%
   select(-Targets_id)
