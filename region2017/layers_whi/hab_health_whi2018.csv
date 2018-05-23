@@ -1,9 +1,9 @@
 rgn_id,habitat,health,reference
-1,beach,0.28,Fletcher_et_al_2012
-1,reef,0.81,"NOAA report card, will be updated with DAR-HIMARC metrics"
-1,wetland,0.25,Rees & Reed 2014
-1,soft-bottom,0.93,percent of area not impacted by dredging from cummulative impact study
-2,beach,0.28,Fletcher_et_al_2012
-2,reef,0.81,"NOAA report card, will be updated with DAR-HIMARC metrics"
-2,wetland,0.25,Rees & Reed 2014
-2,soft-bottom,0.94,percent of area not impacted by dredging from cummulative impact study
+South West Hawaii,beach,0.28,Fletcher_et_al_2012
+South West Hawaii,reef,0.81,"NOAA report card, will be updated with DAR-HIMARC metrics"
+South West Hawaii,wetland,0.25,Rees & Reed 2014
+South West Hawaii,soft-bottom,0.93,percent of area not impacted by dredging from cummulative impact study
+North West Hawaii,beach,0.28,Fletcher_et_al_2012
+North West Hawaii,reef,0.81,"NOAA report card, will be updated with DAR-HIMARC metrics"
+North West Hawaii,wetland,0.25,Rees & Reed 2014
+North West Hawaii,soft-bottom,0.94,percent of area not impacted by dredging from cummulative impact study

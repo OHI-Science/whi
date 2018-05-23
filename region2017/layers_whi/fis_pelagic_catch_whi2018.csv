@@ -1,179 +1,179 @@
 rgn_id,year,species,llic,number,lbs,family,mus,X9
-2,2012,Monchong,7,210,2572,Bramidae,PMUS,NA
-2,2013,Monchong,7,180,2144,Bramidae,PMUS,NA
-2,2014,Monchong,11,883,9678,Bramidae,PMUS,NA
-2,2015,Monchong,6,470,5600,Bramidae,PMUS,NA
-2,2016,Monchong,6,466,5489,Bramidae,PMUS,NA
-2,2017,Monchong,6,190,2240,Bramidae,PMUS,NA
-1,2012,Monchong,12,511,6227,Bramidae,PMUS,NA
-1,2013,Monchong,23,1315,16720,Bramidae,PMUS,NA
-1,2014,Monchong,15,791,9251,Bramidae,PMUS,NA
-1,2015,Monchong,21,688,8044,Bramidae,PMUS,NA
-1,2016,Monchong,10,268,3071,Bramidae,PMUS,NA
-1,2017,Monchong,7,166,1996,Bramidae,PMUS,NA
-1,2013,Blue shark,3,0,0,Carcharhinidae,PMUS,pelagic
-1,2013,Oceanic whitetip,6,2,80,Carcharhinidae,PMUS,pelagic
-1,2015,Oceanic whitetip,5,0,0,Carcharhinidae,PMUS,pelagic
-2,2012,Shark-misc.,4,0,0,Carcharhinidae,PMUS,pelagic
-2,2013,Shark-misc.,5,0,0,Carcharhinidae,PMUS,pelagic
-2,2016,Shark-misc.,4,2,135,Carcharhinidae,PMUS,pelagic
-2,2017,Shark-misc.,4,0,0,Carcharhinidae,PMUS,pelagic
-1,2012,Shark-misc.,8,3,304,Carcharhinidae,PMUS,pelagic
-1,2013,Shark-misc.,7,1,135,Carcharhinidae,PMUS,pelagic
-1,2014,Shark-misc.,4,1,103,Carcharhinidae,PMUS,pelagic
-1,2015,Shark-misc.,5,0,0,Carcharhinidae,PMUS,pelagic
-1,2016,Shark-misc.,3,0,0,Carcharhinidae,PMUS,pelagic
-2,2012,Mahimahi,130,2114,35386,Coryphaenidae,PMUS,pelagic
-2,2013,Mahimahi,118,1319,20333,Coryphaenidae,PMUS,pelagic
-2,2014,Mahimahi,122,2633,37762,Coryphaenidae,PMUS,pelagic
-2,2015,Mahimahi,121,1669,27474,Coryphaenidae,PMUS,pelagic
-2,2016,Mahimahi,66,1507,20740,Coryphaenidae,PMUS,pelagic
-2,2017,Mahimahi,85,1977,24719,Coryphaenidae,PMUS,pelagic
-1,2012,Mahimahi,331,4954,77563,Coryphaenidae,PMUS,pelagic
-1,2013,Mahimahi,314,5508,69998,Coryphaenidae,PMUS,pelagic
-1,2014,Mahimahi,307,6101,84963,Coryphaenidae,PMUS,pelagic
-1,2015,Mahimahi,282,3257,52212,Coryphaenidae,PMUS,pelagic
-1,2016,Mahimahi,224,2155,34020,Coryphaenidae,PMUS,pelagic
-1,2017,Mahimahi,199,2390,34855,Coryphaenidae,PMUS,pelagic
-1,2015,Walu,3,12,47,Exocoetidae,PMUS,pelagic
-2,2015,Black marlin,4,5,813,Istiophoridae,PMUS,pelagic
-2,2016,Black marlin,4,5,1047,Istiophoridae,PMUS,pelagic
-1,2012,Black marlin,7,5,1224,Istiophoridae,PMUS,pelagic
-1,2013,Black marlin,8,5,1709,Istiophoridae,PMUS,pelagic
-1,2014,Black marlin,9,9,1722,Istiophoridae,PMUS,pelagic
-1,2015,Black marlin,12,9,1489,Istiophoridae,PMUS,pelagic
-1,2016,Black marlin,9,8,949,Istiophoridae,PMUS,pelagic
-1,2017,Black marlin,5,4,967,Istiophoridae,PMUS,pelagic
-2,2012,Blue marlin,37,59,17774,Istiophoridae,PMUS,pelagic
-2,2013,Blue marlin,39,47,13930,Istiophoridae,PMUS,pelagic
-2,2014,Blue marlin,26,35,11097,Istiophoridae,PMUS,pelagic
-2,2015,Blue marlin,41,76,14855,Istiophoridae,PMUS,pelagic
-2,2016,Blue marlin,40,70,14131,Istiophoridae,PMUS,pelagic
-2,2017,Blue marlin,29,50,12807,Istiophoridae,PMUS,pelagic
-1,2012,Blue marlin,169,424,115695,Istiophoridae,PMUS,pelagic
-1,2013,Blue marlin,169,727,101102,Istiophoridae,PMUS,pelagic
-1,2014,Blue marlin,163,461,119235,Istiophoridae,PMUS,pelagic
-1,2015,Blue marlin,193,627,113618,Istiophoridae,PMUS,pelagic
-1,2016,Blue marlin,148,440,82586,Istiophoridae,PMUS,pelagic
-1,2017,Blue marlin,150,546,104634,Istiophoridae,PMUS,pelagic
-2,2012,S.N. spearfish,21,59,2044,Istiophoridae,PMUS,pelagic
-2,2013,S.N. spearfish,25,48,1632,Istiophoridae,PMUS,pelagic
-2,2014,S.N. spearfish,16,25,684,Istiophoridae,PMUS,pelagic
-2,2015,S.N. spearfish,15,47,1357,Istiophoridae,PMUS,pelagic
-2,2016,S.N. spearfish,26,66,1929,Istiophoridae,PMUS,pelagic
-2,2017,S.N. spearfish,13,54,1667,Istiophoridae,PMUS,pelagic
-2,2014,Sailfish,3,2,106,Istiophoridae,PMUS,pelagic
-2,2015,Sailfish,6,7,432,Istiophoridae,PMUS,pelagic
-2,2016,Sailfish,6,6,421,Istiophoridae,PMUS,pelagic
-2,2017,Sailfish,6,15,940,Istiophoridae,PMUS,pelagic
-1,2012,Sailfish,7,8,548,Istiophoridae,PMUS,pelagic
-1,2013,Sailfish,7,6,320,Istiophoridae,PMUS,pelagic
-1,2014,Sailfish,8,6,367,Istiophoridae,PMUS,pelagic
-1,2015,Sailfish,12,25,1675,Istiophoridae,PMUS,pelagic
-1,2016,Sailfish,10,7,494,Istiophoridae,PMUS,pelagic
-1,2017,Sailfish,9,11,759,Istiophoridae,PMUS,pelagic
-1,2012,Shortnosed spearfish,100,358,11829,Istiophoridae,PMUS,pelagic
-1,2013,Shortnosed spearfish,88,374,11640,Istiophoridae,PMUS,pelagic
-1,2014,Shortnosed spearfish,83,300,9456,Istiophoridae,PMUS,pelagic
-1,2015,Shortnosed spearfish,86,424,12660,Istiophoridae,PMUS,pelagic
-1,2016,Shortnosed spearfish,100,622,19098,Istiophoridae,PMUS,pelagic
-1,2017,Shortnosed spearfish,78,390,11687,Istiophoridae,PMUS,pelagic
-2,2012,Striped marlin,16,27,1254,Istiophoridae,PMUS,pelagic
-2,2013,Striped marlin,10,9,678,Istiophoridae,PMUS,pelagic
-2,2014,Striped marlin,10,16,848,Istiophoridae,PMUS,pelagic
-2,2015,Striped marlin,10,15,1122,Istiophoridae,PMUS,pelagic
-2,2016,Striped marlin,10,17,1036,Istiophoridae,PMUS,pelagic
-2,2017,Striped marlin,8,7,506,Istiophoridae,PMUS,pelagic
-1,2012,Striped marlin,56,116,5530,Istiophoridae,PMUS,pelagic
-1,2013,Striped marlin,45,73,5031,Istiophoridae,PMUS,pelagic
-1,2014,Striped marlin,55,119,6020,Istiophoridae,PMUS,pelagic
-1,2015,Striped marlin,49,78,5913,Istiophoridae,PMUS,pelagic
-1,2016,Striped marlin,53,95,6259,Istiophoridae,PMUS,pelagic
-1,2017,Striped marlin,37,59,4286,Istiophoridae,PMUS,pelagic
-1,2012,Keokeo,4,4,8,Keokeo,PMUS,pelagic
-1,2015,Keokeo,3,6,14,Keokeo,PMUS,pelagic
-2,2012,Aku,57,1217,8276,Scombridae,PMUS,pelagic
-2,2013,Aku,41,759,5470,Scombridae,PMUS,pelagic
-2,2014,Aku,42,1074,6076,Scombridae,PMUS,pelagic
-2,2015,Aku,49,1130,7267,Scombridae,PMUS,pelagic
-2,2016,Aku,37,585,6365,Scombridae,PMUS,pelagic
-2,2017,Aku,46,607,6442,Scombridae,PMUS,pelagic
-1,2012,Aku,199,7244,41777,Scombridae,PMUS,pelagic
-1,2013,Aku,172,4765,30444,Scombridae,PMUS,pelagic
-1,2014,Aku,163,4878,30662,Scombridae,PMUS,pelagic
-1,2015,Aku,161,2905,21351,Scombridae,PMUS,pelagic
-1,2016,Aku,144,3083,27238,Scombridae,PMUS,pelagic
-1,2017,Aku,150,1430,19275,Scombridae,PMUS,pelagic
-2,2012,Bigeye tuna,18,1712,19331,Scombridae,PMUS,pelagic
-2,2013,Bigeye tuna,14,915,21635,Scombridae,PMUS,pelagic
-2,2014,Bigeye tuna,22,454,7173,Scombridae,PMUS,pelagic
-2,2015,Bigeye tuna,14,166,1492,Scombridae,PMUS,pelagic
-2,2016,Bigeye tuna,15,320,4564,Scombridae,PMUS,pelagic
-2,2017,Bigeye tuna,12,277,5992,Scombridae,PMUS,pelagic
-1,2012,Bigeye tuna,114,3571,43054,Scombridae,PMUS,pelagic
-1,2013,Bigeye tuna,121,3509,64334,Scombridae,PMUS,pelagic
-1,2014,Bigeye tuna,128,4427,81979,Scombridae,PMUS,pelagic
-1,2015,Bigeye tuna,81,1007,17286,Scombridae,PMUS,pelagic
-1,2016,Bigeye tuna,91,1543,29968,Scombridae,PMUS,pelagic
-1,2017,Bigeye tuna,75,828,26382,Scombridae,PMUS,pelagic
-2,2012,Kawakawa,8,22,209,Scombridae,PMUS,pelagic
-2,2013,Kawakawa,13,36,373,Scombridae,PMUS,pelagic
-2,2014,Kawakawa,24,208,682,Scombridae,PMUS,pelagic
-2,2015,Kawakawa,27,255,1115,Scombridae,PMUS,pelagic
-2,2016,Kawakawa,24,148,906,Scombridae,PMUS,pelagic
-2,2017,Kawakawa,23,95,675,Scombridae,PMUS,pelagic
-1,2012,Kawakawa,13,17,230,Scombridae,PMUS,pelagic
-1,2013,Kawakawa,5,19,234,Scombridae,PMUS,pelagic
-1,2014,Kawakawa,25,371,1043,Scombridae,PMUS,pelagic
-1,2015,Kawakawa,24,653,2025,Scombridae,PMUS,pelagic
-1,2016,Kawakawa,25,193,879,Scombridae,PMUS,pelagic
-1,2017,Kawakawa,20,65,407,Scombridae,PMUS,pelagic
-2,2012,Ono,124,1531,35843,Scombridae,PMUS,pelagic
-2,2013,Ono,125,1448,32398,Scombridae,PMUS,pelagic
-2,2014,Ono,117,1378,30854,Scombridae,PMUS,pelagic
-2,2015,Ono,134,1767,38710,Scombridae,PMUS,pelagic
-2,2016,Ono,101,1230,26232,Scombridae,PMUS,pelagic
-2,2017,Ono,90,710,14751,Scombridae,PMUS,pelagic
-1,2012,Ono,371,4882,118634,Scombridae,PMUS,pelagic
-1,2013,Ono,348,4733,111188,Scombridae,PMUS,pelagic
-1,2014,Ono,360,5487,121632,Scombridae,PMUS,pelagic
-1,2015,Ono,338,4877,106097,Scombridae,PMUS,pelagic
-1,2016,Ono,266,3458,75926,Scombridae,PMUS,pelagic
-1,2017,Ono,257,2455,53910,Scombridae,PMUS,pelagic
-2,2012,Tombo,17,748,35827,Scombridae,PMUS,pelagic
-2,2013,Tombo,3,14,614,Scombridae,PMUS,pelagic
-2,2014,Tombo,9,102,4847,Scombridae,PMUS,pelagic
-2,2015,Tombo,20,215,9441,Scombridae,PMUS,pelagic
-2,2016,Tombo,5,27,1238,Scombridae,PMUS,pelagic
-2,2017,Tombo,7,183,9771,Scombridae,PMUS,pelagic
-1,2012,Tombo,201,10313,494443,Scombridae,PMUS,pelagic
-1,2013,Tombo,98,587,27461,Scombridae,PMUS,pelagic
-1,2014,Tombo,130,2191,96528,Scombridae,PMUS,pelagic
-1,2015,Tombo,127,2893,126991,Scombridae,PMUS,pelagic
-1,2016,Tombo,98,1069,49160,Scombridae,PMUS,pelagic
-1,2017,Tombo,78,1040,54545,Scombridae,PMUS,pelagic
-2,2014,Tuna-misc.,6,19,103,Scombridae,PMUS,pelagic
-1,2012,Tuna-misc.,3,3,237,Scombridae,PMUS,pelagic
-1,2013,Tuna-misc.,3,23,160,Scombridae,PMUS,pelagic
-1,2015,Tuna-misc.,3,7,233,Scombridae,PMUS,pelagic
-2,2012,Yellowfin tuna,100,1552,42022,Scombridae,PMUS,pelagic
-2,2013,Yellowfin tuna,89,1099,35806,Scombridae,PMUS,pelagic
-2,2014,Yellowfin tuna,89,2161,38514,Scombridae,PMUS,pelagic
-2,2015,Yellowfin tuna,99,3584,75638,Scombridae,PMUS,pelagic
-2,2016,Yellowfin tuna,62,1431,29628,Scombridae,PMUS,pelagic
-2,2017,Yellowfin tuna,72,1852,55586,Scombridae,PMUS,pelagic
-1,2012,Yellowfin tuna,401,19446,559220,Scombridae,PMUS,pelagic
-1,2013,Yellowfin tuna,387,19228,629073,Scombridae,PMUS,pelagic
-1,2014,Yellowfin tuna,398,18008,643798,Scombridae,PMUS,pelagic
-1,2015,Yellowfin tuna,368,16514,527936,Scombridae,PMUS,pelagic
-1,2016,Yellowfin tuna,305,10382,335820,Scombridae,PMUS,pelagic
-1,2017,Yellowfin tuna,308,7687,440774,Scombridae,PMUS,pelagic
-2,2015,Swordfish,3,3,187,Xiphiidae,PMUS,pelagic
-2,2016,Swordfish,3,5,513,Xiphiidae,PMUS,pelagic
-2,2017,Swordfish,4,4,648,Xiphiidae,PMUS,pelagic
-1,2012,Swordfish,31,50,5830,Xiphiidae,PMUS,pelagic
-1,2013,Swordfish,18,26,3195,Xiphiidae,PMUS,pelagic
-1,2014,Swordfish,30,42,4509,Xiphiidae,PMUS,pelagic
-1,2015,Swordfish,30,43,4160,Xiphiidae,PMUS,pelagic
-1,2016,Swordfish,17,26,2712,Xiphiidae,PMUS,pelagic
-1,2017,Swordfish,23,32,4185,Xiphiidae,PMUS,pelagic
+South West Hawaiii,2012,Monchong,12,511,6227,Bramidae,PMUS,NA
+South West Hawaiii,2013,Monchong,23,1315,16720,Bramidae,PMUS,NA
+South West Hawaiii,2014,Monchong,15,791,9251,Bramidae,PMUS,NA
+South West Hawaiii,2015,Monchong,21,688,8044,Bramidae,PMUS,NA
+South West Hawaiii,2016,Monchong,10,268,3071,Bramidae,PMUS,NA
+South West Hawaiii,2017,Monchong,7,166,1996,Bramidae,PMUS,NA
+South West Hawaiii,2013,Blue shark,3,0,0,Carcharhinidae,PMUS,pelagic
+South West Hawaiii,2013,Oceanic whitetip,6,2,80,Carcharhinidae,PMUS,pelagic
+South West Hawaiii,2015,Oceanic whitetip,5,0,0,Carcharhinidae,PMUS,pelagic
+South West Hawaiii,2012,Shark-misc.,8,3,304,Carcharhinidae,PMUS,pelagic
+South West Hawaiii,2013,Shark-misc.,7,1,135,Carcharhinidae,PMUS,pelagic
+South West Hawaiii,2014,Shark-misc.,4,1,103,Carcharhinidae,PMUS,pelagic
+South West Hawaiii,2015,Shark-misc.,5,0,0,Carcharhinidae,PMUS,pelagic
+South West Hawaiii,2016,Shark-misc.,3,0,0,Carcharhinidae,PMUS,pelagic
+South West Hawaiii,2012,Mahimahi,331,4954,77563,Coryphaenidae,PMUS,pelagic
+South West Hawaiii,2013,Mahimahi,314,5508,69998,Coryphaenidae,PMUS,pelagic
+South West Hawaiii,2014,Mahimahi,307,6101,84963,Coryphaenidae,PMUS,pelagic
+South West Hawaiii,2015,Mahimahi,282,3257,52212,Coryphaenidae,PMUS,pelagic
+South West Hawaiii,2016,Mahimahi,224,2155,34020,Coryphaenidae,PMUS,pelagic
+South West Hawaiii,2017,Mahimahi,199,2390,34855,Coryphaenidae,PMUS,pelagic
+South West Hawaiii,2015,Walu,3,12,47,Exocoetidae,PMUS,pelagic
+South West Hawaiii,2012,Black marlin,7,5,1224,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2013,Black marlin,8,5,1709,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2014,Black marlin,9,9,1722,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2015,Black marlin,12,9,1489,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2016,Black marlin,9,8,949,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2017,Black marlin,5,4,967,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2012,Blue marlin,169,424,115695,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2013,Blue marlin,169,727,101102,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2014,Blue marlin,163,461,119235,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2015,Blue marlin,193,627,113618,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2016,Blue marlin,148,440,82586,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2017,Blue marlin,150,546,104634,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2012,Sailfish,7,8,548,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2013,Sailfish,7,6,320,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2014,Sailfish,8,6,367,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2015,Sailfish,12,25,1675,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2016,Sailfish,10,7,494,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2017,Sailfish,9,11,759,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2012,Shortnosed spearfish,100,358,11829,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2013,Shortnosed spearfish,88,374,11640,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2014,Shortnosed spearfish,83,300,9456,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2015,Shortnosed spearfish,86,424,12660,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2016,Shortnosed spearfish,100,622,19098,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2017,Shortnosed spearfish,78,390,11687,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2012,Striped marlin,56,116,5530,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2013,Striped marlin,45,73,5031,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2014,Striped marlin,55,119,6020,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2015,Striped marlin,49,78,5913,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2016,Striped marlin,53,95,6259,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2017,Striped marlin,37,59,4286,Istiophoridae,PMUS,pelagic
+South West Hawaiii,2012,Keokeo,4,4,8,Keokeo,PMUS,pelagic
+South West Hawaiii,2015,Keokeo,3,6,14,Keokeo,PMUS,pelagic
+South West Hawaiii,2012,Aku,199,7244,41777,Scombridae,PMUS,pelagic
+South West Hawaiii,2013,Aku,172,4765,30444,Scombridae,PMUS,pelagic
+South West Hawaiii,2014,Aku,163,4878,30662,Scombridae,PMUS,pelagic
+South West Hawaiii,2015,Aku,161,2905,21351,Scombridae,PMUS,pelagic
+South West Hawaiii,2016,Aku,144,3083,27238,Scombridae,PMUS,pelagic
+South West Hawaiii,2017,Aku,150,1430,19275,Scombridae,PMUS,pelagic
+South West Hawaiii,2012,Bigeye tuna,114,3571,43054,Scombridae,PMUS,pelagic
+South West Hawaiii,2013,Bigeye tuna,121,3509,64334,Scombridae,PMUS,pelagic
+South West Hawaiii,2014,Bigeye tuna,128,4427,81979,Scombridae,PMUS,pelagic
+South West Hawaiii,2015,Bigeye tuna,81,1007,17286,Scombridae,PMUS,pelagic
+South West Hawaiii,2016,Bigeye tuna,91,1543,29968,Scombridae,PMUS,pelagic
+South West Hawaiii,2017,Bigeye tuna,75,828,26382,Scombridae,PMUS,pelagic
+South West Hawaiii,2012,Kawakawa,13,17,230,Scombridae,PMUS,pelagic
+South West Hawaiii,2013,Kawakawa,5,19,234,Scombridae,PMUS,pelagic
+South West Hawaiii,2014,Kawakawa,25,371,1043,Scombridae,PMUS,pelagic
+South West Hawaiii,2015,Kawakawa,24,653,2025,Scombridae,PMUS,pelagic
+South West Hawaiii,2016,Kawakawa,25,193,879,Scombridae,PMUS,pelagic
+South West Hawaiii,2017,Kawakawa,20,65,407,Scombridae,PMUS,pelagic
+South West Hawaiii,2012,Ono,371,4882,118634,Scombridae,PMUS,pelagic
+South West Hawaiii,2013,Ono,348,4733,111188,Scombridae,PMUS,pelagic
+South West Hawaiii,2014,Ono,360,5487,121632,Scombridae,PMUS,pelagic
+South West Hawaiii,2015,Ono,338,4877,106097,Scombridae,PMUS,pelagic
+South West Hawaiii,2016,Ono,266,3458,75926,Scombridae,PMUS,pelagic
+South West Hawaiii,2017,Ono,257,2455,53910,Scombridae,PMUS,pelagic
+South West Hawaiii,2012,Tombo,201,10313,494443,Scombridae,PMUS,pelagic
+South West Hawaiii,2013,Tombo,98,587,27461,Scombridae,PMUS,pelagic
+South West Hawaiii,2014,Tombo,130,2191,96528,Scombridae,PMUS,pelagic
+South West Hawaiii,2015,Tombo,127,2893,126991,Scombridae,PMUS,pelagic
+South West Hawaiii,2016,Tombo,98,1069,49160,Scombridae,PMUS,pelagic
+South West Hawaiii,2017,Tombo,78,1040,54545,Scombridae,PMUS,pelagic
+South West Hawaiii,2012,Tuna-misc.,3,3,237,Scombridae,PMUS,pelagic
+South West Hawaiii,2013,Tuna-misc.,3,23,160,Scombridae,PMUS,pelagic
+South West Hawaiii,2015,Tuna-misc.,3,7,233,Scombridae,PMUS,pelagic
+South West Hawaiii,2012,Yellowfin tuna,401,19446,559220,Scombridae,PMUS,pelagic
+South West Hawaiii,2013,Yellowfin tuna,387,19228,629073,Scombridae,PMUS,pelagic
+South West Hawaiii,2014,Yellowfin tuna,398,18008,643798,Scombridae,PMUS,pelagic
+South West Hawaiii,2015,Yellowfin tuna,368,16514,527936,Scombridae,PMUS,pelagic
+South West Hawaiii,2016,Yellowfin tuna,305,10382,335820,Scombridae,PMUS,pelagic
+South West Hawaiii,2017,Yellowfin tuna,308,7687,440774,Scombridae,PMUS,pelagic
+South West Hawaiii,2012,Swordfish,31,50,5830,Xiphiidae,PMUS,pelagic
+South West Hawaiii,2013,Swordfish,18,26,3195,Xiphiidae,PMUS,pelagic
+South West Hawaiii,2014,Swordfish,30,42,4509,Xiphiidae,PMUS,pelagic
+South West Hawaiii,2015,Swordfish,30,43,4160,Xiphiidae,PMUS,pelagic
+South West Hawaiii,2016,Swordfish,17,26,2712,Xiphiidae,PMUS,pelagic
+South West Hawaiii,2017,Swordfish,23,32,4185,Xiphiidae,PMUS,pelagic
+North West Hawaii,2012,Monchong,7,210,2572,Bramidae,PMUS,NA
+North West Hawaii,2013,Monchong,7,180,2144,Bramidae,PMUS,NA
+North West Hawaii,2014,Monchong,11,883,9678,Bramidae,PMUS,NA
+North West Hawaii,2015,Monchong,6,470,5600,Bramidae,PMUS,NA
+North West Hawaii,2016,Monchong,6,466,5489,Bramidae,PMUS,NA
+North West Hawaii,2017,Monchong,6,190,2240,Bramidae,PMUS,NA
+North West Hawaii,2012,Shark-misc.,4,0,0,Carcharhinidae,PMUS,pelagic
+North West Hawaii,2013,Shark-misc.,5,0,0,Carcharhinidae,PMUS,pelagic
+North West Hawaii,2016,Shark-misc.,4,2,135,Carcharhinidae,PMUS,pelagic
+North West Hawaii,2017,Shark-misc.,4,0,0,Carcharhinidae,PMUS,pelagic
+North West Hawaii,2012,Mahimahi,130,2114,35386,Coryphaenidae,PMUS,pelagic
+North West Hawaii,2013,Mahimahi,118,1319,20333,Coryphaenidae,PMUS,pelagic
+North West Hawaii,2014,Mahimahi,122,2633,37762,Coryphaenidae,PMUS,pelagic
+North West Hawaii,2015,Mahimahi,121,1669,27474,Coryphaenidae,PMUS,pelagic
+North West Hawaii,2016,Mahimahi,66,1507,20740,Coryphaenidae,PMUS,pelagic
+North West Hawaii,2017,Mahimahi,85,1977,24719,Coryphaenidae,PMUS,pelagic
+North West Hawaii,2015,Black marlin,4,5,813,Istiophoridae,PMUS,pelagic
+North West Hawaii,2016,Black marlin,4,5,1047,Istiophoridae,PMUS,pelagic
+North West Hawaii,2012,Blue marlin,37,59,17774,Istiophoridae,PMUS,pelagic
+North West Hawaii,2013,Blue marlin,39,47,13930,Istiophoridae,PMUS,pelagic
+North West Hawaii,2014,Blue marlin,26,35,11097,Istiophoridae,PMUS,pelagic
+North West Hawaii,2015,Blue marlin,41,76,14855,Istiophoridae,PMUS,pelagic
+North West Hawaii,2016,Blue marlin,40,70,14131,Istiophoridae,PMUS,pelagic
+North West Hawaii,2017,Blue marlin,29,50,12807,Istiophoridae,PMUS,pelagic
+North West Hawaii,2012,S.N. spearfish,21,59,2044,Istiophoridae,PMUS,pelagic
+North West Hawaii,2013,S.N. spearfish,25,48,1632,Istiophoridae,PMUS,pelagic
+North West Hawaii,2014,S.N. spearfish,16,25,684,Istiophoridae,PMUS,pelagic
+North West Hawaii,2015,S.N. spearfish,15,47,1357,Istiophoridae,PMUS,pelagic
+North West Hawaii,2016,S.N. spearfish,26,66,1929,Istiophoridae,PMUS,pelagic
+North West Hawaii,2017,S.N. spearfish,13,54,1667,Istiophoridae,PMUS,pelagic
+North West Hawaii,2014,Sailfish,3,2,106,Istiophoridae,PMUS,pelagic
+North West Hawaii,2015,Sailfish,6,7,432,Istiophoridae,PMUS,pelagic
+North West Hawaii,2016,Sailfish,6,6,421,Istiophoridae,PMUS,pelagic
+North West Hawaii,2017,Sailfish,6,15,940,Istiophoridae,PMUS,pelagic
+North West Hawaii,2012,Striped marlin,16,27,1254,Istiophoridae,PMUS,pelagic
+North West Hawaii,2013,Striped marlin,10,9,678,Istiophoridae,PMUS,pelagic
+North West Hawaii,2014,Striped marlin,10,16,848,Istiophoridae,PMUS,pelagic
+North West Hawaii,2015,Striped marlin,10,15,1122,Istiophoridae,PMUS,pelagic
+North West Hawaii,2016,Striped marlin,10,17,1036,Istiophoridae,PMUS,pelagic
+North West Hawaii,2017,Striped marlin,8,7,506,Istiophoridae,PMUS,pelagic
+North West Hawaii,2012,Aku,57,1217,8276,Scombridae,PMUS,pelagic
+North West Hawaii,2013,Aku,41,759,5470,Scombridae,PMUS,pelagic
+North West Hawaii,2014,Aku,42,1074,6076,Scombridae,PMUS,pelagic
+North West Hawaii,2015,Aku,49,1130,7267,Scombridae,PMUS,pelagic
+North West Hawaii,2016,Aku,37,585,6365,Scombridae,PMUS,pelagic
+North West Hawaii,2017,Aku,46,607,6442,Scombridae,PMUS,pelagic
+North West Hawaii,2012,Bigeye tuna,18,1712,19331,Scombridae,PMUS,pelagic
+North West Hawaii,2013,Bigeye tuna,14,915,21635,Scombridae,PMUS,pelagic
+North West Hawaii,2014,Bigeye tuna,22,454,7173,Scombridae,PMUS,pelagic
+North West Hawaii,2015,Bigeye tuna,14,166,1492,Scombridae,PMUS,pelagic
+North West Hawaii,2016,Bigeye tuna,15,320,4564,Scombridae,PMUS,pelagic
+North West Hawaii,2017,Bigeye tuna,12,277,5992,Scombridae,PMUS,pelagic
+North West Hawaii,2012,Kawakawa,8,22,209,Scombridae,PMUS,pelagic
+North West Hawaii,2013,Kawakawa,13,36,373,Scombridae,PMUS,pelagic
+North West Hawaii,2014,Kawakawa,24,208,682,Scombridae,PMUS,pelagic
+North West Hawaii,2015,Kawakawa,27,255,1115,Scombridae,PMUS,pelagic
+North West Hawaii,2016,Kawakawa,24,148,906,Scombridae,PMUS,pelagic
+North West Hawaii,2017,Kawakawa,23,95,675,Scombridae,PMUS,pelagic
+North West Hawaii,2012,Ono,124,1531,35843,Scombridae,PMUS,pelagic
+North West Hawaii,2013,Ono,125,1448,32398,Scombridae,PMUS,pelagic
+North West Hawaii,2014,Ono,117,1378,30854,Scombridae,PMUS,pelagic
+North West Hawaii,2015,Ono,134,1767,38710,Scombridae,PMUS,pelagic
+North West Hawaii,2016,Ono,101,1230,26232,Scombridae,PMUS,pelagic
+North West Hawaii,2017,Ono,90,710,14751,Scombridae,PMUS,pelagic
+North West Hawaii,2012,Tombo,17,748,35827,Scombridae,PMUS,pelagic
+North West Hawaii,2013,Tombo,3,14,614,Scombridae,PMUS,pelagic
+North West Hawaii,2014,Tombo,9,102,4847,Scombridae,PMUS,pelagic
+North West Hawaii,2015,Tombo,20,215,9441,Scombridae,PMUS,pelagic
+North West Hawaii,2016,Tombo,5,27,1238,Scombridae,PMUS,pelagic
+North West Hawaii,2017,Tombo,7,183,9771,Scombridae,PMUS,pelagic
+North West Hawaii,2014,Tuna-misc.,6,19,103,Scombridae,PMUS,pelagic
+North West Hawaii,2012,Yellowfin tuna,100,1552,42022,Scombridae,PMUS,pelagic
+North West Hawaii,2013,Yellowfin tuna,89,1099,35806,Scombridae,PMUS,pelagic
+North West Hawaii,2014,Yellowfin tuna,89,2161,38514,Scombridae,PMUS,pelagic
+North West Hawaii,2015,Yellowfin tuna,99,3584,75638,Scombridae,PMUS,pelagic
+North West Hawaii,2016,Yellowfin tuna,62,1431,29628,Scombridae,PMUS,pelagic
+North West Hawaii,2017,Yellowfin tuna,72,1852,55586,Scombridae,PMUS,pelagic
+North West Hawaii,2015,Swordfish,3,3,187,Xiphiidae,PMUS,pelagic
+North West Hawaii,2016,Swordfish,3,5,513,Xiphiidae,PMUS,pelagic
+North West Hawaii,2017,Swordfish,4,4,648,Xiphiidae,PMUS,pelagic

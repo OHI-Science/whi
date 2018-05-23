@@ -1,9 +1,9 @@
 rgn_id,habitat,km2,reference
-1,reef,33.24,cumulative impacts
-1,soft-bottom,2.43,cumulative impacts
-1,beach,17.72,NOAA-ccap
-1,wetland,0.061,National Wetland Inventory
-2,reef,36.9,cumulative impacts
-2,soft-bottom,8.47,cumulative impacts
-2,beach,38.65,NOAA-ccap
-2,wetland,0.055,National Wetland Inventory
+South West Hawaii,reef,33.24,cumulative impacts
+South West Hawaii,soft-bottom,2.43,cumulative impacts
+South West Hawaii,beach,17.72,NOAA-ccap
+South West Hawaii,wetland,0.061,National Wetland Inventory
+North West Hawaii,reef,36.9,cumulative impacts
+North West Hawaii,soft-bottom,8.47,cumulative impacts
+North West Hawaii,beach,38.65,NOAA-ccap
+North West Hawaii,wetland,0.055,National Wetland Inventory

@@ -1,5 +1,4 @@
 rgn_id,year,percent,habitat,region
-1,2017,12.6,marine,South West Hawaii
-1,2017,12,watershed,South West Hawaii
-2,2017,16.8,marine,North West Hawaii
-2,2017,12,watershed,North West Hawaii
+South West Hawaii,2017,12.6,marine,South West Hawaii
+Hawaii Island,2017,12,watershed,South West Hawaii
+North West Hawaii,2017,16.8,marine,North West Hawaii

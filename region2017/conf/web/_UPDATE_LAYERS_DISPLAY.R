@@ -19,6 +19,7 @@ source("conf/web/combine_layers_rmds.R")
 
 ## 5. Commit and push
 
-## 6. Switch to gh-pages branch, pull, reknit layers page
+## 6. Switch to gh-pages branch, pull, reknit layers page,
+#if made changed to layers_table.Rmd - need to update local_layers_table.Rmd with same changes to see changes displayed on website
 
 

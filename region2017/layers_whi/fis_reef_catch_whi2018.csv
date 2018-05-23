@@ -1,1 +1,258 @@
-rgn_id,year,species,llic,number,lbs,family,mus,X9
+﻿rgn_id,year,species,llic,number,lbs,family,mus,fishery
+South West Hawaii,2012,Aawa,10,200,413,Labridae,CHCR,Reef
+South West Hawaii,2013,Aawa,13,174,350,Labridae,CHCR,Reef
+South West Hawaii,2014,Aawa,5,253,582,Labridae,CHCR,Reef
+South West Hawaii,2015,Aawa,6,76,150,Labridae,CHCR,Reef
+South West Hawaii,2016,Aawa,8,337,599,Labridae,CHCR,Reef
+South West Hawaii,2017,Aawa,3,135,221,Labridae,CHCR,Reef
+South West Hawaii,2015,Ahaaha,3,3,14,Belonidae,CHCR,Reef
+South West Hawaii,2016,Ahaaha,3,1,1,Belonidae,CHCR,Reef
+South West Hawaii,2015,Aholehole,7,425,230,Kuhliidae,CHCR,Reef
+South West Hawaii,2012,Alaihe,8,125,93,Holocentridae,CHCR,Reef
+South West Hawaii,2013,Alaihe,7,53,74,Holocentridae,CHCR,Reef
+South West Hawaii,2014,Alaihe,7,35,53,Holocentridae,CHCR,Reef
+South West Hawaii,2016,Alaihe,3,74,58,Holocentridae,CHCR,Reef
+South West Hawaii,2017,Alaihe,8,80,75,Holocentridae,CHCR,Reef
+South West Hawaii,2012,Alaihe mama,3,7,10,Holocentridae,CHCR,Reef
+South West Hawaii,2012,Aweoweo,22,799,512,Priacanthidae,CHCR,Reef
+South West Hawaii,2013,Aweoweo,27,"1,194","1,544",Priacanthidae,CHCR,Reef
+South West Hawaii,2014,Aweoweo,24,756,"1,379",Priacanthidae,CHCR,Reef
+South West Hawaii,2015,Aweoweo,15,"1,537","1,079",Priacanthidae,CHCR,Reef
+South West Hawaii,2016,Aweoweo,13,827,641,Priacanthidae,CHCR,Reef
+South West Hawaii,2017,Aweoweo,17,"1,735",772,Priacanthidae,CHCR,Reef
+South West Hawaii,2012,Aweoweo (deepsea),3,3,7,Priacanthidae,CHCR,Reef
+South West Hawaii,2014,Aweoweo (deepsea),5,13,19,Priacanthidae,CHCR,Reef
+South West Hawaii,2012,Day tako,4,124,443,Invert,Invert,Invert
+South West Hawaii,2013,Day tako,3,23,80,Invert,Invert,Invert
+South West Hawaii,2013,Ea (wrasse),3,11,19,Labridae,CHCR,Reef
+South West Hawaii,2013,Hauliuli,3,6,9,Gempylidae,CHCR,Reef
+South West Hawaii,2012,Hogo,5,8,26,Scorpaenidae,CHCR,Reef
+South West Hawaii,2013,Hogo,12,83,159,Scorpaenidae,CHCR,Reef
+South West Hawaii,2014,Hogo,8,48,111,Scorpaenidae,CHCR,Reef
+South West Hawaii,2015,Hogo,8,24,62,Scorpaenidae,CHCR,Reef
+South West Hawaii,2016,Hogo,3,5,14,Scorpaenidae,CHCR,Reef
+South West Hawaii,2012,Humuhumu,5,19,36,Balistidae,CHCR,Reef
+South West Hawaii,2013,Humuhumu,3,2,1,Balistidae,CHCR,Reef
+South West Hawaii,2012,Kaku,11,9,154,Sphyraenidae,CHCR,Reef
+South West Hawaii,2013,Kaku,9,5,84,Sphyraenidae,CHCR,Reef
+South West Hawaii,2014,Kaku,20,23,262,Sphyraenidae,CHCR,Reef
+South West Hawaii,2015,Kaku,15,11,135,Sphyraenidae,CHCR,Reef
+South West Hawaii,2016,Kaku,13,28,115,Sphyraenidae,CHCR,Reef
+South West Hawaii,2017,Kaku,6,8,139,Sphyraenidae,CHCR,Reef
+South West Hawaii,2012,Kala,5,57,106,Acanthuridae,CHCR,Reef
+South West Hawaii,2013,Kala,4,144,289,Acanthuridae,CHCR,Reef
+South West Hawaii,2015,Kala,5,27,52,Acanthuridae,CHCR,Reef
+South West Hawaii,2017,Kala,3,13,40,Acanthuridae,CHCR,Reef
+South West Hawaii,2012,Kawelea,6,43,109,Sphyraenidae,CHCR,Reef
+South West Hawaii,2013,Kawelea,12,36,83,Sphyraenidae,CHCR,Reef
+South West Hawaii,2014,Kawelea,10,83,312,Sphyraenidae,CHCR,Reef
+South West Hawaii,2015,Kawelea,5,206,643,Sphyraenidae,CHCR,Reef
+South West Hawaii,2016,Kawelea,5,28,75,Sphyraenidae,CHCR,Reef
+South West Hawaii,2017,Kawelea,6,56,170,Sphyraenidae,CHCR,Reef
+South West Hawaii,2012,Kole,11,611,458,Acanthuridae,CHCR,Reef
+South West Hawaii,2013,Kole,4,675,322,Acanthuridae,CHCR,Reef
+South West Hawaii,2014,Kole,8,932,532,Acanthuridae,CHCR,Reef
+South West Hawaii,2016,Kole,5,518,213,Acanthuridae,CHCR,Reef
+South West Hawaii,2012,Kona crab,6,196,234,Invert,Invert,Invert
+South West Hawaii,2013,Kona crab,3,48,63,Invert,Invert,Invert
+South West Hawaii,2015,Kona crab,5,144,113,Invert,Invert,Invert
+South West Hawaii,2012,Kumu,10,246,433,Mullidae,CHCR,Reef
+South West Hawaii,2013,Kumu,8,582,926,Mullidae,CHCR,Reef
+South West Hawaii,2014,Kumu,6,69,123,Mullidae,CHCR,Reef
+South West Hawaii,2015,Kumu,3,20,35,Mullidae,CHCR,Reef
+South West Hawaii,2016,Kumu,3,122,170,Mullidae,CHCR,Reef
+South West Hawaii,2012,Laenihi,12,252,116,Labridae,CHCR,Reef
+South West Hawaii,2013,Laenihi,10,564,168,Labridae,CHCR,Reef
+South West Hawaii,2014,Laenihi,8,237,116,Labridae,CHCR,Reef
+South West Hawaii,2015,Laenihi,6,384,125,Labridae,CHCR,Reef
+South West Hawaii,2016,Laenihi,9,262,157,Labridae,CHCR,Reef
+South West Hawaii,2017,Laenihi,9,261,113,Labridae,CHCR,Reef
+South West Hawaii,2012,Maiko,4,149,78,Acanthuridae,CHCR,Reef
+South West Hawaii,2016,Mako,3,3,686,Lamnidae,CHCR,Reef
+South West Hawaii,2012,Mako,8,6,"1,051",Acanthuridae,CHCR,Reef
+South West Hawaii,2012,Manini,7,859,351,Acanthuridae,CHCR,Reef
+South West Hawaii,2013,Manini,3,"4,056","1,674",Acanthuridae,CHCR,Reef
+South West Hawaii,2014,Manini,4,158,63,Acanthuridae,CHCR,Reef
+South West Hawaii,2015,Manini,6,173,78,Acanthuridae,CHCR,Reef
+South West Hawaii,2017,Manini,3,18,11,Acanthuridae,CHCR,Reef
+South West Hawaii,2012,Menpachi,52,"17,368","9,647",Holocentridae,CHCR,Reef
+South West Hawaii,2013,Menpachi,43,"17,552","10,170",Holocentridae,CHCR,Reef
+South West Hawaii,2014,Menpachi,33,"6,940","4,244",Holocentridae,CHCR,Reef
+South West Hawaii,2015,Menpachi,30,"12,385","6,972",Holocentridae,CHCR,Reef
+South West Hawaii,2016,Menpachi,24,"13,626","9,094",Holocentridae,CHCR,Reef
+South West Hawaii,2017,Menpachi,28,"14,008","7,710",Holocentridae,CHCR,Reef
+South West Hawaii,2012,Moana,10,"1,326",757,Mullidae,CHCR,Reef
+South West Hawaii,2013,Moana,19,779,449,Mullidae,CHCR,Reef
+South West Hawaii,2014,Moana,10,824,570,Mullidae,CHCR,Reef
+South West Hawaii,2015,Moana,5,355,198,Mullidae,CHCR,Reef
+South West Hawaii,2016,Moana,7,922,546,Mullidae,CHCR,Reef
+South West Hawaii,2017,Moana,6,466,248,Mullidae,CHCR,Reef
+South West Hawaii,2012,Moana kale,11,494,755,Mullidae,CHCR,Reef
+South West Hawaii,2013,Moana kale,9,267,473,Mullidae,CHCR,Reef
+South West Hawaii,2014,Moana kale,6,301,557,Mullidae,CHCR,Reef
+South West Hawaii,2015,Moana kale,5,120,191,Mullidae,CHCR,Reef
+South West Hawaii,2016,Moana kale,8,353,582,Mullidae,CHCR,Reef
+South West Hawaii,2017,Moana kale,5,211,332,Mullidae,CHCR,Reef
+South West Hawaii,2012,Mu,4,117,679,Lethrinidae,CHCR,Reef
+South West Hawaii,2014,Mu,6,14,75,Lethrinidae,CHCR,Reef
+South West Hawaii,2015,Mu,4,7,17,Lethrinidae,CHCR,Reef
+South West Hawaii,2017,Mu,3,6,28,Lethrinidae,CHCR,Reef
+South West Hawaii,2012,Muhee (squid),3,503,137,Invert,Invert,Invert
+South West Hawaii,2013,Muhee (squid),3,493,140,Invert,Invert,Invert
+South West Hawaii,2014,Muhee (squid),4,426,183,Invert,Invert,Invert
+South West Hawaii,2017,Muhee (squid),6,180,148,Invert,Invert,Invert
+South West Hawaii,2012,Munu,7,32,89,Mullidae,CHCR,Reef
+South West Hawaii,2013,Munu,4,5,4,Mullidae,CHCR,Reef
+South West Hawaii,2014,Munu,7,20,24,Mullidae,CHCR,Reef
+South West Hawaii,2012,Naenae,3,16,17,Acanthuridae,CHCR,Reef
+South West Hawaii,2012,Nenue,7,44,140,Kyphosidae,CHCR,Reef
+South West Hawaii,2013,Nenue,4,8,19,Kyphosidae,CHCR,Reef
+South West Hawaii,2014,Nenue,8,32,104,Kyphosidae,CHCR,Reef
+South West Hawaii,2015,Nenue,6,23,60,Kyphosidae,CHCR,Reef
+South West Hawaii,2016,Nenue,3,17,60,Kyphosidae,CHCR,Reef
+South West Hawaii,2017,Nenue,4,25,65,Kyphosidae,CHCR,Reef
+South West Hawaii,2012,Nohu,5,8,27,Scorpaenidae,CHCR,Reef
+South West Hawaii,2013,Nohu,5,12,27,Scorpaenidae,CHCR,Reef
+South West Hawaii,2014,Nohu,3,13,34,Scorpaenidae,CHCR,Reef
+South West Hawaii,2016,Nohu,3,9,30,Scorpaenidae,CHCR,Reef
+South West Hawaii,2017,Nohu,4,14,49,Scorpaenidae,CHCR,Reef
+South West Hawaii,2013,Nunu,4,46,72,Aulostamidae,CHCR,Reef
+South West Hawaii,2016,Nunu,3,31,59,Aulostamidae,CHCR,Reef
+South West Hawaii,2012,Opelu kala,10,599,"1,365",Acanthuridae,CHCR,Reef
+South West Hawaii,2013,Opelu kala,11,"1,105","2,415",Acanthuridae,CHCR,Reef
+South West Hawaii,2014,Opelu kala,11,268,621,Acanthuridae,CHCR,Reef
+South West Hawaii,2015,Opelu kala,4,41,319,Acanthuridae,CHCR,Reef
+South West Hawaii,2016,Opelu kala,7,61,225,Acanthuridae,CHCR,Reef
+South West Hawaii,2017,Opelu kala,3,7,42,Acanthuridae,CHCR,Reef
+South West Hawaii,2012,Opihi alinalina,6,"2,350",870,Invert,Invert,Invert
+South West Hawaii,2013,Opihi alinalina,4,0,185,Invert,Invert,Invert
+South West Hawaii,2014,Opihi alinalina,6,650,627,Invert,Invert,Invert
+South West Hawaii,2015,Opihi alinalina,4,"2,479",590,Invert,Invert,Invert
+South West Hawaii,2016,Opihi alinalina,5,"7,303",444,Invert,Invert,Invert
+South West Hawaii,2017,Opihi alinalina,4,"13,206",696,Invert,Invert,Invert
+South West Hawaii,2012,Opihi makaiauli,5,120,59,Invert,Invert,Invert
+South West Hawaii,2014,Opihi makaiauli,5,0,250,Invert,Invert,Invert
+South West Hawaii,2016,Opihi makaiauli,3,"4,133",222,Invert,Invert,Invert
+South West Hawaii,2017,Opihi makaiauli,3,0,53,Invert,Invert,Invert
+South West Hawaii,2012,Pakuikui (tang),4,547,227,Acanthuridae,CHCR,Reef
+South West Hawaii,2013,Pakuikui (tang),3,574,260,Acanthuridae,CHCR,Reef
+South West Hawaii,2012,Palani,8,345,891,Acanthuridae,CHCR,Reef
+South West Hawaii,2013,Palani,3,413,"1,347",Acanthuridae,CHCR,Reef
+South West Hawaii,2014,Palani,6,58,178,Acanthuridae,CHCR,Reef
+South West Hawaii,2015,Palani,4,40,95,Acanthuridae,CHCR,Reef
+South West Hawaii,2016,Palani,3,13,35,Acanthuridae,CHCR,Reef
+South West Hawaii,2017,Palani,3,7,28,Acanthuridae,CHCR,Reef
+South West Hawaii,2012,Poopaa,3,6,10,Cirrhitidae,CHCR,Reef
+South West Hawaii,2013,Poopaa,3,8,6,Cirrhitidae,CHCR,Reef
+South West Hawaii,2014,Pualu,3,8,36,Acanthuridae,CHCR,Reef
+South West Hawaii,2013,Puhi eel-misc.,3,62,338,Muraenidae,CHCR,Reef
+South West Hawaii,2013,Randall's snapper,3,3,37,Lutjanidae,CHCR,Reef
+South West Hawaii,2015,Randall's snapper,3,6,72,Lutjanidae,CHCR,Reef
+South West Hawaii,2012,Roi,3,79,99,Serranidae,CHCR,Reef
+South West Hawaii,2017,Spiny green lobster,1,236,482,Invert,Invert,Invert
+South West Hawaii,2012,Toau,5,10,15,Lutjanidae,CHCR,Reef
+South West Hawaii,2013,Toau,3,4,4,Lutjanidae,CHCR,Reef
+South West Hawaii,2014,Toau,4,13,20,Lutjanidae,CHCR,Reef
+South West Hawaii,2016,Toau,3,4,4,Lutjanidae,CHCR,Reef
+South West Hawaii,2012,Uhu parrot-misc.,16,298,"1,418",Scaridae,CHCR,Reef
+South West Hawaii,2013,Uhu parrot-misc.,5,503,"2,561",Scaridae,CHCR,Reef
+South West Hawaii,2014,Uhu parrot-misc.,10,24,112,Scaridae,CHCR,Reef
+South West Hawaii,2015,Uhu parrot-misc.,4,72,355,Scaridae,CHCR,Reef
+South West Hawaii,2016,Uhu parrot-misc.,3,73,313,Scaridae,CHCR,Reef
+South West Hawaii,2017,Uhu parrot-misc.,4,55,226,Scaridae,CHCR,Reef
+South West Hawaii,2012,Umaumalei,5,155,381,Acanthuridae,CHCR,Reef
+South West Hawaii,2015,Wahanui,3,15,14,Lutjanidae,CHCR,Reef
+South West Hawaii,2012,Weke a'a,3,178,136,Mullidae,CHCR,Reef
+South West Hawaii,2012,Weke nono,9,135,334,Mullidae,CHCR,Reef
+South West Hawaii,2013,Weke nono,11,85,160,Mullidae,CHCR,Reef
+South West Hawaii,2014,Weke nono,11,89,220,Mullidae,CHCR,Reef
+South West Hawaii,2015,Weke nono,6,40,68,Mullidae,CHCR,Reef
+South West Hawaii,2016,Weke nono,10,319,621,Mullidae,CHCR,Reef
+South West Hawaii,2017,Weke nono,9,132,171,Mullidae,CHCR,Reef
+South West Hawaii,2012,Weke ula,12,170,204,Mullidae,CHCR,Reef
+South West Hawaii,2013,Weke ula,10,436,250,Mullidae,CHCR,Reef
+South West Hawaii,2014,Weke ula,10,207,577,Mullidae,CHCR,Reef
+South West Hawaii,2015,Weke ula,7,95,232,Mullidae,CHCR,Reef
+South West Hawaii,2016,Weke ula,9,186,404,Mullidae,CHCR,Reef
+South West Hawaii,2017,Weke ula,7,74,176,Mullidae,CHCR,Reef
+North West Hawaii,2012,Aawa,6,44,106,Labridae,CHCR,Reef
+North West Hawaii,2013,Aawa,3,21,40,Labridae,CHCR,Reef
+North West Hawaii,2016,Aawa,3,53,105,Labridae,CHCR,Reef
+North West Hawaii,2017,Aawa,6,19,36,Labridae,CHCR,Reef
+North West Hawaii,2015,Ahaaha,3,4,15,Belonidae,CHCR,Reef
+North West Hawaii,2012,Aholehole,3,11,17,Kuhliidae,CHCR,Reef
+North West Hawaii,2012,Aweoweo,9,228,229,Priacanthidae,CHCR,Reef
+North West Hawaii,2013,Aweoweo,6,182,141,Priacanthidae,CHCR,Reef
+North West Hawaii,2014,Aweoweo,6,27,19,Priacanthidae,CHCR,Reef
+North West Hawaii,2015,Aweoweo,7,202,192,Priacanthidae,CHCR,Reef
+North West Hawaii,2016,Aweoweo,5,188,86,Priacanthidae,CHCR,Reef
+North West Hawaii,2014,Aweoweo (deepsea),3,7,10,Priacanthidae,CHCR,Reef
+North West Hawaii,2017,Aweoweo (deepsea),3,7,27,Priacanthidae,CHCR,Reef
+North West Hawaii,2012,Day tako,4,531,"1,420",Invert,Invert,Invert
+North West Hawaii,2013,Day tako,4,153,344,Invert,Invert,Invert
+North West Hawaii,2015,Ea (wrasse),3,30,76,Labridae,CHCR,Reef
+North West Hawaii,2012,Hogo,11,38,109,Scorpaenidae,CHCR,Reef
+North West Hawaii,2013,Hogo,4,46,110,Scorpaenidae,CHCR,Reef
+North West Hawaii,2014,Hogo,5,25,65,Scorpaenidae,CHCR,Reef
+North West Hawaii,2015,Hogo,3,13,30,Scorpaenidae,CHCR,Reef
+North West Hawaii,2016,Hogo,4,5,13,Scorpaenidae,CHCR,Reef
+North West Hawaii,2017,Hogo,3,5,13,Scorpaenidae,CHCR,Reef
+North West Hawaii,2012,Kaku,4,5,41,Sphyraenidae,CHCR,Reef
+North West Hawaii,2013,Kaku,8,4,79,Sphyraenidae,CHCR,Reef
+North West Hawaii,2014,Kaku,3,1,20,Sphyraenidae,CHCR,Reef
+North West Hawaii,2015,Kaku,9,3,28,Sphyraenidae,CHCR,Reef
+North West Hawaii,2016,Kaku,5,6,62,Sphyraenidae,CHCR,Reef
+North West Hawaii,2017,Kaku,3,2,49,Sphyraenidae,CHCR,Reef
+North West Hawaii,2012,Kala,3,23,40,Acanthuridae,CHCR,Reef
+North West Hawaii,2013,Kawelea,3,2,6,Sphyraenidae,CHCR,Reef
+North West Hawaii,2015,Kawelea,4,22,100,Sphyraenidae,CHCR,Reef
+North West Hawaii,2016,Kawelea,3,13,50,Sphyraenidae,CHCR,Reef
+North West Hawaii,2017,Kawelea,5,61,199,Sphyraenidae,CHCR,Reef
+North West Hawaii,2012,Kona crab,8,627,846,Invert,Invert,Invert
+North West Hawaii,2013,Kona crab,6,552,762,Invert,Invert,Invert
+North West Hawaii,2016,Kona crab,3,140,215,Invert,Invert,Invert
+North West Hawaii,2017,Kona crab,3,221,141,Invert,Invert,Invert
+North West Hawaii,2012,Kumu,4,39,77,Mullidae,CHCR,Reef
+North West Hawaii,2013,Kumu,3,73,132,Mullidae,CHCR,Reef
+North West Hawaii,2012,Laenihi,6,757,391,Labridae,CHCR,Reef
+North West Hawaii,2013,Laenihi,8,643,297,Labridae,CHCR,Reef
+North West Hawaii,2014,Laenihi,8,"1,089",580,Labridae,CHCR,Reef
+North West Hawaii,2015,Laenihi,8,510,331,Labridae,CHCR,Reef
+North West Hawaii,2016,Laenihi,6,433,235,Labridae,CHCR,Reef
+North West Hawaii,2017,Laenihi,5,780,306,Labridae,CHCR,Reef
+North West Hawaii,2012,Manini,3,19,24,Acanthuridae,CHCR,Reef
+North West Hawaii,2012,Menpachi,16,"2,683","1,650",Holocentridae,CHCR,Reef
+North West Hawaii,2013,Menpachi,7,"8,177","3,799",Holocentridae,CHCR,Reef
+North West Hawaii,2014,Menpachi,8,"8,048","4,797",Holocentridae,CHCR,Reef
+North West Hawaii,2015,Menpachi,8,"2,191","1,209",Holocentridae,CHCR,Reef
+North West Hawaii,2016,Menpachi,8,"3,009","1,986",Holocentridae,CHCR,Reef
+North West Hawaii,2017,Menpachi,11,"2,927","1,687",Holocentridae,CHCR,Reef
+North West Hawaii,2012,Moana,5,73,67,Mullidae,CHCR,Reef
+North West Hawaii,2013,Moana,5,45,36,Mullidae,CHCR,Reef
+North West Hawaii,2015,Moana,3,6,13,Mullidae,CHCR,Reef
+North West Hawaii,2017,Moana,5,69,39,Mullidae,CHCR,Reef
+North West Hawaii,2013,Moana kale,5,40,64,Mullidae,CHCR,Reef
+North West Hawaii,2014,Moana kale,4,9,21,Mullidae,CHCR,Reef
+North West Hawaii,2012,Mu,3,7,31,Lethrinidae,CHCR,Reef
+North West Hawaii,2013,Mu,3,63,203,Lethrinidae,CHCR,Reef
+North West Hawaii,2012,Nenue,3,8,22,Kyphosidae,CHCR,Reef
+North West Hawaii,2012,Nohu,3,6,14,Scorpaenidae,CHCR,Reef
+North West Hawaii,2014,Nohu,4,10,37,Scorpaenidae,CHCR,Reef
+North West Hawaii,2017,Nohu,3,3,11,Scorpaenidae,CHCR,Reef
+North West Hawaii,2012,Opelu kala,6,41,500,Acanthuridae,CHCR,Reef
+North West Hawaii,2013,Opelu kala,8,43,251,Acanthuridae,CHCR,Reef
+North West Hawaii,2014,Opelu kala,6,36,229,Acanthuridae,CHCR,Reef
+North West Hawaii,2012,Opihi alinalina,3,0,313,Invert,Invert,Invert
+North West Hawaii,2012,Palani,3,11,35,Acanthuridae,CHCR,Reef
+North West Hawaii,2015,Palani,3,3,16,Acanthuridae,CHCR,Reef
+North West Hawaii,2012,Uhu parrot-misc.,4,45,247,Scaridae,CHCR,Reef
+North West Hawaii,2013,Uhu parrot-misc.,3,118,559,Scaridae,CHCR,Reef
+North West Hawaii,2014,Uhu parrot-misc.,3,9,27,Scaridae,CHCR,Reef
+North West Hawaii,2012,Weke nono,9,59,161,Mullidae,CHCR,Reef
+North West Hawaii,2013,Weke nono,10,47,140,Mullidae,CHCR,Reef
+North West Hawaii,2014,Weke nono,9,134,395,Mullidae,CHCR,Reef
+North West Hawaii,2015,Weke nono,6,44,128,Mullidae,CHCR,Reef
+North West Hawaii,2016,Weke nono,13,157,379,Mullidae,CHCR,Reef
+North West Hawaii,2017,Weke nono,9,59,201,Mullidae,CHCR,Reef
+North West Hawaii,2012,Weke ula,6,21,57,Mullidae,CHCR,Reef
+North West Hawaii,2015,Weke ula,3,23,55,Mullidae,CHCR,Reef

@@ -1,9 +1,9 @@
 rgn_id,habitat,trend_per_year,reference
-1,wetland,0.09,NOAA CCAP 2010-2005 extent
-1,beach,-6.00E-05,Romine short term loss (km per year)
-1,reef,-0.05,CREP 2016 report (trend calculated as % coral cover from 2011 to 2016~values are estimates and need to be updated)
-1,soft-bottom,0,uknown
-2,wetland,-0.051483386,NOAA NOAA CCAP 2010-2005 extentCCAP 2010-1992 extent (% difference in extent/total years (=18) to get % change per year
-2,beach,1.50E-02,Romine short term loss (km per year)
-2,reef,-0.05,CREP 2016 report (trend calculated as % coral cover from 2011 to 2016~values are estimates and need to be updated)
-2,soft-bottom,0,uknown
+South West Hawaii,wetland,0.09,NOAA CCAP 2010-2005 extent
+South West Hawaii,beach,-6.00E-05,Romine short term loss (km per year)
+South West Hawaii,reef,-0.05,CREP 2016 report (trend calculated as % coral cover from 2011 to 2016~values are estimates and need to be updated)
+South West Hawaii,soft-bottom,0,uknown
+North West Hawaii,wetland,-0.051483386,NOAA NOAA CCAP 2010-2005 extentCCAP 2010-1992 extent (% difference in extent/total years (=18) to get % change per year
+North West Hawaii,beach,1.50E-02,Romine short term loss (km per year)
+North West Hawaii,reef,-0.05,CREP 2016 report (trend calculated as % coral cover from 2011 to 2016~values are estimates and need to be updated)
+North West Hawaii,soft-bottom,0,uknown
