@@ -195,6 +195,22 @@ output:
 ``` 
 
  
+# coastal wetland condition 
+####[hab_health_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_health_whi2018.csv) {-} 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_health_whi.Rmd", x)
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+ 
 # coastal wetland extent 
 ####[hab_extent_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_extent_whi2018.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
@@ -211,6 +227,22 @@ output:
 ``` 
 
  
+# coastal wetland trend 
+####[hab_trend_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_trend_whi2018.csv) {-} 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_trend_whi.Rmd", x)
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+ 
 # commercial coastal pelagic fisheries catch 
 ####[fis_coast_pelagic_catch](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fis_cp_catch_whi2018.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
@@ -220,6 +252,38 @@ output:
                                     on.exit(unlink(x))
 
                                     download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/fis_coast_pelagic_catch.Rmd", x)
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+ 
+# commercial reef fisheries catch 
+####[fis_reef_catch](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fis_reef_catch_whi2018.csv) {-} 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/fis_reef_catch.Rmd", x)
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+ 
+# commerical pelagic fisheries  catch 
+####[fis_pelagic_catch](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fis_pelagic_catch_whi2018.csv) {-} 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/fis_pelagic_catch.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -276,14 +340,14 @@ output:
 
  
 # ESA coastal plant status 
-####[spp_status](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/spp_status_mhi_mhi2017.csv) {-} 
+####[spp_ESA_status](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/spp_ESA_status.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/spp_status.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/spp_ESA_status.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -292,14 +356,14 @@ output:
 
  
 # ESA marine mammal status 
-####[spp_status](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/spp_status_mhi_mhi2017.csv) {-} 
+####[spp_ESA_status](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/spp_ESA_status.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/spp_status.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/spp_ESA_status.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -308,14 +372,14 @@ output:
 
  
 # ESA seabird and coastal bird status 
-####[spp_status](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/spp_status_mhi_mhi2017.csv) {-} 
+####[spp_ESA_status](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/spp_ESA_status.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/spp_status.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/spp_ESA_status.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -579,22 +643,6 @@ output:
 ``` 
 
  
-# pelagic fisheries commerical catch 
-####[fis_pelagic_catch](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fis_pelagic_catch_whi2018.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/fis_pelagic_catch.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
 # reef condition 
 ####[hab_health_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_health_whi2018.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
@@ -788,7 +836,7 @@ output:
 
  
 # watershed partnerships 
-####[watershed_partnerships](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/watershed_partnerships.csv) {-} 
+####[watershed_partnerships](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_watershed_partnerships_whi2018.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -812,38 +860,6 @@ output:
                                     on.exit(unlink(x))
 
                                     download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hd_watersheds.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# wetland condition 
-####[hab_health_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_health_whi2018.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_health_whi.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# wetland trend 
-####[hab_trend_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_trend_whi2018.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_trend_whi.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
