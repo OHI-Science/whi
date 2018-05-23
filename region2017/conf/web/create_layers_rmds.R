@@ -22,6 +22,7 @@ layers_info <- data_layers %>%
   dplyr::select(header_layer = `Data Layer`,
                 layer_name   = Name,
                 description  = `Brief Description`,
+                metadata = `Metadata`,
                 reference    = Reference,
                 url) %>%
   arrange(layer_name)
