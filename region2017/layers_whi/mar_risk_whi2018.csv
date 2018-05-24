@@ -1,0 +1,10 @@
+﻿Cultured Species,Species Name,Sustainable Feed (0=imported),Feed Plant Based (0=protein based),Susceptibility to Disease (0=highly susceptible),"Native (1), Introduced (0.5), Invasive (0)",Sustainability Score
+Abalone,"Haliotus refens, Haliotus discus hanai",1,1,1,0.5,0.88
+Broodstock and juvenile shrimp,"Litopenaeus. vanamei, L. monodon, L. stylirostris",0,0,0,0.5,0.13
+Kahala (amberjack),Seriola dumerili,0,0,1,1,0.5
+Marine shrimp for food,Penaeus vannamei,0,0,0,0.5,0.13
+Microalgae,"Spirulina sp, Hematococcus sp",1,1,1,1,1
+Seaweed/Limu,Gracilaria sp,1,1,1,0.5,0.88
+Seed clams,Mercenaria mercenaria,1,1,1,0.5,0.88
+Seed oysters and clams,"Crassostrea gigas, Venerupis Philippinarum, Crassostrea Sikamea",1,1,1,0.5,0.88
+Tilapia,Oreochromis sp,0,0,0,0,0
