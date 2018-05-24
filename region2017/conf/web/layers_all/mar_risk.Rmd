@@ -1,0 +1,5 @@
+Developed scale for the Hawaii Ocean Health Index on the combined sustainability/risk score for mariculture species in Hawaii.
+
+#### Reference
+
+[Hawaii OHI](http://ohi-science.org/mhi/)

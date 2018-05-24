@@ -435,6 +435,22 @@ output:
 ``` 
 
  
+# historical sites 
+####[res_historical_sites](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/res_historic_sites_whi2018.csv) {-} 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/res_historical_sites.Rmd", x)
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+ 
 # land-based sediment export to nearshore water 
 ####[po_lbsp_sed](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/po_lbsp_sed_whi2018.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
@@ -492,6 +508,22 @@ output:
                                     on.exit(unlink(x))
 
                                     download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/po_lbsp_nosds.Rmd", x)
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+ 
+# mariculture risk 
+####[mar_risk](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/mar_risk_wh2018.csv) {-} 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/mar_risk.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -755,7 +787,7 @@ output:
 ``` 
 
  
-# sustainability of bottomfishery 
+# sustainability of bottomfish fishery 
 ####[fis_sus](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fis_sus_updated_whi2018.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
