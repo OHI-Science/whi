@@ -436,7 +436,7 @@ output:
 
  
 # habitat destruction from dredging 
-####[hd_dredging](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hd_dredging_whi2018.csv) {-} 
+####[hd_dredging](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hd_dredged_whi2018.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
