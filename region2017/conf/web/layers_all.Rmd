@@ -387,6 +387,22 @@ output:
 ``` 
 
  
+# fishing households 
+####[fishing_households](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fishing_households_whi2018.csv) {-} 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/fishing_households.Rmd", x)
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+ 
 # fishpond status 
 ####[mar_fishpond_health](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/mar_fishpond_health_whi2018.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
