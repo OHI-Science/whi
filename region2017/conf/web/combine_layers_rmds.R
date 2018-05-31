@@ -93,6 +93,8 @@ layers_whi <- layers_whi_csv %>%
 for (h in layers_whi$name){ # h="aquarium fishing"
 
   layer      <-  layers_whi$layer[layers_whi$name == h]
+  name       <-  layers_whi$name[layers_whi$name == h]
+  name       <-  str_replace_all(name, " ", "_")
   filename   <-  layers_whi$filename_prep[layers_whi$name == h]
   layer_path <- 'https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi'
 
@@ -107,7 +109,7 @@ for (h in layers_whi$name){ # h="aquarium fishing"
                                     download.file(", "\"",
                                     sprintf('https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/%s.Rmd',
 
-                                            layer), "\", x)\n```\n"),
+                                            name), "\", x)\n```\n"),
 
                              paste0("\n```{r, child = x, echo=FALSE, results='asis'}"),
                              "\n",

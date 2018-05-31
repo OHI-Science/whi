@@ -23,5 +23,5 @@ source("conf/web/combine_layers_rmds.R")
 #if made changed to layers_table.Rmd - need to update local_layers_table.Rmd with same changes to see changes displayed on website
 
 
-## 7. conf/web/layers_table.Rmd will also use information assembled above, so don't forget to rerun that too!
+## 7. conf/web/layers_table.Rmd will also use the individual Rmds assembled above, so don't forget to rerun that too!
 
