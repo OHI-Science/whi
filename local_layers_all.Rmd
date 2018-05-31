@@ -27,7 +27,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/res_access_boat.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/access_to_boat_launch.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -43,7 +43,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/res_shoreline_access.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/access_to_shoreline.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -59,7 +59,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/r_participation.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/annual_participation_in_recreational_activities.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -75,7 +75,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/fis_aquarium_catch.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/aquarium_fishing.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -91,7 +91,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/mar_fishpond_current.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/area_of_active_fishponds.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -107,7 +107,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/st_visitor_spending.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/average_daily_visitor_spending.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -123,7 +123,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_health_whi.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/beach_condition.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -139,7 +139,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_extent_whi.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/beach_extent.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -155,7 +155,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_trend_whi.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/beach_trend.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -171,7 +171,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/fis_deep_catch.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/bottom_fisheries_commercial_catch.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -187,7 +187,23 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/lsp_area_1km_coast.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/coastal_area.Rmd", x)
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+ 
+# coastal wetland condition 
+####[hab_health_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_health_whi2018.csv) {-} 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/coastal_wetland_condition.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -203,7 +219,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_extent_whi.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/coastal_wetland_extent.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -211,7 +227,23 @@ output:
 ``` 
 
  
-# commerical coastal pelagic fisheries catch 
+# coastal wetland trend 
+####[hab_trend_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_trend_whi2018.csv) {-} 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/coastal_wetland_trend.Rmd", x)
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+ 
+# commercial coastal pelagic fisheries catch 
 ####[fis_coast_pelagic_catch](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fis_cp_catch_whi2018.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
@@ -219,7 +251,39 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/fis_coast_pelagic_catch.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/commercial_coastal_pelagic_fisheries_catch.Rmd", x)
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+ 
+# commercial reef fisheries catch 
+####[fis_reef_catch](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fis_reef_catch_whi2018.csv) {-} 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/commercial_reef_fisheries_catch.Rmd", x)
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+ 
+# commerical pelagic fisheries  catch 
+####[fis_pelagic_catch](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fis_pelagic_catch_whi2018.csv) {-} 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/commerical_pelagic_fisheries__catch.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -235,7 +299,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/lsp_coastal_conservation.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/conservation_districts.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -251,7 +315,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/cc_sst_nearshore.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/coral_bleaching_threat.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -267,7 +331,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/t_env_sus.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/environmental_protection.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -276,14 +340,14 @@ output:
 
  
 # ESA coastal plant status 
-####[spp_status](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/spp_ESA_status_whi2018.csv) {-} 
+####[spp_ESA_status](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/spp_ESA_status_whi2018.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/spp_status.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/ESA_coastal_plant_status.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -292,14 +356,14 @@ output:
 
  
 # ESA marine mammal status 
-####[spp_status](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/spp_ESA_status_whi2018.csv) {-} 
+####[spp_ESA_status](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/spp_ESA_status_whi2018.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/spp_status.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/ESA_marine_mammal_status.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -308,14 +372,30 @@ output:
 
  
 # ESA seabird and coastal bird status 
-####[spp_status](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/spp_ESA_status_whi2018.csv) {-} 
+####[spp_ESA_status](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/spp_ESA_status_whi2018.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/spp_status.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/ESA_seabird_and_coastal_bird_status.Rmd", x)
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+ 
+# fishing households 
+####[fishing_households](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fishing_households_whi2018.csv) {-} 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/fishing_households.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -331,7 +411,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/mar_fishpond_health.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/fishpond_status.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -347,7 +427,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hd_allien_veg.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/forest_health.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -356,14 +436,30 @@ output:
 
  
 # habitat destruction from dredging 
-####[hd_dredging](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hd_dredging_whi2018.csv) {-} 
+####[hd_dredging](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hd_dredged_whi2018.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hd_dredging.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/habitat_destruction_from_dredging.Rmd", x)
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+ 
+# historical sites 
+####[res_historical_sites](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/res_historic_sites_whi2018.csv) {-} 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/historical_sites.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -379,7 +475,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/po_lbsp_sed.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/land-based_sediment_export_to_nearshore_water.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -395,7 +491,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/po_lbspaggolfrunoff.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/land-based_source_of_pollution_from_agriculture_and_golf_courses.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -411,7 +507,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/po_lbspurbanrunoff.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/land-based_source_of_pollution_from_urban_runoff.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -427,7 +523,23 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/po_lbsp_nosds.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/land-based_source_of_pollution_nitrogen.Rmd", x)
+```
+ 
+```{r, child = x, echo=FALSE, results='asis'} 
+ 
+``` 
+
+ 
+# mariculture risk 
+####[mar_risk](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/mar_risk_wh2018.csv) {-} 
+```{r, echo=FALSE, results='hide'}
+
+                                    x <- tempfile(fileext = 'Rmd')
+
+                                    on.exit(unlink(x))
+
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/mariculture_risk.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -443,7 +555,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/mar_harvest.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/mariculture_yield.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -459,7 +571,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/rc_participation.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/monthly_participation_in_recreational_activities.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -475,7 +587,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/lsp_mpa_3nm.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/nearshore_management_areas.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -491,7 +603,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/lsp_area_3nm.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/nearshore_state_waters.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -507,7 +619,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/mar_fishpond_numbers.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/number_of_fishponds.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -523,7 +635,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/le_jobs.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/ocean_and_coastal_jobs.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -539,7 +651,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/le_gdp.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/ocean_and_coastal_revenue.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -555,7 +667,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/le_wage.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/ocean_and_coastal_sector_mean_wages.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -571,23 +683,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/mar_operations.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# pelagic fisheries commerical catch 
-####[fis_pelagic_catch](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fis_pelagic_catch_whi2018.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/fis_pelagic_catch.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/operations.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -603,7 +699,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_health_whi.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/reef_condition.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -619,7 +715,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_extent_whi.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/reef_extent.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -635,7 +731,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/fp_reeffish_t.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/reef_fishing_catch.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -651,7 +747,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_trend_whi.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/reef_trend.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -667,7 +763,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/t_sentiment.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/resident_sentiment.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -683,7 +779,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_health_whi.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/soft_bottom_condition.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -699,7 +795,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_extent_whi.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/soft_bottom_extent.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -707,7 +803,7 @@ output:
 ``` 
 
  
-# sustainability of bottomfishery 
+# sustainability of bottomfish fishery 
 ####[fis_sus](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/fis_sus_updated_whi2018.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
@@ -715,7 +811,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/fis_sus.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/sustainability_of_bottomfish_fishery.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -731,7 +827,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/fis_sus.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/sustainability_of_pelagic_fishery.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -747,7 +843,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/fis_sus.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/sustainability_of_reef_fishery.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -763,7 +859,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/t_visitor_arrivals.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/visitor_arrivals.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -779,7 +875,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/t_growth.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/visitor_contributed_GDP.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 
@@ -788,7 +884,7 @@ output:
 
  
 # watershed partnerships 
-####[watershed_partnerships](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/watershed_partnerships.csv) {-} 
+####[watershed_partnerships](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_watershed_partnerships_whi2018.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -811,39 +907,7 @@ output:
 
                                     on.exit(unlink(x))
 
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hd_watersheds.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# wetland condition 
-####[hab_health_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_health_whi2018.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_health_whi.Rmd", x)
-```
- 
-```{r, child = x, echo=FALSE, results='asis'} 
- 
-``` 
-
- 
-# wetland trend 
-####[hab_trend_whi](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/hab_trend_whi2018.csv) {-} 
-```{r, echo=FALSE, results='hide'}
-
-                                    x <- tempfile(fileext = 'Rmd')
-
-                                    on.exit(unlink(x))
-
-                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/hab_trend_whi.Rmd", x)
+                                    download.file("https://raw.githubusercontent.com/OHI-Science/whi/master/region2017/conf/web/layers_all/watersheds_protected.Rmd", x)
 ```
  
 ```{r, child = x, echo=FALSE, results='asis'} 

@@ -84,7 +84,7 @@ layers_whi_kable <- layers_whi_target_names %>%
          Reference)
 
 ## clean up Targets column 
-targets_order <-  c( "AO", "FP", "FIS","MAR","BD", "HAB", "SPP","CP", "CW","LE", "ECO", "LIV", "LSP","SP", "RC", "TR", "pressure", "resilience")
+targets_order <-  c( "AO","FP","FIS", "MAR", "BD","HAB","SPP", "CP","CW", "LE", "ECO", "LIV", "LSP","SP","RC", "TR", "pressure", "resilience")
  
 ## custom arrange: https://stackoverflow.com/questions/26548495/reorder-rows-using-custom-order
 layers_whi_kable <- layers_whi_kable %>%
