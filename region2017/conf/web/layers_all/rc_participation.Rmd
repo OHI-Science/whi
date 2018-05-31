@@ -1,4 +1,4 @@
-The monthly participation rates in any ocean or coastal activity for Hawaii Island residents. The NOAA Coral Reef Conservation Program 2014 socioeconomic surveys of human use, knowledge, attitudes, and perceptions in Hawaii.
+The annual participation rate in any ocean and coastal activity from the NOAA Coral Reef Conservation Program 2014 socioeconomic surveys of human use, knowledge, attitudes, and perceptions in Hawaii (Gorstein et al., 2018). Data is for 2016 as this was the first year of this assessment and responses to the survey are representative for Hawaii Island. Socio-economic division began surveys to track the frequency of recreational activities in Hawai’i in 2016 and these surveys are planned to be repeated every 5-7 years. Raw data is in the prep_WHI folder under SP and in the folder Eva_Schemmel_NCRMP_Hawaii_data. This data was obtained through a formal data request to NOAA through contact Jarrod Loerzel (jarrod.loerzel@noaa.gov).
 
 #### Reference
 

@@ -1,4 +1,4 @@
-The area of state waters (within 3nm of the coastline).
+The total area of state waters (coastline to 3nm) within each West Hawaii region.
 
 #### Reference
 

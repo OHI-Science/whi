@@ -1,4 +1,4 @@
-Production of shellfish and foodfish from mariculture facilities, assumes that all Hawaii Island operators are in West Hawaii.
+Production of shellfish and foodfish from mariculture facilities from Hawaii Island. The production (yield: lbs. of seafood) is reported at the state level (HDA). To get county level estimates of production the yield of finfish and shellfish produced at the state level were multiplied by the estimated number of finfish and shellfish operators by county. The number of operators are reported to USDA via census every 5 years (2002, 2007, 2012) (USDA). To fill in annual data gaps in operators, linear regression models were used. Data are reported from 2007-2011. An additional data layer is in the prep_WH folder under the MAR folder “mar_harvest_state_of_hawaii.csv” and has the full data for the State of Hawaii which includes pounds (lbs), tonnes, and value (dollar value) of yield from shellfish and finfish mariculture.
 
 #### Reference
 

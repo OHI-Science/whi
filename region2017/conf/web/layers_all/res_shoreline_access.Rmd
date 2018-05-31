@@ -1,4 +1,4 @@
-Estimated fishery access land based fishing based on shoreline access (marine managed areas and military areas, type of road (paved, unpaved, private), and steepness of shoreline.
+Estimated fishery access based on shoreline access (marine managed areas and military areas, type of road (paved, unpaved, private), and steepness of shoreline. Shoreline accessibility was calculated based on the same metrics with the same categorical break values as used in the Ocean Tipping Points shore-based fishing layers: Steepness of the shoreline, type of road present within 500 m of the shoreline, and MPA boundaries. Shoreline segments classified as not accessible to fishing due to high cliffs were removed from the analysis. Therefore, all proportions of accessible or not accessible are proportions of non-cliff coastline. Full no-take areas were set to zero access. MPAs that restrict only certain gear types or species are considered accessible/open-to-fishing. Military areas were set to zero access. Data was modified from layers used in the Ocean Tipping Points (http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data) (Wedding et al 2017).
 
 #### Reference
 

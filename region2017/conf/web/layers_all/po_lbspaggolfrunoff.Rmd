@@ -1,4 +1,4 @@
-The proxy for agricultural and landscaping runoff (nutrients from fertilizers; chemicals like pesticides and herbicides), calculated as the area of agricultural land and golf courses by watershed with a maximum. stressor level set at 10% of watershed area.
+The proxy for agricultural and landscaping runoff (nutrients from fertilizers; chemicals like pesticides and herbicides). Data were summarized by watershed and are presented as the ratio of the area of agricultural land and golf courses by watershed (full data in layers_whi/watershed_land_use_whi2018.csv) to the maximum stressor value of 10% of watershed area. Mean watershed scores are given for West Hawai’i regions. Watershed data from USGS National Hydrography Dataset Watershed Boundaries (HUC12). Agriculture and golf course data comes from the NOAA C-CAP 2010/2011 hi-resolution GIS layer (https://coast.noaa.gov/digitalcoast/tools/lca).
 
 #### Reference
 

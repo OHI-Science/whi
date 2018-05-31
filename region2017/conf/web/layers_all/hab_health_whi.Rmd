@@ -1,4 +1,4 @@
-The percent of soft bottom habitat not impacted by dredging.
+Nearshore soft bottom habitat extent was mapped to a depth of 30 meters (Lecky, 2016). The condition was measured as the proportion of soft bottom habitat that was not dredged. Dredging was defined as activity involving physically removing substrate with machinery typically to allow for safe passage of vessels (Lecky, 2016). Dredging layer is available on the Hawai‘i Office of Planning Hawai‘i Statewide GIS Program geospatial database (http://geoportal.hawaii.gov/).
 
 #### Reference
 

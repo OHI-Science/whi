@@ -4,7 +4,7 @@
 ## setwd if not already there
 #setwd('region2017')
 
-## 1. Update prep/data_layers.csv
+## 1. Update prep/data_layers_table_wh.csv
 
 ## 2. Recreate any layer .Rmd files if necessary (to be saved in conf/web/layers_all/)
 source("conf/web/create_layers_rmds.R")
@@ -22,4 +22,6 @@ source("conf/web/combine_layers_rmds.R")
 ## 6. Switch to gh-pages branch, pull, reknit layers page,
 #if made changed to layers_table.Rmd - need to update local_layers_table.Rmd with same changes to see changes displayed on website
 
+
+## 7. conf/web/layers_table.Rmd will also use information assembled above, so don't forget to rerun that too!
 

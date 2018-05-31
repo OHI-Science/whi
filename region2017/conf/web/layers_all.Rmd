@@ -340,7 +340,7 @@ output:
 
  
 # ESA coastal plant status 
-####[spp_ESA_status](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/spp_ESA_status.csv) {-} 
+####[spp_ESA_status](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/spp_ESA_status_whi2018.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -356,7 +356,7 @@ output:
 
  
 # ESA marine mammal status 
-####[spp_ESA_status](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/spp_ESA_status.csv) {-} 
+####[spp_ESA_status](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/spp_ESA_status_whi2018.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')
@@ -372,7 +372,7 @@ output:
 
  
 # ESA seabird and coastal bird status 
-####[spp_ESA_status](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/spp_ESA_status.csv) {-} 
+####[spp_ESA_status](https://github.com/OHI-Science/whi/tree/master/region2017/layers_whi/spp_ESA_status_whi2018.csv) {-} 
 ```{r, echo=FALSE, results='hide'}
 
                                     x <- tempfile(fileext = 'Rmd')

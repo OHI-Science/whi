@@ -1,4 +1,4 @@
-The estimated percentage of households on Hawaii Island that fish.
+The estimated percentage of households on Hawaii Island that fish. Data comes from the DAR/NOAA Hawaii Marine Recreational Fishing Survey (http://dlnr.hawaii.gov/dar/fishing/hmrfs/).
 
 #### Reference
 

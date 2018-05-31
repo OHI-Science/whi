@@ -1,4 +1,4 @@
-The percent of priority watersheds that are fenced to protect against invasive animals on Hawaii Island.
+The percent of priority watersheds that are fenced to protect against invasive animals on Hawaii Island. Data from Emma Yuen DLNR/DOFAW.
 
 #### Reference
 

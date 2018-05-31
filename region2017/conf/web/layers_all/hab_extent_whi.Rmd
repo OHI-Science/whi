@@ -1,4 +1,4 @@
-Soft bottom habitat extent was derived from the cumulative impact habitat maps.
+Soft bottom habitat extent was derived from the cumulative impact habitat maps, with nearshore soft bottom habitat extent mapped to a depth of 30 meters (Lecky, 2016).
 
 #### Reference
 

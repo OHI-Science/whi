@@ -1,4 +1,4 @@
-Visitor generated GDP standardized to real dollars.
+Data comes from DBEDT databook section 7 “tourism and recreation”. Visitor generated total expenditures was estimated to Hawaii county by weighting expenditures by the average daily number of visitors to each county (visitors defined as overnight stays (DBEDT 2016). Visitor expenditures were adjusted by inflation by the implicit price deflator (DBEDT 2016). Data range is from 2010-2016.
 
 #### Reference
 

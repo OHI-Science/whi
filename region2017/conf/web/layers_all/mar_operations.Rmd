@@ -1,4 +1,4 @@
-The number of mariculture operators.
+The number of shellfish and finfish operators in Hawaii county reported to the USDA via the census every 5 years (2002, 2007, 2012) (USDA). Data available: https://quickstats.nass.usda.gov/. To fill in annual data gaps linear regression models were used.
 
 #### Reference
 

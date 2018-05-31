@@ -1,4 +1,4 @@
-The estimated change in percent coral cover calculated from the past 5 years of available monitoring data from NOAA Coral Reef Ecosystem Program.
+Trend in coral reef health was assessed as the change in coral cover from 2011-2012 to 2016 surveys from the Main Hawaiian Islands (McCoy et al., 2017).
 
 #### Reference
 

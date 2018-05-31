@@ -1,4 +1,4 @@
-Mean degree heating weeks (DHW) for nearshore areas (within 10 km of the coastline), with coral bleaching expected after 4 DHW.  Scores of 1 indicate that coral bleaching is expected or occurred.
+Mean degree heating weeks (DHW) for nearshore areas (within 10 km of the coastline), with a coral bleaching threshold of 4 DHW. Scores of 1 indicate that coral bleaching is expected or occurred. Data acquired from the NOAA Coral Reef Watch (https://coralreefwatch.noaa.gov/satellite/bleaching5km/index_5km_dhw.php).
 
 #### Reference
 
