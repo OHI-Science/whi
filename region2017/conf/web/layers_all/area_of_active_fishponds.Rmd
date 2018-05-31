@@ -1,0 +1,5 @@
+The area and number of current fishponds for each West Hawaii region. Layer prepared by Ogden Environmental Services 1994 (Ogden Environmental Services, 1994). This layer is being updated by The Nature Conservancy. The total updated number of fishponds for Hawaii Island is 53, including many different types of fishponds, and the historic number of fishponds from the 1990 study lists 138 fishponds for Hawaii Island (DHM inc et al., 1990).
+
+#### Reference
+
+[TNC updated fishpond layer](NA)

@@ -1,0 +1,5 @@
+Coral reef extent was assessed from the cumulative impact mapping layers that combine hard bottom and coral reef habitats to a depth of 30 meters (Lecky, 2016). Coral reef condition was assessed through a coral reef index, which is a measure of coral reef health from combined indicators for coral cover, macroalgae (limu), coralline algae, and the ratio of calcifiers (corals and coralline algae) to non calcifiers (limu), coral mortality, juvenile coral density, and adult coral density. The coral reef index comes from the NOAA Hawai'i coral reef status report (NOAA in prep).
+
+#### Reference
+
+[NOAA report card](in review)

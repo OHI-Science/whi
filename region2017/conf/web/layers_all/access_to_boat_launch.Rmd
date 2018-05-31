@@ -1,0 +1,5 @@
+The mean distance to the nearest boat launch within state waters (3nm) where fishing is allowed. Mean distance (m) to the nearest boating facility (small boat harbors and launch ramps) within different study areas. Distance was calculated using the cost allocation tool at 100m resolution where land pixels have prohibitive cost and therefore travel is only possible over water. Full no-take MPAs, MPAs that do not all boat access or boat-based fishing, and military areas were set to zero on the distance surface. Data was modified from layers used in the Ocean Tipping Points (http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data) (Wedding et al 2017).
+
+#### Reference
+
+[Modified from Ocean Tipping Points](http://www.pacioos.hawaii.edu/projects/oceantippingpoints/#data)

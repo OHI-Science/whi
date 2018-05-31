@@ -1,0 +1,5 @@
+The list of marine mammals found in Hawaii and status of marine mammals scored based on ESA status. ESA status is for Hawaii or regional populations and population status reports can be found at NOAA Fisheries (http://www.nmfs.noaa.gov/pr/sars/species.htm).
+
+#### Reference
+
+[US Fish and Wildlife Service; NOAA Hawaii marine mammal list](http://www.fisheries.noaa.gov/pr/sars/species.htm#largewhales; https://ecos.fws.gov/ecp/)

@@ -1,0 +1,5 @@
+Bottom fish stock assessment. The bottomfish species sustainability reference point was B/BMSY, with a reference value of 1.0. Bottomfish stocks were assessed as a species complex (Langseth et al., 2018).
+
+#### Reference
+
+[NOAA](https://repository.library.noaa.gov/view/noaa/17252)

@@ -1,0 +1,5 @@
+The average short-term erosion rate of beaches, estimated at -0.06 m per year. Data comes from a US Geological Survey of beaches in Hawai’i (Fletcher et al. 2012).
+
+#### Reference
+
+[Fletcher, C.H., Romine, B.M., Genz, A.S., Barbee, M.M., Dyer, Matthew, Anderson, T.R., Lim, S.C., Vitousek, Sean, Bochicchio, Christopher, and Richmond, B.M., 2012, National assessment of shoreline change: Historical shoreline change in the Hawaiian Islands: U.S. Geological Survey Open-File Report 2011_1051, 55 p. (Also available at http:// pubs.usgs.gov/of/2011/1051.)](https://pubs.usgs.gov/of/2011/1051/pdf/ofr2011-1051_report_508.pdf)

@@ -1,0 +1,5 @@
+Coral reef extent was assessed from the cumulative impact mapping layers that combine hard bottom and coral reef habitats to a depth of 30 meters (Lecky, 2016).
+
+#### Reference
+
+[Lecky 2016 Ecosystem vulnerability and mapping cumulative impacts on Hawaiian reefs](NA)

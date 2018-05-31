@@ -1,0 +1,5 @@
+Beach extent was calculated from NOAA Office of Response and Restoration Environmental Sensitivity Index (ESI) Maps (https://response.restoration.noaa.gov/maps-and-spatial-data/environmental-sensitivity-index-esi-maps.html) as the total length of beaches per West Hawai’i region by summing the beach extents classified in the ESI as categories 3,4,5. The data units are in km.
+
+#### Reference
+
+[NOAA ESI](https://response.restoration.noaa.gov/maps-and-spatial-data/download-esi-maps-and-gis-data.html)

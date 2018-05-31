@@ -1,0 +1,5 @@
+Pelagic fish stock assessment. The pelagic fish sustainability reference point was SB/SBmsy, with a reference value of 1.0. The most recent stock assessments for pelagic fish species were variable but ranged from 2012 to 2017 (WCPFC; ISC, 2017). If stock status was not assessed up to 2016, the ten most recent years of stock assessment data was used to run a linear regression model to predict stock status to 2016. If stock status was non-linear then the mean stock status was used. Stock assessments available: https://github.com/OHI-Science/whi/tree/master/prep_whi/FIS/Stock%20Assessment%20Reports.
+
+#### Reference
+
+[International Scientific Committee for Tuna and Tuna-like Species in the North Pacific Ocean (ISC), WCPFC](http://isc.fra.go.jp/recommendation/index.html)

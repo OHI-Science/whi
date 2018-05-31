@@ -1,7 +1,7 @@
 ## Create Individual Rmd layers from an EXCEL file for MHI
 
 ## setwd if not already there
-#setwd('region2017')
+# setwd('region2017')
 
 library(tidyverse)
 library(stringr)
@@ -32,7 +32,7 @@ layers_info <- data_layers %>%
 
 layers_list <- layers_info$header_layer
 
-for (i in layers_list) { # i = "ao_access"
+for (i in layers_list) { # i = "beach extent"
 
   st <- layers_info %>%
     ## filter for this layer
@@ -46,13 +46,13 @@ for (i in layers_list) { # i = "ao_access"
   st <- st %>%
     ## all together now
     mutate(info = paste0(#"# ", header_layer, "\n\n",
-                         #sprintf("[%s](%s)\n\n", layer_name, dir_layers_gh),
-                         metadata, "\n\n",
-                         "#### Reference\n\n",
-                         sprintf("[%s](%s)", reference, url)))
+      #sprintf("[%s](%s)\n\n", layer_name, dir_layers_gh),
+      metadata, "\n\n",
+      "#### Reference\n\n",
+      sprintf("[%s](%s)", reference, url)))
 
   ## save rmd
-  write_file(st$info, paste0(dir_layers_all, st$layer_name, ".Rmd"))
+  write_file(st$info, paste0(dir_layers_all, str_replace_all(st$header_layer, " ", "_"), ".Rmd"))
 
 }
 

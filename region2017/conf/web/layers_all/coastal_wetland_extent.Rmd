@@ -1,0 +1,5 @@
+Area of coastal wetlands within 1 km of the coastline. The wetlands data come from the NOAA C-CAP 2010/2011 hi-resolution GIS layer (https://coast.noaa.gov/digitalcoast/tools/lca). Palustrine and estuarine land cover classifications were summarized by West Hawai’i region within the 1km buffer of the coastline. The coastline buffer was generated using the State of Hawaiʻi coastline GIS layer available at Hawai’i State Office of Planning Hawai’i Statewide GIS Program Geospatial Data Portal (www.geoportal.hawaii.gov).
+
+#### Reference
+
+[NOAA C-CAP 2010/2011](https://coast.noaa.gov/ccapatlas/)
